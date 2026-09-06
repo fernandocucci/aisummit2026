@@ -2,7 +2,7 @@
 
 The official programme lists 140 sessions across six stages over two days, with filters but no way to pick sessions or see what overlaps. This page adds that.
 
-Live: https://fernandocucci.github.io/aisummit-agenda/
+Live: https://fernandocucci.github.io/aisummit2026/
 
 - Tick sessions. Sessions in the same row start at the same time, so a pick greys out the alternatives.
 - Overlapping picks are flagged on the card.
