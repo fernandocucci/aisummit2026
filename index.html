@@ -5,101 +5,153 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>AI Summit Barcelona 2026: build your agenda</title>
 <meta name="description" content="Pick sessions from the AI Summit Barcelona 2026 programme, see what overlaps, export to your calendar.">
+<meta name="theme-color" content="#0f0f0f">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
 :root{
-  --bg:#F4F7F9; --card:#FFFFFF; --ink:#12263A; --muted:#5B6B7A; --line:#D6DEE5;
-  --sea:#0B7A75; --sea-soft:#DDF1EF; --ochre:#B7791F; --ochre-soft:#FBF1DC;
+  --bg:#0f0f0f; --panel:#151515; --card:#181818; --card-hi:#1e1e1e;
+  --linen:#f3ede4; --linen-70:rgba(243,237,228,.7); --linen-55:rgba(243,237,228,.55); --linen-15:rgba(243,237,228,.15); --linen-08:rgba(243,237,228,.08);
+  --cinnabar:#e5573b; --cinnabar-soft:rgba(229,87,59,.12); --amber:#f2b134;
+  --main:#64b5f6; --auditorium:#c14dff; --panelstage:#8052ff; --demo:#5fbf3f; --wa:#e6c700; --wb:#ff7b00;
 }
 *{box-sizing:border-box}
-html{font-family:"Bricolage Grotesque",system-ui,sans-serif;color:var(--ink);background:var(--bg)}
-body{margin:0;line-height:1.45}
-a{color:var(--sea)}
-header{padding:32px 20px 12px;max-width:1240px;margin:0 auto}
-h1{font-size:clamp(28px,5vw,44px);font-weight:600;letter-spacing:-.02em;line-height:1.05;margin:0 0 8px}
-header p{margin:0;color:var(--muted);max-width:60ch}
-.bar{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line);padding:10px 20px}
-.bar .in{max-width:1240px;margin:0 auto;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
-.days{display:flex;gap:4px;margin-right:8px}
-.days button{border:1px solid var(--line);background:var(--card);padding:8px 14px;border-radius:999px;font:inherit;font-weight:500;cursor:pointer;color:var(--ink)}
-.days button[aria-pressed=true]{background:var(--ink);color:#fff;border-color:var(--ink)}
-select,input[type=search]{font:inherit;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);min-height:38px}
-input[type=search]{flex:1;min-width:160px}
-label.toggle{display:flex;align-items:center;gap:6px;color:var(--muted);cursor:pointer;white-space:nowrap}
-main{max-width:1240px;margin:0 auto;padding:8px 20px 120px}
-.row{display:grid;grid-template-columns:64px 1fr;gap:12px;padding:14px 0;border-bottom:1px solid var(--line)}
-.row time{font-weight:600;font-variant-numeric:tabular-nums;padding-top:12px}
-.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:10px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 36px 12px 14px;cursor:pointer;position:relative;transition:opacity .15s}
-.card:focus-within,.card:hover{border-color:var(--ink)}
-.card.on{border-color:var(--sea);background:var(--sea-soft);box-shadow:inset 3px 0 0 var(--sea)}
-.row.has-pick .card:not(.on){opacity:.45}
-.row.has-pick .card:not(.on):hover{opacity:1}
-.meta{font-size:13px;color:var(--muted);display:flex;gap:8px;flex-wrap:wrap;margin-bottom:4px}
-.meta .stage{color:var(--ink)}
-.card h3{font-size:16px;font-weight:600;line-height:1.25;margin:0 0 4px;letter-spacing:-.01em}
-.who{font-size:13px;color:var(--muted)}
-.pick{position:absolute;top:10px;right:10px;width:18px;height:18px;margin:0;accent-color:var(--sea)}
-.clash{margin-top:8px;font-size:13px;color:var(--ochre);background:var(--ochre-soft);border-radius:6px;padding:4px 8px}
-details{margin-top:6px;font-size:14px}
-summary{color:var(--sea);cursor:pointer;list-style:none;width:max-content}
-summary::-webkit-details-marker{display:none}
-details p{margin:6px 0 0;color:var(--ink);white-space:pre-line}
-.empty{padding:40px 0;color:var(--muted)}
-footer.dock{position:fixed;left:0;right:0;bottom:0;background:var(--ink);color:#fff;padding:12px 20px;z-index:6}
-footer.dock .in{max-width:1240px;margin:0 auto;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
-footer.dock .n{font-weight:600;margin-right:auto}
-footer.dock button{font:inherit;font-weight:500;padding:9px 14px;border-radius:8px;border:1px solid rgba(255,255,255,.35);background:transparent;color:#fff;cursor:pointer}
-footer.dock button.primary{background:#fff;color:var(--ink);border-color:#fff}
-footer.dock button:disabled{opacity:.4;cursor:default}
-.credit{font-size:13px;color:var(--muted);padding:24px 0 0}
-:focus-visible{outline:2px solid var(--sea);outline-offset:2px}
-@media (max-width:600px){
-  header{padding:20px 14px 8px}
-  .bar,main{padding-left:14px;padding-right:14px}
-  .row{grid-template-columns:1fr;gap:6px}
-  .row time{padding-top:0}
+html{font-family:Manrope,system-ui,sans-serif;background:var(--bg);color:var(--linen)}
+body{margin:0;line-height:1.5;-webkit-font-smoothing:antialiased}
+a{color:var(--cinnabar);text-decoration:none}a:hover{text-decoration:underline}
+button{font:inherit}
+.wrap{max-width:1000px;margin:0 auto;padding:0 24px}
+
+.top{border-bottom:1px solid var(--linen-08);padding:14px 0}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:.02em;color:var(--linen)}
+.brand .mark{width:30px;height:30px;border-radius:7px;background:var(--cinnabar);display:grid;place-items:center;font-size:13px;color:#fff}
+.brand span{color:var(--cinnabar);font-weight:500}
+.top .gh{font-size:13px;color:var(--linen-55)}
+
+.hero{padding:44px 0 24px}
+.eyebrow{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--cinnabar);font-weight:600;margin:0 0 12px}
+h1{font-size:clamp(34px,6vw,56px);font-weight:800;letter-spacing:-.03em;line-height:1;margin:0 0 14px}
+h1 em{font-style:normal;color:var(--cinnabar)}
+.hero p{margin:0;color:var(--linen-70);font-size:17px;max-width:62ch}
+
+.controls{padding:12px 0 4px}
+.search{display:flex;align-items:center;gap:10px;border:1px solid var(--linen-15);border-radius:12px;padding:0 14px;background:var(--panel)}
+.search svg{color:var(--linen-55);flex:none}
+.search input{flex:1;background:none;border:0;color:var(--linen);font:inherit;font-size:15px;padding:13px 0;outline:0}
+.search input::placeholder{color:var(--linen-55)}
+.filters{margin-top:10px;border:1px solid var(--linen-08);border-radius:12px;padding:10px 12px;background:var(--panel);display:grid;gap:8px}
+.frow{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.frow .lbl{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--linen-55);width:52px;flex:none;font-weight:600}
+.pill{border:1px solid var(--linen-15);background:transparent;color:var(--linen);border-radius:999px;padding:5px 11px;font-size:12.5px;font-weight:500;cursor:pointer;display:inline-flex;align-items:center;gap:7px;line-height:1.3}
+.pill .dot{width:7px;height:7px;border-radius:50%;background:var(--dc,var(--linen-55))}
+.pill small{color:var(--linen-55);font-weight:400}
+.pill[aria-pressed=true]{border-color:var(--cinnabar);background:var(--cinnabar-soft);color:var(--linen)}
+.pill.day[aria-pressed=true]{background:var(--cinnabar);color:#fff}
+.frow.days{margin-top:4px}
+.frow.days .toggle{margin-left:auto}
+.toggle{display:flex;align-items:center;gap:7px;font-size:13px;color:var(--linen-70);cursor:pointer;user-select:none}
+.toggle input{accent-color:var(--cinnabar);width:15px;height:15px;margin:0}
+
+main{padding:8px 0 140px}
+h2{font-size:24px;font-weight:800;letter-spacing:-.02em;margin:28px 0 12px}
+.slot{display:grid;grid-template-columns:72px 1fr;gap:14px;padding:16px 0;border-top:1px solid var(--linen-08)}
+.slot > time{font-weight:700;font-variant-numeric:tabular-nums;color:var(--linen);padding-top:14px;font-size:15px}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:10px}
+.card{position:relative;background:var(--card);border:1px solid var(--linen-08);border-left:2px solid var(--sc,var(--linen-15));border-radius:10px;padding:12px 40px 12px 16px;cursor:pointer;transition:opacity .15s,background .15s,border-color .15s}
+.card:hover{background:var(--card-hi);border-color:var(--linen-15);border-left-color:var(--sc)}
+.card:hover h3{color:var(--cinnabar)}
+.card.on{background:var(--cinnabar-soft);border-color:rgba(229,87,59,.5);border-left-color:var(--cinnabar)}
+.slot.has-pick .card:not(.on){opacity:.38}
+.slot.has-pick .card:not(.on):hover{opacity:1}
+.meta{display:flex;align-items:center;flex-wrap:wrap;gap:6px 10px;font-size:12px;color:var(--linen-70)}
+.meta svg{width:12px;height:12px;vertical-align:-2px;margin-right:4px;color:var(--cinnabar)}
+.meta .type{text-transform:uppercase;letter-spacing:.06em;font-size:11px;font-weight:600;display:inline-flex;align-items:center;gap:6px}
+.meta .type::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--sc)}
+.meta .track{border:1px solid var(--linen-15);border-radius:999px;padding:1px 8px;font-size:11px;color:var(--linen-70)}
+.card h3{font-size:16.5px;font-weight:700;line-height:1.3;margin:8px 0 5px;letter-spacing:-.01em;transition:color .15s}
+.desc{font-size:13.5px;color:var(--linen-55);margin:0;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.card.open .desc{display:block}
+.more{background:none;border:0;color:var(--cinnabar);padding:0;font-size:13px;cursor:pointer;margin-top:4px}
+.who{display:flex;align-items:center;gap:10px;margin-top:10px;font-size:13px;color:var(--linen-70)}
+.avs{display:flex}
+.avs span{width:28px;height:28px;border-radius:50%;background:#2a2a2a;border:2px solid var(--card);margin-left:-8px;overflow:hidden;display:grid;place-items:center;font-size:10px;font-weight:700;color:var(--linen-70)}
+.avs span:first-child{margin-left:0}
+.avs img{width:100%;height:100%;object-fit:cover}
+.pick{position:absolute;top:12px;right:12px;width:18px;height:18px;margin:0;accent-color:var(--cinnabar);cursor:pointer}
+.clash{margin-top:10px;font-size:12.5px;color:var(--amber);background:rgba(242,177,52,.1);border:1px solid rgba(242,177,52,.25);border-radius:8px;padding:5px 9px}
+.empty{padding:48px 0;color:var(--linen-55)}
+.credit{font-size:12.5px;color:var(--linen-55);padding:32px 0 0;border-top:1px solid var(--linen-08);margin-top:24px}
+
+.dock{position:fixed;left:0;right:0;bottom:0;z-index:6;padding:12px 24px 16px;background:linear-gradient(to top,var(--bg) 70%,transparent)}
+.dock .in{max-width:1000px;margin:0 auto;background:var(--panel);border:1px solid var(--linen-15);border-radius:14px;padding:10px 12px 10px 18px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;box-shadow:0 12px 40px rgba(0,0,0,.5)}
+.dock .n{font-weight:700;margin-right:auto;font-size:14px}
+.dock .n small{display:block;font-weight:400;color:var(--linen-55);font-size:12px}
+.dock button{border:1px solid var(--linen-15);background:transparent;color:var(--linen);border-radius:9px;padding:9px 14px;font-weight:600;font-size:13.5px;cursor:pointer}
+.dock button:hover{border-color:var(--linen-55)}
+.dock button.primary{background:var(--cinnabar);border-color:var(--cinnabar);color:#fff}
+.dock button.primary:hover{filter:brightness(1.08)}
+.dock button:disabled{opacity:.35;cursor:default;filter:none}
+:focus-visible{outline:2px solid var(--cinnabar);outline-offset:2px}
+@media (max-width:640px){
+  .wrap{padding:0 16px}.dock{padding:10px 12px 12px}
+  .slot{grid-template-columns:1fr;gap:8px}.slot > time{padding-top:0}
+  .frow .lbl{width:100%}.frow.days .toggle{margin-left:0;width:100%}
+  .top .gh{display:none}
 }
-@media (prefers-reduced-motion:reduce){.card{transition:none}}
+@media (prefers-reduced-motion:reduce){.card,.card h3{transition:none}}
 </style>
 </head>
 <body>
-<header>
-  <h1>AI Summit Barcelona 2026: build your agenda</h1>
-  <p>Two days, six stages, 140 sessions. Tick what you want to attend. Sessions in the same row start at the same time, so a pick greys out what you give up. Export the result to your calendar or share it as a link.</p>
-</header>
-
-<div class="bar"><div class="in">
-  <div class="days" id="days"></div>
-  <select id="stage"><option value="">All stages</option></select>
-  <select id="track"><option value="">All tracks</option></select>
-  <select id="type"><option value="">All formats</option></select>
-  <input type="search" id="q" placeholder="Search title, speaker, topic">
-  <label class="toggle"><input type="checkbox" id="mine"> Only my picks</label>
+<div class="top"><div class="wrap">
+  <a class="brand" href="./"><div class="mark">AI</div>AGENDA <span>BUILDER</span></a>
+  <a class="gh" href="https://github.com/fernandocucci/aisummit-agenda">Source on GitHub</a>
 </div></div>
 
-<main id="main"><div class="empty">Loading the programme…</div></main>
+<div class="wrap hero">
+  <p class="eyebrow">AI Summit Barcelona, 22 and 23 September 2026</p>
+  <h1>Build your <em>agenda</em></h1>
+  <p>Two days, six stages, 140 sessions. Tick what you want to attend. Sessions in the same time slot are shown side by side, so a pick fades out what you give up. Export the result to your calendar or share it as a link.</p>
+</div>
 
-<footer class="dock"><div class="in">
+<div class="controls"><div class="wrap">
+  <label class="search">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+    <input type="search" id="q" placeholder="Search sessions, speakers, topics…" autocomplete="off">
+  </label>
+  <div class="filters">
+    <div class="frow" id="f-stage"><span class="lbl">Stage</span></div>
+    <div class="frow" id="f-type"><span class="lbl">Type</span></div>
+    <div class="frow" id="f-track"><span class="lbl">Track</span></div>
+    <div class="frow days"><span class="lbl">Day</span><span id="days"></span>
+      <label class="toggle"><input type="checkbox" id="mine"> Only my picks</label></div>
+  </div>
+</div></div>
+
+<main class="wrap" id="main"><div class="empty">Loading the programme…</div></main>
+
+<div class="dock"><div class="in">
   <span class="n" id="count">0 sessions picked</span>
   <button id="share">Copy link</button>
   <button id="clear">Clear</button>
   <button id="ics" class="primary">Export .ics</button>
-</div></footer>
+</div></div>
 
 <script>
 const TZ = 'Europe/Madrid';
-const state = { day: '2026-09-22', stage: '', track: '', type: '', q: '', mine: false, picks: new Set() };
-let S = [];
+const STAGE_COLOR = { 'Main Stage': 'var(--main)', 'Auditorium Stage': 'var(--auditorium)', 'Panel Stage': 'var(--panelstage)', 'Demo Stage': 'var(--demo)', 'Workshop Room A': 'var(--wa)', 'Workshop Room B': 'var(--wb)' };
+const state = { day: '', stage: '', track: '', type: '', q: '', mine: false, picks: new Set(), open: new Set() };
+let S = [], PHOTOS = {};
 
 const fmt = new Intl.DateTimeFormat('en-GB', { hour: '2-digit', minute: '2-digit', timeZone: TZ });
-const dayFmt = new Intl.DateTimeFormat('en-GB', { weekday: 'short', day: 'numeric', month: 'short', timeZone: TZ });
+const dayShort = new Intl.DateTimeFormat('en-GB', { weekday: 'short', day: 'numeric', month: 'short', timeZone: TZ });
+const dayLong = new Intl.DateTimeFormat('en-GB', { weekday: 'long', day: 'numeric', month: 'long', timeZone: TZ });
 const hhmm = iso => fmt.format(new Date(iso));
 const dayOf = iso => new Date(iso).toLocaleDateString('en-CA', { timeZone: TZ });
 const mins = iso => Math.round(new Date(iso) / 60000);
 const overlap = (a, b) => a.id !== b.id && mins(a.start) < mins(b.end) && mins(b.start) < mins(a.end);
 const esc = s => s.replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const initials = n => n.split(/\s+/).map(w => w[0]).join('').slice(0, 2).toUpperCase();
 
 function loadPicks() {
   const h = new URLSearchParams(location.hash.slice(1)).get('s');
@@ -112,10 +164,20 @@ function savePicks() {
   history.replaceState(null, '', ids.length ? '#s=' + ids.join(',') : location.pathname);
 }
 
-function fillSelect(id, values) {
-  const el = document.getElementById(id);
-  [...new Set(values)].filter(Boolean).sort().forEach(v => el.add(new Option(v, v)));
-  el.onchange = () => { state[id] = el.value; render(); };
+function pills(rowId, key, values, allLabel, colorFn) {
+  const row = document.getElementById(rowId);
+  const counts = {};
+  values.filter(Boolean).forEach(v => counts[v] = (counts[v] || 0) + 1);
+  const mk = (val, label, n) => {
+    const b = document.createElement('button');
+    b.className = 'pill'; b.setAttribute('aria-pressed', state[key] === val);
+    if (val && colorFn) b.innerHTML = `<span class="dot" style="--dc:${colorFn(val)}"></span>`;
+    b.insertAdjacentHTML('beforeend', `${esc(label)}${n ? ` <small>${n}</small>` : ''}`);
+    b.onclick = () => { state[key] = val; [...row.querySelectorAll('.pill')].forEach(x => x.setAttribute('aria-pressed', x === b)); render(); };
+    row.append(b);
+  };
+  mk('', allLabel, 0);
+  Object.keys(counts).sort().forEach(v => mk(v, v, counts[v]));
 }
 
 function render() {
@@ -128,31 +190,40 @@ function render() {
     && (!state.mine || state.picks.has(s.id))
     && (!q || (s.title + ' ' + s.speakers.join(' ') + ' ' + s.description).toLowerCase().includes(q)));
 
-  const rows = new Map();
-  shown.forEach(s => { const k = hhmm(s.start); (rows.get(k) || rows.set(k, []).get(k)).push(s); });
+  const slots = new Map();
+  shown.forEach(s => { const k = hhmm(s.start); (slots.get(k) || slots.set(k, []).get(k)).push(s); });
 
   const main = document.getElementById('main');
-  if (!rows.size) { main.innerHTML = '<div class="empty">Nothing matches these filters. Loosen one of them.</div>'; return; }
-  main.innerHTML = [...rows].map(([t, list]) => {
-    const has = list.some(s => state.picks.has(s.id));
-    return `<section class="row${has ? ' has-pick' : ''}"><time>${t}</time><div class="cards">${list.map(s => card(s, picked)).join('')}</div></section>`;
-  }).join('') + `<p class="credit">Programme data from <a href="https://aisummitbarcelona.com/schedule">aisummitbarcelona.com</a>. Times are Barcelona local. Unofficial tool, not affiliated with the organisers. Source on <a href="https://github.com/fernandocucci/aisummit-agenda">GitHub</a>.</p>`;
+  const head = `<h2>${dayLong.format(new Date(state.day + 'T12:00:00Z'))}</h2>`;
+  main.innerHTML = head + (!slots.size
+    ? '<div class="empty">Nothing matches these filters. Loosen one of them.</div>'
+    : [...slots].map(([t, list]) => {
+        const has = list.some(s => state.picks.has(s.id));
+        return `<section class="slot${has ? ' has-pick' : ''}"><time>${t}</time><div class="cards">${list.map(s => card(s, picked)).join('')}</div></section>`;
+      }).join(''))
+    + `<p class="credit">Programme data from <a href="https://aisummitbarcelona.com/schedule">aisummitbarcelona.com</a>, times in Barcelona local time. Unofficial tool, not affiliated with the organisers. Picks stay in this browser and in the link you copy.</p>`;
 
-  document.getElementById('count').textContent = `${picked.length} session${picked.length === 1 ? '' : 's'} picked`;
+  document.getElementById('count').innerHTML = `${picked.length} session${picked.length === 1 ? '' : 's'} picked<small>${picked.filter(p => picked.some(o => overlap(p, o))).length ? 'Some picks overlap' : 'No overlaps'}</small>`;
   document.getElementById('ics').disabled = document.getElementById('share').disabled = !picked.length;
 }
 
 function card(s, picked) {
   const on = state.picks.has(s.id);
   const clash = on ? picked.filter(p => overlap(p, s)) : [];
-  const dur = (mins(s.end) - mins(s.start));
-  return `<article class="card${on ? ' on' : ''}" data-id="${s.id}">
+  const avs = s.speakers.slice(0, 3).map(n => PHOTOS[n] ? `<span><img src="${PHOTOS[n]}" alt="" loading="lazy"></span>` : `<span>${initials(n)}</span>`).join('');
+  const names = s.speakers.slice(0, 2).join(', ') + (s.speakers.length > 2 ? ` +${s.speakers.length - 2} more` : '');
+  return `<article class="card${on ? ' on' : ''}${state.open.has(s.id) ? ' open' : ''}" data-id="${s.id}" style="--sc:${STAGE_COLOR[s.stage] || 'var(--linen-55)'}">
     <input type="checkbox" class="pick" aria-label="Pick ${esc(s.title)}" ${on ? 'checked' : ''}>
-    <div class="meta"><span>${s.type}</span><span class="stage">${s.stage}</span><span>${dur} min</span>${s.track ? `<span>${s.track}</span>` : ''}</div>
+    <div class="meta">
+      <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>${hhmm(s.start)} – ${hhmm(s.end)}</span>
+      <span class="type">${s.type}</span>
+      <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>${s.stage}</span>
+      ${s.track ? `<span class="track">${s.track}</span>` : ''}
+    </div>
     <h3>${esc(s.title)}</h3>
-    ${s.speakers.length ? `<div class="who">${esc(s.speakers.join(', '))}</div>` : ''}
-    ${clash.length ? `<div class="clash">Overlaps with ${clash.map(c => esc(c.title.replace(/^[^-]+ - /, ''))).join('; ')}</div>` : ''}
-    ${s.description ? `<details><summary>Details</summary><p>${esc(s.description)}</p></details>` : ''}
+    ${s.description ? `<p class="desc">${esc(s.description)}</p><button class="more" type="button">${state.open.has(s.id) ? 'Less' : 'More'}</button>` : ''}
+    ${s.speakers.length ? `<div class="who"><div class="avs">${avs}</div>${esc(names)}</div>` : ''}
+    ${clash.length ? `<div class="clash">Overlaps with ${clash.map(c => esc(c.title.replace(/^[^-–—]+[-–—]\s*/, ''))).join('; ')}</div>` : ''}
   </article>`;
 }
 
@@ -163,7 +234,7 @@ function toggle(id) {
 
 function ics() {
   const stamp = d => new Date(d).toISOString().replace(/[-:]/g, '').replace(/\.\d{3}/, '');
-  const clean = t => t.replace(/[\;,]/g, m => '\\' + m).replace(/\n/g, '\\n');
+  const clean = t => t.replace(/[\;,]/g, m => '\\' + m).replace(/\r?\n/g, '\\n');
   const ev = S.filter(s => state.picks.has(s.id)).map(s => [
     'BEGIN:VEVENT', `UID:${s.id}@aisummit-agenda`, `DTSTAMP:${stamp(Date.now())}`,
     `DTSTART:${stamp(s.start)}`, `DTEND:${stamp(s.end)}`,
@@ -176,11 +247,10 @@ function ics() {
 }
 
 document.getElementById('main').addEventListener('click', e => {
-  if (e.target.closest('details, a')) return;
-  const c = e.target.closest('.card'); if (c) toggle(c.dataset.id);
-});
-document.getElementById('main').addEventListener('keydown', e => {
-  if (e.key === ' ' && e.target.classList.contains('card')) { e.preventDefault(); toggle(e.target.dataset.id); }
+  if (e.target.closest('a')) return;
+  const c = e.target.closest('.card'); if (!c) return;
+  if (e.target.closest('.more')) { state.open.has(c.dataset.id) ? state.open.delete(c.dataset.id) : state.open.add(c.dataset.id); render(); return; }
+  toggle(c.dataset.id);
 });
 document.getElementById('q').oninput = e => { state.q = e.target.value; render(); };
 document.getElementById('mine').onchange = e => { state.mine = e.target.checked; render(); };
@@ -192,19 +262,21 @@ document.getElementById('share').onclick = async () => {
 };
 
 fetch('sessions.json').then(r => r.json()).then(d => {
-  S = d.sessions;
+  S = d.sessions; PHOTOS = d.photos || {};
   loadPicks();
-  const days = document.getElementById('days');
-  [...new Set(S.map(s => dayOf(s.start)))].sort().forEach(day => {
+  const days = [...new Set(S.map(s => dayOf(s.start)))].sort();
+  state.day = days[0];
+  const wrap = document.getElementById('days');
+  days.forEach(day => {
     const b = document.createElement('button');
-    b.textContent = dayFmt.format(new Date(day + 'T12:00:00Z'));
+    b.className = 'pill day'; b.textContent = dayShort.format(new Date(day + 'T12:00:00Z'));
     b.setAttribute('aria-pressed', day === state.day);
-    b.onclick = () => { state.day = day; [...days.children].forEach(x => x.setAttribute('aria-pressed', x === b)); render(); };
-    days.append(b);
+    b.onclick = () => { state.day = day; [...wrap.children].forEach(x => x.setAttribute('aria-pressed', x === b)); render(); };
+    wrap.append(b);
   });
-  fillSelect('stage', S.map(s => s.stage));
-  fillSelect('track', S.map(s => s.track));
-  fillSelect('type', S.map(s => s.type));
+  pills('f-stage', 'stage', S.map(s => s.stage), 'All stages', v => STAGE_COLOR[v]);
+  pills('f-type', 'type', S.map(s => s.type), 'All types');
+  pills('f-track', 'track', S.map(s => s.track), 'All tracks');
   render();
 });
 </script>

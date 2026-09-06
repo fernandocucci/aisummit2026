@@ -42,6 +42,11 @@ def main():
             "type": kind[-1].title() if kind else "",
         })
 
+    # 3. Speaker photos (avatar <span title="Name"><img src=...>).
+    photos = {}
+    for m in re.finditer(r'title="([^"]+)"[^>]*>\s*<img src="([^"]+)"', page):
+        photos.setdefault(html.unescape(m.group(1)), m.group(2))
+
     sessions = []
     for ev in ld:
         title = ev["name"].strip()
@@ -64,7 +69,9 @@ def main():
     print(f"{len(sessions)} sessions, {len(missing)} without stage")
     for t in missing[:10]:
         print("  no stage:", t)
-    json.dump({"source": URL, "sessions": sessions}, open("sessions.json", "w"),
+    used = {n for s in sessions for n in s["speakers"]}
+    json.dump({"source": URL, "sessions": sessions,
+               "photos": {n: u for n, u in photos.items() if n in used}}, open("sessions.json", "w"),
               ensure_ascii=False, indent=1)
 
 
