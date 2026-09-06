@@ -157,6 +157,7 @@ function loadPicks() {
   const h = new URLSearchParams(location.hash.slice(1)).get('s');
   const src = h ? h.split(',') : JSON.parse(localStorage.getItem('picks') || '[]');
   state.picks = new Set(src.filter(Boolean));
+  if (h) { state.mine = true; document.getElementById('mine').checked = true; }
 }
 function savePicks() {
   const ids = [...state.picks];
