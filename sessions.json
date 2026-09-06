@@ -1,0 +1,2040 @@
+{
+ "source": "https://aisummitbarcelona.com/schedule",
+ "sessions": [
+  {
+   "id": "e7489ade",
+   "title": "Demo 1 - The Trillion-Dollar Moat Isn’t the Model",
+   "description": "As AI models become increasingly capable, accessible, and interchangeable, competitive advantage is shifting from the model itself to the harness around it: context, tools, workflows, infrastructure, and feedback loops. This talk explores why that shift challenges trillion-dollar AI valuations and how Replit’s free mode and harness turn commodity intelligence into reliable, end-to-end software creation.",
+   "start": "2026-09-22T08:00:00+00:00",
+   "end": "2026-09-22T08:25:00.000Z",
+   "stage": "Demo Stage",
+   "track": "AI For Builders",
+   "type": "Demo",
+   "speakers": [
+    "Pablo Vargas"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#e7489ade-def9-4ae2-a57a-4fc5d5ebeb2e"
+  },
+  {
+   "id": "0111a87d",
+   "title": "Panel 1 - Beyond the Pilot: Making Enterprise AI Pay Off",
+   "description": "79% of enterprises struggle to turn AI investment into value — yet the winners report 5-10x returns. Leaders from global enterprises on what separates pilots that die from AI that pays.",
+   "start": "2026-09-22T08:00:00+00:00",
+   "end": "2026-09-22T08:40:00.000Z",
+   "stage": "Panel Stage",
+   "track": "AI For Today",
+   "type": "Panel",
+   "speakers": [
+    "Barbara Cresti",
+    "Juan Reyes",
+    "Steve Hines"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#0111a87d-469b-4fe9-b0e6-3327e2aa9b74"
+  },
+  {
+   "id": "bb44ca0a",
+   "title": "Workshop 1 - The Ultra-Scale Talk: Scaling Training to Thousands of GPUs",
+   "description": "Training large language models demands more than raw compute. it requires a deep understanding of parallelism and architecture choices. This talk dives into the practicalities of ultra-scale training: how 5D parallelism makes it possible to stretch a single run across massive GPU clusters, how Mixture-of-Experts architectures introduce new scaling dimensions and stability challenges, and the performance tuning and communication patterns that drive throughput. Drawing from the Ultra-Scale Playbook and real-world scaling efforts, we'll cover benchmarks, hard-earned lessons, and hands-on recommendations for engineers and researchers ready to train state-of-the-art models efficiently!",
+   "start": "2026-09-22T08:00:00+00:00",
+   "end": "2026-09-22T09:20:00.000Z",
+   "stage": "Workshop Room A",
+   "track": "AI For Tech",
+   "type": "Workshop",
+   "speakers": [
+    "Nouamane Tazi"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#bb44ca0a-6515-46f1-9093-fe409fdbde2d"
+  },
+  {
+   "id": "cbcdab71",
+   "title": "Workshop 2 - When code is cheap, governance is the hard part",
+   "description": "Code generation is close to free now. Review, sign-off and audit are not, and that gap lands on engineering leaders. Bring a laptop, this one is hands on from minute five.\n\nYou will take a repository, ask an AI agent to change it, then close the loop. Put your standards where the agent reads them. Wire a live rules check into the agent's own turn over MCP. Make it fix its own violations before the code reaches you. \n\nYou leave with a working repository, the configuration and a reusable skill, running on whatever AI coding tool you already use.\n\nI'll draw on what we've learned governing 950+ enterprise SaaS instances, with scan data going back to 2017: where AI-generated changes fail before production, and how automated checks and audit trails hold humans and AI to the same standard without slowing releases.\n\nLevel: practitioner.\n\nPrerequisites: a laptop, git, Node 20 or later, a GitHub account, and an AI coding tool you can sign into (Claude Code, Cursor, Codex, Windsurf, Replit or any MCP client).",
+   "start": "2026-09-22T08:00:00+00:00",
+   "end": "2026-09-22T09:20:00.000Z",
+   "stage": "Workshop Room B",
+   "track": "AI Foundations",
+   "type": "Workshop",
+   "speakers": [
+    "Albert Franquesa"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#cbcdab71-6d5e-4f59-85d6-eb58c80a5082"
+  },
+  {
+   "id": "8a345477",
+   "title": "Keynote 4 - Gen AI: Myths and Reality",
+   "description": "Despite what you might think from reading the news since late 2022,\nArtificial Intelligence did not appear with ChatGPT. This\n\"Revolution\" is merely the fruit of a long maturation, spanning\nseveral decades. After a brief historical review, we'll delve into\nthese new AIs, the Generative AIs. We'll look at their limits and\npotential, and how they can be used for good or ill. Finally, we'll\ntry to understand what the prospects are for us, humans, and for\nthese technologies.",
+   "start": "2026-09-22T08:20:00+00:00",
+   "end": "2026-09-22T08:35:00.000Z",
+   "stage": "Auditorium Stage",
+   "track": "AI For Tech",
+   "type": "Keynote",
+   "speakers": [
+    "Luc JULIA"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#8a345477-e941-4dd7-9e84-7ea0b28d5aac"
+  },
+  {
+   "id": "beb7947c",
+   "title": "Demo 2 - Satellites, Planes, Trains: Why Hardware's Cursor Moment Just Started",
+   "description": "Claude and Cursor are already transforming how software is written: accelerating development, augmenting engineers, and collapsing the gap between idea and implementation. Hardware is next. I'd like to talk about how AI-augmented systems engineering will do for complex physical systems design (satellites, airplanes, trains) what these tools are doing for code: turning months of fragmented, document-heavy engineering work into a fluid, intelligent process. This isn't speculative: the foundations are being built now. At Systellar, we've developed Synapse™ specifically to bring AI into the core of how complex hardware programs are designed, traced, and validated. My talk will explore what this transformation looks like, why hardware has been harder to crack than software, and what the future of engineering looks like when AI becomes a genuine design partner and, eventually, completely transforms the industry into an agentic one.",
+   "start": "2026-09-22T08:30:00+00:00",
+   "end": "2026-09-22T08:55:00.000Z",
+   "stage": "Demo Stage",
+   "track": "AI For Tomorrow",
+   "type": "Demo",
+   "speakers": [
+    "Alexandre Gol i Mestre"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#beb7947c-9f47-4230-951e-70ae7bbc1219"
+  },
+  {
+   "id": "b604828f",
+   "title": "Keynote 6 - Moving beyond Productivity: How Enterprise AI Creates Organizational Impact at Scale",
+   "description": "AI is taking hold in the enterprise — and yet many organizations are still waiting for the payoff. The tools are powerful. The potential is real. But something fundamental is missing between individual productivity and lasting organizational impact.\nIn this session, we explore some of the challenges and dive into three concrete themes that shape the next chapter of enterprise AI: how generative UI shifts enterprise software from navigation to intent; how company memory grounds agents in organizational context; and how tabular AI democratizes business predictions. Actionable, opinionated and anchored in product truth.",
+   "start": "2026-09-22T08:40:00+00:00",
+   "end": "2026-09-22T08:55:00.000Z",
+   "stage": "Auditorium Stage",
+   "track": "AI For Today",
+   "type": "Keynote",
+   "speakers": [
+    "Florian Kunzke"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#b604828f-6db9-4a6d-bbef-ba69579fb805"
+  },
+  {
+   "id": "6e155c8d",
+   "title": "Fireside Chat with Blackrock",
+   "description": "",
+   "start": "2026-09-22T08:40:00+00:00",
+   "end": "2026-09-22T08:55:00.000Z",
+   "stage": "Main Stage",
+   "track": "AI For Growth",
+   "type": "Fireside Chat",
+   "speakers": [
+    "Martin C. Syms"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#6e155c8d-43e0-4a10-90bc-4e2bff86e78e"
+  },
+  {
+   "id": "cc1e174a",
+   "title": "Panel 2 - Rebuilding the Org Chart: What Actually Breaks When Enterprises Restructure Around AI",
+   "description": "Every enterprise AI rollout eventually stops being a technology project and becomes an org design problem. Job descriptions written for execution, teams built around headcount, managers measured on output that agents now produce. This panel goes at the structural rebuild: which roles get redrawn, where the reporting lines break, what upskilling actually costs, and why leadership readiness fails before the tooling does. Enterprise transformation leads and an operator scaling a company through it, on what they had to dismantle before anything worked.",
+   "start": "2026-09-22T08:45:00+00:00",
+   "end": "2026-09-22T09:25:00.000Z",
+   "stage": "Panel Stage",
+   "track": "AI For Tomorrow",
+   "type": "Panel",
+   "speakers": [
+    "Zakaria Mansour",
+    "Malgorzata Luszkiewicz",
+    "Anita Perera",
+    "Laura Tejada",
+    "Fiona Garvey"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#cc1e174a-d429-4312-88bd-c6125e565c77"
+  },
+  {
+   "id": "52b07301",
+   "title": "Keynote 8 - Collaborative AI",
+   "description": "The best things were never built alone.\n\nAI becomes most powerful when it helps teams think, decide, and build together. It can hold shared context, connect conversations, surface decisions, clarify ownership, and keep work moving across people and functions.\n\nInstead of living only in individual workflows, AI can become a collaborative layer for the whole team: reducing friction, preserving knowledge, and helping everyone move with the same understanding.\n\nThe opportunity is not just faster work. It is better coordination, stronger alignment, and smarter collective execution.\n\nBecause the future of AI at work is shared.",
+   "start": "2026-09-22T09:00:00+00:00",
+   "end": "2026-09-22T09:15:00.000Z",
+   "stage": "Auditorium Stage",
+   "track": "AI For Growth",
+   "type": "Keynote",
+   "speakers": [
+    "Lucas Sala"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#52b07301-169b-46bf-9bc3-216e459ba2be"
+  },
+  {
+   "id": "68e0b75d",
+   "title": "Demo 3 - DXC CoreIQ: Applying AI to Mainframe Legacy at Massive Scale",
+   "description": "Mainframes still run the world's critical transaction systems, but the COBOL and assembler underneath are becoming lost knowledge. \n\nDXC CoreIQ turns a multi-million-line legacy codebase into a live knowledge base — continuously updated code-understanding graphs navigated by AI agents, with every answer traceable back to source. \n\nLive demo: AI agents running impact analysis for a new feature across the full estate, and an AI agent working a real mainframe through a 3270 terminal.",
+   "start": "2026-09-22T09:00:00+00:00",
+   "end": "2026-09-22T09:25:00.000Z",
+   "stage": "Demo Stage",
+   "track": "AI For Tech",
+   "type": "Demo",
+   "speakers": [
+    "Aleksandr Ostapenko"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#68e0b75d-1eb9-4a90-8922-d361110e2d4a"
+  },
+  {
+   "id": "2bfe1b8d",
+   "title": "Keynote 7 - The art of the possible: Agentic AI",
+   "description": "Concrete case studies highlighting what is viable today versus what is emerging over the next 12–18 months.",
+   "start": "2026-09-22T09:00:00+00:00",
+   "end": "2026-09-22T09:15:00.000Z",
+   "stage": "Main Stage",
+   "track": "AI For Builders",
+   "type": "Keynote",
+   "speakers": [
+    "Pablo Rodriguez"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#2bfe1b8d-939f-4ad8-a589-f46371c1e99f"
+  },
+  {
+   "id": "afd44d88",
+   "title": "Keynote 10 - Human-Centric AI: Navigating the Risks, Opportunities and Unintended Consequences",
+   "description": "AI is transforming every industry, every profession and every aspect of society. But alongside unprecedented opportunity come profound risks and unintended consequences. This talk will explore both sides of the AI revolution... from innovation, productivity and economic growth to job displacement, existential risks, misinformation, cybersecurity threats and the future of human relevance.",
+   "start": "2026-09-22T09:20:00+00:00",
+   "end": "2026-09-22T09:35:00.000Z",
+   "stage": "Auditorium Stage",
+   "track": "AI For Good",
+   "type": "Keynote",
+   "speakers": [
+    "Nicky Verd"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#afd44d88-a2a7-4e92-b127-5fcb2aedc787"
+  },
+  {
+   "id": "20536e7e",
+   "title": "Demo 4 - I Built Autonomous GTM Engines - So Can You.",
+   "description": "​Most companies bolt AI onto their old GTM playbook. It never gets them there.\n\n​The modern GTM stack is one engine.\n\nYour data and your know-how feed one shared brain, the brain powers the apps your team uses every day, a human checks anything important before it goes out.\n\nChaos in, playbooks out.\n\n​In this live session, David Arnoux walks through how he builds this inside real companies, from B2B software scale-ups to consumer brands.\n\nWhat you'll take away\n\n​What a GTM OS actually is, and why bolting AI onto the old playbook fails,\n\n​The core components of the engine: signals, workflows, agents and reporting in one shared brain,\n\n​How the engine progresses from reactive → proactive → autonomous\n\n​Real builds from both worlds. A €2.5B B2B software company and consumer brands running programmatic SEO at 12,000+ pages\n\n​What it takes to build a GTM OS inside your company in days, not months, and why roughly 80% of each new build carries over to the next.",
+   "start": "2026-09-22T09:30:00+00:00",
+   "end": "2026-09-22T09:55:00.000Z",
+   "stage": "Demo Stage",
+   "track": "AI For Builders",
+   "type": "Demo",
+   "speakers": [
+    "David Arnoux"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#20536e7e-836a-4b23-8bb4-36949e45ebfa"
+  },
+  {
+   "id": "bfc86508",
+   "title": "Panel 3 – AI Act × AI Value Chain and Governance",
+   "description": "The AI Act is not one obligation, it's a chain of them, and everyone in the chain is writing contracts to push them downstream. Then Article 25 reshuffles the deck: rebrand a system, modify it, or change what it's for, and you become the provider. Lawyers and governance leads on where liability actually lands between model providers, integrators and deployers, where the regulation is clear, and where it leaves you carrying risk you never priced.",
+   "start": "2026-09-22T09:30:00+00:00",
+   "end": "2026-09-22T10:10:00.000Z",
+   "stage": "Panel Stage",
+   "track": "AI Foundations",
+   "type": "Panel",
+   "speakers": [
+    "Philippe Sigal",
+    "Laura Gilbert",
+    "Gianluca Gilardi",
+    "Jose Manuel Pérez Marzabal",
+    "Chandrakumar Pillai"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#bfc86508-c2d7-4a52-a542-073fd08a440c"
+  },
+  {
+   "id": "59adfc24",
+   "title": "Workshop 3 - Creative & Generative AI",
+   "description": "To be announced...",
+   "start": "2026-09-22T09:30:00+00:00",
+   "end": "2026-09-22T10:50:00.000Z",
+   "stage": "Workshop Room A",
+   "track": "AI For Builders",
+   "type": "Workshop",
+   "speakers": [
+    "Jacob Zangel",
+    "Charlie Hills"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#59adfc24-c5a4-4d64-a00f-8f357d283c91"
+  },
+  {
+   "id": "b82eeb81",
+   "title": "Workshop 4 - Give Your Product a Voice — Build a Live AI Voice Agent in 60 Minutes",
+   "description": "Everyone's talking about voice AI. In this room, you'll actually ship one.\n\nRoshan and Barbara will get you from a blank screen to a working, talking AI agent that can hold a real phone conversation, before the coffee break ends. You'll design its personality, wire up its brain (LLM), give it ears and a mouth (speech-to-text and text-to-speech), and connect it to a real tool so it does more than chat, it acts.\n\nBring a laptop and an idea. Leave with a deployed agent, a live phone number, and the know-how to build the next one yourself.\n\nWhat you'll walk away with:\n• A working voice agent you built yourself, live\n• A mental model for the voice AI stack (STT → LLM → TTS → tools) and where the real engineering challenges hide (latency, interruption handling, tool-calling reliability)\n• The gap between a slick demo and something that survives a real caller — the practical lessons Vapi's forward-deployed engineers see across production deployments\n\nBest for: builders, PMs, and founders who want to stop reading about voice AI and start shipping it. No ML background required — bring curiosity and a laptop.",
+   "start": "2026-09-22T09:30:00+00:00",
+   "end": "2026-09-22T10:50:00.000Z",
+   "stage": "Workshop Room B",
+   "track": "AI For Today",
+   "type": "Workshop",
+   "speakers": [
+    "Roshan Manjaly",
+    "Barbara Stanelli"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#b82eeb81-de2c-4065-add9-230df65da39f"
+  },
+  {
+   "id": "f2f96d37",
+   "title": "Keynote 12 - Open Models & Fine-tuning",
+   "description": "To be announced...",
+   "start": "2026-09-22T09:40:00+00:00",
+   "end": "2026-09-22T09:55:00.000Z",
+   "stage": "Auditorium Stage",
+   "track": "AI For Tech",
+   "type": "Keynote",
+   "speakers": [
+    "Jaime De Mora"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#f2f96d37-4a34-48d0-a713-38219c238a61"
+  },
+  {
+   "id": "08d2d108",
+   "title": "Keynote 11 - The AI Advantage Isn’t Individual: Why the biggest gains will come from rethinking how teams work together.",
+   "description": "AI has transformed what one person can do. But building great products has always been a team sport.\n\nIn this talk, Rory Keddie from Miro explores how product teams are adapting - moving from fragmented AI usage to collaborative, agent-powered workflows. Using real examples from Miro, he’ll show how teams are rethinking how they work, build, and learn together.\n\nAnd why, despite all the change, the fundamentals still win: strong culture, good judgement, and the environments that help teams learn faster.",
+   "start": "2026-09-22T09:40:00+00:00",
+   "end": "2026-09-22T09:55:00.000Z",
+   "stage": "Main Stage",
+   "track": "AI For Builders",
+   "type": "Keynote",
+   "speakers": [
+    "Rory Keddie"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#08d2d108-30a6-45a5-9b08-d8f38f33e87e"
+  },
+  {
+   "id": "17e970ab",
+   "title": "Debate 1 — Agents: The Real Platform Shift, or 2026's Most Overhyped Demo?",
+   "description": "Every deck in 2026 says 'agentic.' Most agents still break the moment they touch a real workflow. Side A: agents are the genuine platform shift — the jump from copilots that suggest to systems that actually do the work, and the teams already shipping them in production are pulling ahead. Side B: 'agentic' is this cycle's most oversold demo — brittle, expensive, badly governed, a thin wrapper over the same models we already had. 55 minutes, two builders, one moderator who has actually run agents in prod, and an audience vote before and after.",
+   "start": "2026-09-22T10:00:00+00:00",
+   "end": "2026-09-22T10:55:00.000Z",
+   "stage": "Auditorium Stage",
+   "track": "AI For Builders",
+   "type": "Debate",
+   "speakers": [
+    "Damien Acheson",
+    "Maanas Mediratta",
+    "Dave Garcia",
+    "Simon Bosch",
+    "Barnaba Barcellona"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#17e970ab-8a76-43aa-9171-e7ecf6ec8d8d"
+  },
+  {
+   "id": "78bbd3a8",
+   "title": "Demo 5 - Scaling the AI Explosion: Why Platform Engineering is the Secret to AI Governance",
+   "description": "Moving AI from \"lab to life\" is no longer a coding challenge—it’s an operational one. As enterprises deploy swarms of AI agents, they face a fragmented ecosystem of shadow AI, hidden costs, and security vulnerabilities. The solution lies at the intersection of two forces: AI and Platform Engineering. In this talk, we dive into the technical architecture of the Modern Internal Developer Platform. We will examine how to bake governance—from EU AI Act compliance to drift detection—directly into the developer workflow. Discover how to use AI to govern AI, creating a centralized \"Command Center\" that provides visibility into costs, security, and PII without slowing down your engineering teams. Open source demo.",
+   "start": "2026-09-22T10:00:00+00:00",
+   "end": "2026-09-22T10:25:00.000Z",
+   "stage": "Demo Stage",
+   "track": "AI For Tech",
+   "type": "Demo",
+   "speakers": [
+    "Pol Fenollar"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#78bbd3a8-078b-4419-b5fd-398f36459ddf"
+  },
+  {
+   "id": "733aaab2",
+   "title": "Keynote 13 - The Port of Barcelona: A Toolbox to Develop Your AI Projects",
+   "description": "The Port of Barcelona, as one of the most innovative ports in\nEurope, has put in place a series of tools that will help you to develop your\ninnovative projects. Such tools include:\n Open data research\n 5G standalone net\n Sandbox\n Agreements with BSC and AI factory\n ….\nLearn how your company and your project can benefit from such an\ninfrastructure which is there to help you scale your business faster and further.\nLearn about the latest AI projects that The Port of Barcelona is undertaking.",
+   "start": "2026-09-22T10:00:00+00:00",
+   "end": "2026-09-22T10:20:00.000Z",
+   "stage": "Main Stage",
+   "track": "AI For Today",
+   "type": "Keynote",
+   "speakers": [
+    "David Serral"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#733aaab2-7f10-46b1-88a3-349d71c80196"
+  },
+  {
+   "id": "b39a2746",
+   "title": "Panel 4 - When AI Checks In: Travel & Hospitality's Real Use Cases",
+   "description": "Travel is quietly one of AI's biggest proving grounds — agentic trip planning, dynamic pricing, AI concierge, and the booking that happens without a human ever opening a tab. In one of Europe's most-visited cities, the people running it share what's actually live versus what's still a demo, and where AI breaks when a real traveler is involved.",
+   "start": "2026-09-22T10:15:00+00:00",
+   "end": "2026-09-22T10:55:00.000Z",
+   "stage": "Panel Stage",
+   "track": "AI For Today",
+   "type": "Panel",
+   "speakers": [
+    "Danica Smith",
+    "Joan Salvatella",
+    "Jon Thomas",
+    "Gonzalo Lopez Tarasido"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#b39a2746-cdec-43be-b1d0-99cd00375fe2"
+  },
+  {
+   "id": "f44ea52f",
+   "title": "Keynote 14 - Open Models & Fine-tuning",
+   "description": "To be announced...",
+   "start": "2026-09-22T10:20:00+00:00",
+   "end": "2026-09-22T10:35:00.000Z",
+   "stage": "Main Stage",
+   "track": "AI For Tech",
+   "type": "Keynote",
+   "speakers": [
+    "Jordina Torrents Barrena"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#f44ea52f-c569-4604-85a1-9ce0705a125c"
+  },
+  {
+   "id": "6b203cbb",
+   "title": "Demo 6 - Robotics",
+   "description": "To be announced...",
+   "start": "2026-09-22T10:30:00+00:00",
+   "end": "2026-09-22T10:55:00.000Z",
+   "stage": "Demo Stage",
+   "track": "AI For Tomorrow",
+   "type": "Demo",
+   "speakers": [],
+   "url": "https://aisummitbarcelona.com/schedule#6b203cbb-8c64-4f60-99ac-908e50a2f889"
+  },
+  {
+   "id": "ac50d534",
+   "title": "Keynote 15 - Startup Scaling & Fundraising",
+   "description": "To be announced...",
+   "start": "2026-09-22T10:40:00+00:00",
+   "end": "2026-09-22T10:55:00.000Z",
+   "stage": "Main Stage",
+   "track": "AI For Growth",
+   "type": "Keynote",
+   "speakers": [
+    "Howard Wright"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#ac50d534-59df-4236-88c3-b1dbab1a1f0a"
+  },
+  {
+   "id": "acdd0498",
+   "title": "Keynote 17 - Prismic",
+   "description": "What happens to the value of a website, a product, or even a song, when generating another version becomes almost effortless? Sadek Drobi (Founder & CEO, Prismic) follows that question from an AI music experiment into the way Prismic is building products and autonomous loops. The answer is not to generate more stuff, but to define what must survive every regeneration: your intent, opinions, goals and understanding of your community. Companies that capture these with enough depth won’t just keep pace with the models, they’ll evolve alongside them.",
+   "start": "2026-09-22T11:00:00+00:00",
+   "end": "2026-09-22T11:20:00.000Z",
+   "stage": "Auditorium Stage",
+   "track": "AI For Builders",
+   "type": "Keynote",
+   "speakers": [],
+   "url": "https://aisummitbarcelona.com/schedule#acdd0498-8b38-47d7-bd36-357bab4e36b4"
+  },
+  {
+   "id": "2bbc6688",
+   "title": "Demo 7 - Open Models & Fine-tuning",
+   "description": "To be announced...",
+   "start": "2026-09-22T11:00:00+00:00",
+   "end": "2026-09-22T11:25:00.000Z",
+   "stage": "Demo Stage",
+   "track": "AI For Tech",
+   "type": "Demo",
+   "speakers": [
+    "Etienne Dilocker"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#2bbc6688-109f-40bf-bcf7-6d933c4850c6"
+  },
+  {
+   "id": "631ecb05",
+   "title": "Keynote 16 - Learning Is the New Infrastructure. Most Companies Haven't Built It Yet.",
+   "description": "Most AI workforce transformations fail not because of the technology, but because organisations don't know how to learn at speed. Prof. Dr. Thomas Funke draws on 20 years of research and practice, from WU Vienna to building TechQuartier in Frankfurt to co-founding Tomorrow University of Applied Sciences, to argue that learning is the defining infrastructure challenge of the AI era.\n\nThis session gives CHROs, L&D leaders, and CEOs a concrete framework: what a learning organisation actually looks like, why traditional training approaches are structurally broken, and what it takes to build the organisational capability to absorb AI-driven change continuously. Using Tomorrow University as a live case study, Thomas shows what AI-native learning infrastructure looks like in practice and what leaders can do immediately to start building it.",
+   "start": "2026-09-22T11:00:00+00:00",
+   "end": "2026-09-22T11:20:00.000Z",
+   "stage": "Main Stage",
+   "track": "AI For Tomorrow",
+   "type": "Keynote",
+   "speakers": [
+    "Christian Rebernik"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#631ecb05-2491-4545-9600-97c850d691dc"
+  },
+  {
+   "id": "c930f87a",
+   "title": "Panel 5 - Strategic Money: How Corporates Really Invest in AI Startups",
+   "description": "Corporate venture money isn't chasing the same thing as a fund. A strategic investor wants synergy, access, and an eventual seat at the table, not just a return. This panel puts corporate innovation and venture arms on stage to unpack how they actually pick, structure and manage AI investments and partnerships: what they're really underwriting beyond the cap table, where that clashes with how independent VCs think, and what founders get wrong pitching a corporate as if it were a fund. Built for founders courting strategic capital and for anyone trying to understand how big companies actually move on AI.",
+   "start": "2026-09-22T11:00:00+00:00",
+   "end": "2026-09-22T11:40:00.000Z",
+   "stage": "Panel Stage",
+   "track": "AI For Growth",
+   "type": "Panel",
+   "speakers": [
+    "Darrell Etherington",
+    "Carla Carvajal",
+    "Seena Amidi"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#c930f87a-34fb-4330-8d46-264d3ba16550"
+  },
+  {
+   "id": "7a9e716a",
+   "title": "Keynote 19 - Going beyond vibes with genuinely useful evals",
+   "description": "Move beyond gut checks with evaluations that measure what actually matters. Build reliable feedback loops to improve quality, catch regressions, and ship with confidence.",
+   "start": "2026-09-22T11:20:00+00:00",
+   "end": "2026-09-22T11:40:00.000Z",
+   "stage": "Auditorium Stage",
+   "track": "AI For Tech",
+   "type": "Keynote",
+   "speakers": [
+    "Alex Booker"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#7a9e716a-52c8-4d42-9f28-ecda16b7423e"
+  },
+  {
+   "id": "c3888299",
+   "title": "Keynote 18 - The AI Operating Model Advantage: Why Winning with AI Requires Rewiring the Organization",
+   "description": "AI is everywhere, but enterprise-wide impact remains elusive. The reason is increasingly clear: most companies are putting powerful new technology into organizations designed for a pre-AI world. They automate tasks, add copilots and deploy agents, while leaving the underlying workflows, decision rights and management structures largely untouched.\n\nThe next wave of AI value will come from changing that. For industrial companies in particular, AI creates an opportunity to rethink not only individual tasks, but how expertise, decisions and work flow across the enterprise.\n\nThis session will explore why AI winners are moving beyond productivity to redesign their operating models around AI: concentrating on the few domains where AI can create strategic advantage, rewiring end-to-end workflows rather than bolting AI onto existing processes, and building organizations in which humans and AI agents work together at a fundamentally different speed and scale.",
+   "start": "2026-09-22T11:20:00+00:00",
+   "end": "2026-09-22T11:40:00.000Z",
+   "stage": "Main Stage",
+   "track": "AI For Today",
+   "type": "Keynote",
+   "speakers": [
+    "Steffen Fuchs"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#c3888299-35e3-4b91-9dd7-9425d4a8f8ca"
+  },
+  {
+   "id": "1d2b2937",
+   "title": "Demo 8 - Responsible AI",
+   "description": "To be announced...",
+   "start": "2026-09-22T11:30:00+00:00",
+   "end": "2026-09-22T11:55:00.000Z",
+   "stage": "Demo Stage",
+   "track": "AI For Good",
+   "type": "Demo",
+   "speakers": [
+    "Somdip Dey"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#1d2b2937-c2b4-44fd-a8a3-6d394157a1ff"
+  },
+  {
+   "id": "5b3c60f9",
+   "title": "Workshop 5 - ESG Standards Mapping with Claude",
+   "description": "Stop Manual ESG Reporting Work: Build Your Al Assistant with Claude:\n- Learn how to build an ESG Standards Mapping Agent to save hours of manual work.\n- Instantly analyze ESG reports for framework interoperability mapping (ESRS, IFRS, SBTi).\n- Navigate interactive analysis artifacts, and learn to generate shareable dashboards to present critical insights and data-driven gaps to your stakeholders.",
+   "start": "2026-09-22T11:30:00+00:00",
+   "end": "2026-09-22T12:50:00.000Z",
+   "stage": "Workshop Room A",
+   "track": "AI For Good",
+   "type": "Workshop",
+   "speakers": [
+    "Javo Granda",
+    "Antonio Morales"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#5b3c60f9-2a06-44ea-9d60-7e5afc43b0e8"
+  },
+  {
+   "id": "071144cc",
+   "title": "Workshop 6 - The Human Side of AI Transformation",
+   "description": "Everyone is talking about what AI can do. Nobody is asking what humans need to become.\nThis workshop introduces Human Literacy — the missing half of every AI strategy. Drawing from original research, senior tech leader interviews, and 15 years decoding human behaviour in the attention economy.\nBecause the organizations that win the AI era won't have the best models. They'll have the most human-literate people running them.\nThe future of AI is human.",
+   "start": "2026-09-22T11:30:00+00:00",
+   "end": "2026-09-22T12:50:00.000Z",
+   "stage": "Workshop Room B",
+   "track": "AI For Tomorrow",
+   "type": "Workshop",
+   "speakers": [
+    "Roberta Scrofani"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#071144cc-5fca-40be-9362-f9bbda0413d0"
+  },
+  {
+   "id": "32655c1c",
+   "title": "Keynote 21 - Bizaway",
+   "description": "",
+   "start": "2026-09-22T11:40:00+00:00",
+   "end": "2026-09-22T12:00:00.000Z",
+   "stage": "Auditorium Stage",
+   "track": "AI For Builders",
+   "type": "Keynote",
+   "speakers": [
+    "Tyler Foster"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#32655c1c-bf9f-49d3-9eb0-b22dc9e92758"
+  },
+  {
+   "id": "5e7ccb14",
+   "title": "Keynote 20 - Train Once, Recommend Forever: Recsys for an Ever-Growing Catalog",
+   "description": "Modern consumer products all share one trait: their catalog never stops growing. Streaming platforms, news feeds, marketplaces — new titles, articles, and listings arrive every day, and users expect to see them in their recommendations right away. But recommender systems learn exclusively from past user interactions, so an item that just arrived, with no interaction history yet, is invisible to them by design. The traditional fix is to retrain continuously — and that's exactly the trap: it couples what a system can recommend to when it was last trained.\n\nIn this talk we follow the paradigm shift now reshaping recommender systems: decoupling a model's training from what it's allowed to recommend. Starting from the transformers that power modern discovery, we show why they cannot represent new items, how content embeddings almost solve the problem — and where they fall short — and how the approach we built at Albatross and run in production behind every feed, closes the gap: new items recommendable within minutes, retraining almost never, and quality above the ID-based baseline. Everything backed by production-scale experiments.",
+   "start": "2026-09-22T11:40:00+00:00",
+   "end": "2026-09-22T11:55:00.000Z",
+   "stage": "Main Stage",
+   "track": "AI For Today",
+   "type": "Keynote",
+   "speakers": [
+    "Matteo Ruffini"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#5e7ccb14-80da-43ba-a687-b85a901dfedd"
+  },
+  {
+   "id": "5abb7e53",
+   "title": "Keynote 22 - Fighting Back Against Intelligent Fraud with AI Agents",
+   "description": "AI is foundational to how businesses operate and a critical connection between people and companies, making AI-assisted fraud prevention a core business priority.\n\nAs organizations deploy intelligent agents to drive speed and efficiency, attackers are deploying their own AI to mimic real people and exploit trust at scale. The result: a new, largely unprotected frontline where identity is fluid and traditional safeguards fall short.\n\nIn this keynote, Phenom CEO and co-founder Mahe Bayireddi outlines how leading companies are responding by embedding fraud detection across critical workflows, coordinating networks of AI agents to identify risk signals in real time, and reinforcing automation with human oversight. The goal is not to slow innovation, but to ensure that speed, security and trust are built together from the start.",
+   "start": "2026-09-22T12:00:00+00:00",
+   "end": "2026-09-22T12:15:00.000Z",
+   "stage": "Auditorium Stage",
+   "track": "AI Foundations",
+   "type": "Keynote",
+   "speakers": [
+    "Mahe Bayireddi"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#5abb7e53-0774-4515-8823-0e5620d940da"
+  },
+  {
+   "id": "0d91b1c1",
+   "title": "Demo 9 - MLOps",
+   "description": "To be announced...",
+   "start": "2026-09-22T12:00:00+00:00",
+   "end": "2026-09-22T12:25:00.000Z",
+   "stage": "Demo Stage",
+   "track": "AI For Tech",
+   "type": "Demo",
+   "speakers": [
+    "Alex Shershebnev"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#0d91b1c1-12dd-405b-8af2-80e7604d14f7"
+  },
+  {
+   "id": "7094f93b",
+   "title": "Use Case 1 - Product Discovery is finally solved: Introducing Perception Models",
+   "description": "Large marketplaces and ecommerce have a discovery problem that traditional recommendation systems were not built to solve: every item is unique, catalogs change rapidly, and metadata is inconsistent. Hundreds of thousands of new listings enter the catalog every day with no impressions or interaction history - effectively invisible to legacy systems. The result is a discovery experience that remains static as users browse, click, and refine their interests, while newly listed items can take days to surface.\n\nAlbatross has solved this problem with perception models. This new class of AI learns from live user behavior, understands user intent in real time, and reshapes discovery as each session unfolds - while every new unique item becomes immediately discoverable.\n\nIn this talk, we will also explore live deployments and in particular our partnership with Wallapop, one of the first C2C marketplaces globally to move toward in-session, adaptive discovery that understands user intent as it unfolds, and advancing user engagement and seller visibility at unprecedented scale.",
+   "start": "2026-09-22T12:00:00+00:00",
+   "end": "2026-09-22T12:25:00.000Z",
+   "stage": "Main Stage",
+   "track": "AI For Today",
+   "type": "Use Case",
+   "speakers": [
+    "Rodrigo Aramayo",
+    "Kevin Kahn"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#7094f93b-3128-4bc6-a6a9-8eaa68ddeed0"
+  },
+  {
+   "id": "262458f6",
+   "title": "Panel 6 - Physical AI: Humanoids, Robot Fleets & Europe's Hardware Gap",
+   "description": "Physical AI is 2026's breakout story: humanoids leaving the lab, LLM-driven robot fleets, and a hardware race Europe is losing to China. Can the EU build, not just regulate?",
+   "start": "2026-09-22T12:00:00+00:00",
+   "end": "2026-09-22T12:40:00.000Z",
+   "stage": "Panel Stage",
+   "track": "AI For Tomorrow",
+   "type": "Panel",
+   "speakers": [
+    "Arno Strotgen",
+    "Carl Strathearn"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#262458f6-3b81-4f31-8b24-740587d408a4"
+  },
+  {
+   "id": "aedf1c13",
+   "title": "Keynote 23 - AI made it easy. Who decides what's good?",
+   "description": "As AI rapidly generates designs, code, content, and recommendations, many organizations are focused on speed and efficiency. But when outputs are cheap and abundant, speed alone is no longer a competitive advantage. The real challenge becomes defining what good work actually looks like.\nThis talk reframes “good” in the AI era as outcomes, not outputs. Drawing on Sense & Respond thinking, it treats AI-generated artifacts as a new class of assumptions—powerful, persuasive, and requiring validation. AI doesn’t eliminate uncertainty; it accelerates our ability to create hypotheses. The work of teams is still to decide which assumptions matter and how to test them.\n\nAttendees will learn why managing to outcomes becomes more critical as AI increases throughput, and how AI tools can be used to generate, test, and invalidate ideas faster—strengthening learning loops rather than replacing judgment.\n\n“Good” in the AI era is not about adopting tools. It’s about building organizations that learn faster than their assumptions.",
+   "start": "2026-09-22T12:20:00+00:00",
+   "end": "2026-09-22T12:35:00.000Z",
+   "stage": "Auditorium Stage",
+   "track": "AI For Builders",
+   "type": "Keynote",
+   "speakers": [
+    "Jeff Gothelf"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#aedf1c13-999f-4a5c-a9ac-581e660948e1"
+  },
+  {
+   "id": "3e628615",
+   "title": "Demo 10 - Demo of AI co-Workers to augment pharma commercial teams",
+   "description": "AVATIA builds AI co-workers for pharma commercial teams. \nPharma spends around 100 billion dollars a year engaging doctors and pharmacists, but human-only models no longer scale. \nWe are building an AI-native agentic layer that helps reps work 10 times faster, increases HCP engagement 5 times, and gives doctors and pharmacists trusted 24/7 access to pharma companies.",
+   "start": "2026-09-22T12:30:00+00:00",
+   "end": "2026-09-22T12:55:00.000Z",
+   "stage": "Demo Stage",
+   "track": "AI For Today",
+   "type": "Demo",
+   "speakers": [
+    "David Masó"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#3e628615-c4cd-4d8c-b7a2-8b2cd73f52b7"
+  },
+  {
+   "id": "96c62415",
+   "title": "Use Case 2 - Neo4j x Astrazeneca",
+   "description": "",
+   "start": "2026-09-22T12:30:00+00:00",
+   "end": "2026-09-22T12:55:00.000Z",
+   "stage": "Main Stage",
+   "track": "AI Foundations",
+   "type": "Use Case",
+   "speakers": [
+    "Antonio Fabregat",
+    "Jesús Barrasa"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#96c62415-f2da-4520-9d07-da694aa62e59"
+  },
+  {
+   "id": "11e5c145",
+   "title": "Keynote 24 - A Brief History of Artificial Intelligence",
+   "description": "Discover the fascinating evolution of artificial intelligence, from its theoretical foundations in the 1940s to the generative AI revolution of 2026. This session explores the key breakthroughs, milestones, and paradigm shifts that transformed AI from an academic dream into one of the most impactful technologies of our time.",
+   "start": "2026-09-22T12:40:00+00:00",
+   "end": "2026-09-22T12:55:00.000Z",
+   "stage": "Auditorium Stage",
+   "track": "AI For Tech",
+   "type": "Keynote",
+   "speakers": [
+    "Guillaume Saint-Cirgue"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#11e5c145-13da-4ea6-9e5c-3efbe202e36c"
+  },
+  {
+   "id": "3ad9453f",
+   "title": "Panel 7 - Healing or Hooking? AI's Double Edge on Mental Health & Wellbeing",
+   "description": "Same AI, two opposite stories. On one side: AI therapy companions making mental health support 24/7 and accessible, mood-tracking that catches a crisis early, mindfulness coaches in your pocket, generative tools that help people process trauma. On the other: recommendation systems wired to maximise screen time, dopamine engineering disguised as engagement, attention economies that reward outrage, and AI companions that quietly replace human connection. Where does the line sit between AI helping us thrive and AI hooking us into something that costs more than it gives? Builders, clinicians and behavioural scientists argue out what 'wellbeing' should actually mean in an algorithmic world — and who pays the bill when it goes wrong.",
+   "start": "2026-09-22T12:45:00+00:00",
+   "end": "2026-09-22T13:25:00.000Z",
+   "stage": "Panel Stage",
+   "track": "AI For Good",
+   "type": "Panel",
+   "speakers": [
+    "Katya de Freedericksz",
+    "Marvyn Halfon",
+    "Shayamal Vallabhjee",
+    "Ghazaleh Samandari"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#3ad9453f-83ef-432f-b8de-9ad458ab1eb6"
+  },
+  {
+   "id": "6d8315c2",
+   "title": "Keynote 25 - Gravity Always Wins: Why Profitable Efficient Growth is the Path to Victory, Especially In The Era of AI",
+   "description": "A practical session on how founders and GTM leaders can define what “winning” actually looks like in an AI-native world. Sam will break down the milestones, KPIs, and decision points that matter most as companies scale beyond early traction, helping leaders understand where to focus, what signals to trust, and how to make smarter growth decisions in rapidly changing markets.",
+   "start": "2026-09-22T13:00:00+00:00",
+   "end": "2026-09-22T13:15:00.000Z",
+   "stage": "Auditorium Stage",
+   "track": "AI For Builders",
+   "type": "Keynote",
+   "speakers": [
+    "Sam Jacobs"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#6d8315c2-6564-4fdc-b535-76b34c4e010c"
+  },
+  {
+   "id": "92e4da2e",
+   "title": "Demo 11 - Voice AI",
+   "description": "To be announced...",
+   "start": "2026-09-22T13:00:00+00:00",
+   "end": "2026-09-22T13:25:00.000Z",
+   "stage": "Demo Stage",
+   "track": "AI For Today",
+   "type": "Demo",
+   "speakers": [],
+   "url": "https://aisummitbarcelona.com/schedule#92e4da2e-13ea-4eb6-b5a7-eac921d55d14"
+  },
+  {
+   "id": "e89300c0",
+   "title": "Use Case 3 - AI Voice Agents: From Pilot to Production",
+   "description": "Voice AI has left the lab. Enterprises are putting AI voice agents in front of real customers, and the gap between a promising pilot and a production deployment is where many projects stall.\n\nDrawing on deployments across multiple industries, we'll examine what it takes to run voice agents at enterprise scale: the barriers that most often derail adoption, the technical foundations production demands (real-time latency, accuracy on real-world audio, predictable cost), and the operational groundwork that separates a compelling demo from a system customers rely on.\n\nAttendees will leave with a clear view of how leading companies moved from proof of concept to production, the mistakes that cost them time, and a practical framework for deploying voice AI that holds up in live customer conversations.",
+   "start": "2026-09-22T13:00:00+00:00",
+   "end": "2026-09-22T13:25:00.000Z",
+   "stage": "Main Stage",
+   "track": "AI For Tech",
+   "type": "Use Case",
+   "speakers": [
+    "Miguel Arroja"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#e89300c0-8cdb-45df-b90c-bdc2eda5e295"
+  },
+  {
+   "id": "6e644c97",
+   "title": "Workshop 7  - Token Compression and Routing, how to control agentic coding costs",
+   "description": "First, you make it work. Then you make it efficient.\nWe've spent the last two years proving that LLMs can write code, run agents, and orchestrate complex workflows. Today, Claude Code, Codex, OpenClaw, and others are the modern platforms for executing computational tasks, and tokens represent their new bandwidth.\n\nToken compression is about using that bandwidth wisely and accounting for costs from an engineering perspective.\n\nThis is a hands-on session on the key techniques and a framework for reasoning about this as a fundamental property of the systems you ship, not an afterthought. Attendees will leave with concrete actions they can implement this week, and a mental model for thinking about token efficiency as a compounding infrastructure advantage rather than a line-item cost.",
+   "start": "2026-09-22T13:00:00+00:00",
+   "end": "2026-09-22T14:20:00.000Z",
+   "stage": "Workshop Room A",
+   "track": "AI For Tech",
+   "type": "Workshop",
+   "speakers": [
+    "Sacha Morard"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#6e644c97-75bd-45ce-96ab-e9a7ba9cc9c5"
+  },
+  {
+   "id": "c682faff",
+   "title": "Keynote 26 - AI & Education",
+   "description": "To be announced...",
+   "start": "2026-09-22T13:20:00+00:00",
+   "end": "2026-09-22T13:35:00.000Z",
+   "stage": "Auditorium Stage",
+   "track": "AI For Tomorrow",
+   "type": "Keynote",
+   "speakers": [
+    "Daniel Traça"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#c682faff-e1f1-4593-b8c0-480f0774053a"
+  },
+  {
+   "id": "27251c37",
+   "title": "Demo 12 - When anyone can build, the person who decides WHAT to build becomes the bottleneck",
+   "description": "Engineering output has exploded. At leading AI companies, a five-person team now ships what fifteen used to. At Bricks, an AI proptech startup I shipped 10+ production AI agents in 3 months.  Alone with Claude Code as my unfair advantage. But the part of product work that actually decides whether you build the right thing — getting six people in a room to agree hasn't gotten any faster because it can't. \n\nAlignment lives in Slack threads and kickoff meetings and then evaporates. There's nowhere for an LLM to automate it. The result: a compressed PM-to-engineering ratio where the bottleneck has quietly moved from \"can we build it\" to \"do we know what to build, and does everyone agree.\" \n\nThis talk is about what breaks when that compression hits, what I got wrong shipping solo at Bricks, and 4 shifts/changes builders need to make now whether you're a PM, an engineer, or a founder watching your team try to figure out who owns what.",
+   "start": "2026-09-22T13:30:00+00:00",
+   "end": "2026-09-22T13:55:00.000Z",
+   "stage": "Demo Stage",
+   "track": "AI For Builders",
+   "type": "Demo",
+   "speakers": [
+    "Nicolas Léonard"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#27251c37-ed6d-484f-9ba2-2b13c5f913b0"
+  },
+  {
+   "id": "6ca1b342",
+   "title": "Panel 8 - Retail Rewired: AI from Storefront to Checkout",
+   "description": "From demand forecasting and dynamic pricing to AI stylists, smart inventory, and a checkout that knows you before you reach it — retail is being rebuilt aisle by aisle. And now agents are starting to shop on the customer's behalf, forcing brands to rethink who they're really selling to. Retail and e-commerce operators on what AI is already changing on the shop floor and online, and what breaks when real customers and real margins are on the line.",
+   "start": "2026-09-22T13:30:00+00:00",
+   "end": "2026-09-22T14:10:00.000Z",
+   "stage": "Panel Stage",
+   "track": "AI For Today",
+   "type": "Panel",
+   "speakers": [
+    "Bhavishya Ramchander",
+    "Maxim Khalilov",
+    "Neel Arora"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#6ca1b342-5055-4aea-a180-286bb3fcfdeb"
+  },
+  {
+   "id": "8f65d69f",
+   "title": "Keynote 27 - The era of useful, secure AI business software",
+   "description": "2026 was the era of shiny demos and prototypes. 2027 will be the era of useful, secure business software that powers your business operations. This talk unveils how the next generation of business apps will be built by non-technical teams - not because we simplified code, but because we simplified creation.",
+   "start": "2026-09-22T13:40:00+00:00",
+   "end": "2026-09-22T13:55:00.000Z",
+   "stage": "Auditorium Stage",
+   "track": "AI For Today",
+   "type": "Keynote",
+   "speakers": [
+    "Mariam Hakobyan"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#8f65d69f-1421-413b-b744-733b372bbfa2"
+  },
+  {
+   "id": "5f820c9a",
+   "title": "Debate 2 — Future of Work: Will AI Replace Half of Knowledge Workers by 2030?",
+   "description": "Tobi Lütke told Shopify managers: don't hire unless you can prove AI can't do the job. Goldman estimated it as a $7-trillion global GDP boost. Wall Street is pricing in the productivity surge. So is this the great unbundling of the knowledge economy — or the latest in a 30-year history of tech-replaces-work predictions that never came true? Two debaters fight it out: one sees a near-future where the white-collar middle is hollowed out, the other sees AI as the most powerful augmentation tool we've ever built, with employment levels intact. 55 minutes, bell-to-bell.",
+   "start": "2026-09-22T14:00:00+00:00",
+   "end": "2026-09-22T14:55:00.000Z",
+   "stage": "Auditorium Stage",
+   "track": "AI For Tomorrow",
+   "type": "Debate",
+   "speakers": [
+    "Magda Kufrej",
+    "Anna Thomas",
+    "Anna Via",
+    "Isabella Loaiza"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#5f820c9a-ac20-4180-93de-0a1b06235f76"
+  },
+  {
+   "id": "e0c6c528",
+   "title": "Demo 13 - Cursed Apps: Building (and Breaking) the ChatGPT × Claude Ecosystem",
+   "description": "ChatGPT Apps and Claude Connectors are quietly becoming a new app layer built on top of AI assistants — but almost nobody has stress-tested what these platforms can actually do, or where they break.\n\nThis talk opens with a live build: crafting a working app from scratch on Skybridge, an open-source framework for shipping apps that run inside both ecosystems. From there it gets weird. Drawing on a set of deliberately useless experiments built to probe the limits of the MCP App ecosystem, the talk walks through what happens when ChatGPT users and Claude users fight for territory on a shared pixel canvas; rival AI models get dropped into one group call together; a cadavre exquis has players each draw one section of a picture without ever seeing the whole; a game of telephone pictionary degrades — beautifully — across LLM sessions; and independent AI agents try to coordinate through pheromone trails, ant-colony style.\n\nNone of these are products. They're stress tests — and what breaks, and what doesn't, says more about where this ecosystem actually stands than any roadmap slide could.",
+   "start": "2026-09-22T14:00:00+00:00",
+   "end": "2026-09-22T14:25:00.000Z",
+   "stage": "Demo Stage",
+   "track": "AI For Tech",
+   "type": "Demo",
+   "speakers": [
+    "Frédéric Barthelet"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#e0c6c528-c187-4044-b3b2-7e6511ada49a"
+  },
+  {
+   "id": "b79bb286",
+   "title": "Use Case 5 - Engineering Production Agents: The Model Is the Easy Part",
+   "description": "Building an impressive agent prototype is increasingly easy. Making it reliable, responsive and economically viable in production is much harder. In this session, Dylan Bristot unpacks that gap through real Nebius Token Factory use cases: how Revolut scaled AI agents across financial crime and customer support, and how Sword Health made a much larger reasoning model responsive enough for its AI wellbeing specialist. A short live demo turns those lessons into a practical framework for model choice, inference architecture, observability and cost.",
+   "start": "2026-09-22T14:00:00+00:00",
+   "end": "2026-09-22T14:25:00.000Z",
+   "stage": "Main Stage",
+   "track": "AI For Builders",
+   "type": "Use Case",
+   "speakers": [
+    "Dylan Bristot"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#b79bb286-bdd3-489f-8338-364f9f7faf52"
+  },
+  {
+   "id": "2e8efa4d",
+   "title": "Panel 9 - Women Who Lead the Room: Closing AI's Leadership Gap",
+   "description": "AI is rewriting who gets heard, funded and promoted. Founders and leaders on building inclusive AI leadership pipelines — and why visibility is the new currency.",
+   "start": "2026-09-22T14:15:00+00:00",
+   "end": "2026-09-22T14:55:00.000Z",
+   "stage": "Panel Stage",
+   "track": "AI For Good",
+   "type": "Panel",
+   "speakers": [
+    "Sarah Anto",
+    "Faith Ruto",
+    "Leslie Ann Keeler",
+    "Stefanie Söhnchen",
+    "Danae Vara"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#2e8efa4d-ed41-493d-8778-9f78655f1617"
+  },
+  {
+   "id": "422786bb",
+   "title": "Demo 14 - The Hiring Debt Nobody Talks About",
+   "description": "How people infrastructure debt accumulates silently in the early stage, and what it actually costs founders when it catches up with them.",
+   "start": "2026-09-22T14:30:00+00:00",
+   "end": "2026-09-22T14:55:00.000Z",
+   "stage": "Demo Stage",
+   "track": "AI For Tomorrow",
+   "type": "Demo",
+   "speakers": [
+    "Ebony James"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#422786bb-0357-4b3e-aa8c-975f861be768"
+  },
+  {
+   "id": "6db918e2",
+   "title": "Use Case 6 - When Every AI Company Sounds the Same: How to Build and Prove Real Differentiation",
+   "description": "In an AI market where nearly every company makes similar claims, genuine differentiation is increasingly difficult to articulate and even harder to prove. Using Maisa’s experience as the central case study, David Villalón and Manu Romero will discuss how founders can build a defensible position through fundamental technology choices, measurable customer outcomes and the ability to meet the highest standards of trust, security and accountability.\n\nThe session will explore what distinguishes a compelling narrative from a truly differentiated company, particularly when selling into some of the world’s most regulated industries.",
+   "start": "2026-09-22T14:30:00+00:00",
+   "end": "2026-09-22T14:55:00.000Z",
+   "stage": "Main Stage",
+   "track": "AI For Growth",
+   "type": "Use Case",
+   "speakers": [
+    "David Villalón",
+    "Manuel Romero"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#6db918e2-4fc5-4a12-82a9-ace2c7ba3e91"
+  },
+  {
+   "id": "f3503966",
+   "title": "Fireside 1 - From Dating Fatigue to AI Saturation: Why People Are Coming Back to Real Life",
+   "description": "Dating apps removed rejection, not loneliness. AI removed friction, not the need to be known.\n\nMaxime Barbier built Timeleft on the opposite bet: put strangers around a dinner table in 200 cities worldwide, and make the awkward part the point. In this fireside he argues that friction is a feature, that restaurants have become the last piece of social infrastructure we have left, and that the harder an experience is to outsource to a model, the more it is worth doing yourself.\n\nBooking gives you a room. Skyscanner gives you a flight. Timeleft gives you a human.\n\nA deliberately contrarian counterweight to the rest of the programme, on loneliness, third places, and what we quietly lose to LLMs.",
+   "start": "2026-09-22T15:00:00+00:00",
+   "end": "2026-09-22T15:15:00.000Z",
+   "stage": "Auditorium Stage",
+   "track": "AI For Today",
+   "type": "Fireside Chat",
+   "speakers": [
+    "Maxime Barbier",
+    "Katrina Logie"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#f3503966-b890-4e80-8e23-a72d28ef205e"
+  },
+  {
+   "id": "51e1a479",
+   "title": "Demo 15 - Beyond the Pilot: How to Give an AI Employee a Real Job",
+   "description": "It is easy to build an AI that can hold an impressive conversation. It is much harder to give it responsibility for actual work. Using examples from real deployments across restaurants, dental practices and home services, Ryan McManus breaks down the anatomy of an AI employee: the job it owns, the information it needs, the systems it can access, the decisions it is allowed to make, and the moments when it should hand work back to a human.",
+   "start": "2026-09-22T15:00:00+00:00",
+   "end": "2026-09-22T15:25:00.000Z",
+   "stage": "Demo Stage",
+   "track": "AI For Today",
+   "type": "Demo",
+   "speakers": [
+    "Ryan McManus"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#51e1a479-e437-4761-af71-1d3e28e1cfa3"
+  },
+  {
+   "id": "07123223",
+   "title": "Panel 10 - Place Your Bets: AI in Gaming, Gambling & Live Entertainment",
+   "description": "Gambling, gaming, streaming, live events. AI is rewriting the entire entertainment stack, from iGaming algorithms predicting the next bet, to recommendation engines deciding what 200 million people watch tonight, to computer vision changing how a live show feels. It is one of AI's biggest and fastest-moving commercial playgrounds. Operators and builders on what is genuinely running in production today, where personalisation stops paying and starts costing trust, and whether Europe can build the next generation of entertainment with AI at the core.",
+   "start": "2026-09-22T15:00:00+00:00",
+   "end": "2026-09-22T15:40:00.000Z",
+   "stage": "Panel Stage",
+   "track": "AI For Builders",
+   "type": "Panel",
+   "speakers": [
+    "Xavier Simó",
+    "Alejandro Mowszet",
+    "Alexandre Saiz",
+    "Olga Sargsyan",
+    "Roberto Villani"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#07123223-8cbe-4dab-8fec-bf7000221424"
+  },
+  {
+   "id": "11c85b3b",
+   "title": "Fireside 2 — Agents That Touch Real Money",
+   "description": "Most AI-in-finance sessions are about what could be automated. Sophie Cornay runs Qonto AI, a team of ten shipping agentic workflows into a live banking product used across Europe: invoice handling, payment tracking, categorisation, real-time cash visibility.\n\nThat means agents operating where mistakes cost money and someone has to be accountable for them. This fireside is about the line she drew — what an agent decides, what it never decides, what broke in production, and what actually slows a team down when the product is regulated.\n\nA working account of shipping agents in finance, not a forecast.",
+   "start": "2026-09-22T15:20:00+00:00",
+   "end": "2026-09-22T15:35:00.000Z",
+   "stage": "Auditorium Stage",
+   "track": "AI For Today",
+   "type": "Fireside Chat",
+   "speakers": [
+    "Sophie Cornay"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#11c85b3b-d041-4259-aa46-8c3ff80f7258"
+  },
+  {
+   "id": "4b4a11f7",
+   "title": "Demo 16 - AI in High-Stakes Environments: A Practitioner's Framework for Responsible, Explainable, and Secure Deployment",
+   "description": "Most AI governance conversations happen at the policy level. I want to bring them to the production level, where the decisions are harder and the consequences are real.\nI'll walk through how we built and deployed an AI governance framework inside a regulated healthcare technology platform: what alignment with the EU AI Act, Cyber Resilience Act, and ISO 42001 actually looks like in code, architecture, and process, not on paper. What broke. What we had to rebuild. And why \"responsible AI\" means something very different when a wrong output affects a patient in behavioral health.",
+   "start": "2026-09-22T15:30:00+00:00",
+   "end": "2026-09-22T15:55:00.000Z",
+   "stage": "Demo Stage",
+   "track": "AI Foundations",
+   "type": "Demo",
+   "speakers": [
+    "Dr. Martin Ignatovski"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#4b4a11f7-266c-456f-9e56-0b66c1dd0a1f"
+  },
+  {
+   "id": "8ccfd44f",
+   "title": "Fireside 3 — What AI Companies Actually Charge For",
+   "description": "Per-seat pricing assumes headcount. If the product does the work instead of helping a person do it, what exactly is being sold — and to whom?\n\nTim Beck, Co-Founder and CEO of BLP Digital, on the monetisation question underneath every AI product decision: seats versus outcomes, what inference costs do to gross margin, and which pricing models are quietly breaking.\n\nA commercial conversation, not a product one.",
+   "start": "2026-09-22T15:40:00+00:00",
+   "end": "2026-09-22T15:55:00.000Z",
+   "stage": "Auditorium Stage",
+   "track": "AI For Growth",
+   "type": "Fireside Chat",
+   "speakers": [
+    "Tim Beck"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#8ccfd44f-1daf-4364-8089-f00a6ff60067"
+  },
+  {
+   "id": "e05a5876",
+   "title": "Fireside 4 — Generative AI at Consumer Scale",
+   "description": "Shipping a generative feature to professionals is a product problem. Shipping it to a very large consumer base is an engineering, cost and quality problem at the same time.\n\nArtavazd Mehrabyan, Co-Founder and CTO of Picsart, on what changes when your users aren't experts, your inference bill is a line item on the P&L, and the feature has to work the first time or it doesn't get used again.\n\nWhat consumers adopted, what was built and ignored, and what the engineering org had to become.",
+   "start": "2026-09-22T16:00:00+00:00",
+   "end": "2026-09-22T16:15:00.000Z",
+   "stage": "Auditorium Stage",
+   "track": "AI For Builders",
+   "type": "Fireside Chat",
+   "speakers": [
+    "Artavazd Mehrabyan",
+    "Stefanie Söhnchen"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#e05a5876-dcd1-4262-bc97-90b5224cfa92"
+  },
+  {
+   "id": "a30bc8f6",
+   "title": "Keynote 28 - The Last Mile of Model Accuracy: Agent-Driven Federated Learning for Unseen Domains",
+   "description": "Every AI/ML vendor ships a model that hits its benchmark and then watches it underperform in the field. The customer’s domain is different from the training distribution, and it keeps moving. It shows up everywhere — medical imaging, fintech, anti-fraud, identity and many others — and today it’s closed by guesswork: hunt for more data, retrain blind, repeat over weeks. The vendor is diagnosing a domain it cannot see.\n\nI’ll show what changes when an agent runs where the data already lives: it diagnoses what actually shifted and turns that into a targeted federated fine-tuning plan, without the vendor losing its own baseline.\n\nTwo real deployments ground it — one in medical technology, one in anti-spoofing for identity — plus what it takes to make this work, and where it still breaks.",
+   "start": "2026-09-22T16:00:00+00:00",
+   "end": "2026-09-22T16:20:00.000Z",
+   "stage": "Main Stage",
+   "track": "AI For Tech",
+   "type": "Keynote",
+   "speakers": [
+    "Oleg Kovpak"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#a30bc8f6-5394-4ee8-a9eb-a16ca495fc71"
+  },
+  {
+   "id": "f6b006ca",
+   "title": "Keynote 29 - Beyond the AI Noise: Creating Content People Can’t Ignore",
+   "description": "In a world where anyone can generate content in seconds, standing out has never been harder - or more valuable. In this talk, Tycho Luijten, founder and CEO of Dapper, shares how brands can create content that cuts through the AI-generated noise: work that's distinctive, human, and impossible to ignore.",
+   "start": "2026-09-22T16:20:00+00:00",
+   "end": "2026-09-22T16:40:00.000Z",
+   "stage": "Main Stage",
+   "track": "AI For Builders",
+   "type": "Keynote",
+   "speakers": [
+    "Tycho Luijten"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#f6b006ca-2572-4371-a5bd-830829feaedc"
+  },
+  {
+   "id": "38649f9d",
+   "title": "Closing Day 1",
+   "description": "",
+   "start": "2026-09-22T17:00:00+00:00",
+   "end": "2026-09-22T17:20:00.000Z",
+   "stage": "Main Stage",
+   "track": "",
+   "type": "Panel",
+   "speakers": [
+    "Adam Hruska"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#38649f9d-e16c-43c3-8003-ce4160edffb7"
+  },
+  {
+   "id": "9e9580e2",
+   "title": "Keynote 32 - In Medio Stat AI: Governing Artificial Intelligence in a Fragmented World",
+   "description": "Artificial intelligence is global, but the rules governing it are increasingly fragmented. This keynote distinguishes regulation, which establishes legal boundaries, from governance, which makes responsibility operational through real authority, oversight, evidence and accountability.\nComparing the different priorities shaping AI in Europe, the United States and China, Luana Lo Piccolo argues that governance is becoming essential geopolitical and innovation infrastructure. She introduces a practical framework based on five principles - Purpose, Power, Proof, Participation and Portability - to help organisations govern AI responsibly across changing technologies and jurisdictions.\nGovernance is not the brake on innovation. It is the steering system that allows innovation to endure.",
+   "start": "2026-09-23T08:00:00+00:00",
+   "end": "2026-09-23T08:15:00.000Z",
+   "stage": "Auditorium Stage",
+   "track": "AI Foundations",
+   "type": "Keynote",
+   "speakers": [
+    "Luana Lo Piccolo"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#9e9580e2-4d7e-4393-889b-f5a2ca8b1d68"
+  },
+  {
+   "id": "bd88ffbb",
+   "title": "Demo 17 - Healthcare",
+   "description": "To be announced...",
+   "start": "2026-09-23T08:00:00+00:00",
+   "end": "2026-09-23T08:25:00.000Z",
+   "stage": "Demo Stage",
+   "track": "AI For Today",
+   "type": "Demo",
+   "speakers": [
+    "Astel Allame"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#bd88ffbb-75d4-4a58-91cf-01b7889b59eb"
+  },
+  {
+   "id": "21d892ad",
+   "title": "Keynote 31 - From the AI Era to a Change of Era: The Sunrise of AI Agents",
+   "description": "This talk we'll explore the implications of a new reality where humans will work with new colleages called AI Agents. The rule games have changed forever so individuals and enterprises will need to re-adapt to be competitive.\nAI Agents don't replace work, they intensify it so I'll give a positive view about the new opportunities and how to leverage those ones.",
+   "start": "2026-09-23T08:00:00+00:00",
+   "end": "2026-09-23T08:15:00.000Z",
+   "stage": "Main Stage",
+   "track": "AI For Builders",
+   "type": "Keynote",
+   "speakers": [
+    "Eduardo Ordax"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#21d892ad-df97-4b8c-8625-e8202b22336f"
+  },
+  {
+   "id": "f06fbe98",
+   "title": "Panel 11 - Creativity at Machine Speed: GenAI in Film, Media & Design",
+   "description": "Video models broke through — now what? Leaders from film, broadcast and design on hybrid AI workflows, creator compensation, and where human craft still wins.",
+   "start": "2026-09-23T08:00:00+00:00",
+   "end": "2026-09-23T08:40:00.000Z",
+   "stage": "Panel Stage",
+   "track": "AI For Builders",
+   "type": "Panel",
+   "speakers": [
+    "Martin LeBlanc",
+    "Greg Kozakiewicz",
+    "Edouard Getaz"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#f06fbe98-3c0c-4d93-9f71-625504632551"
+  },
+  {
+   "id": "18c20531",
+   "title": "Workshop 11 - Build your AI Search workflows. Data-backed optimisation with Surfer MCP",
+   "description": "Hands-on session.\n\nFor over a year Surfer's Data Science team has been running experiments on how AI search picks its sources. Across datasets of up to 289,105 URLs, on ChatGPT, Perplexity and Google's AI surfaces. We open with what those experiments found, including the parts that contradict what most people still optimise for.\n\nThen we build. You connect Surfer to your own agent over MCP, and we work through three things: where a brand actually stands in AI answers, how to turn one gap into a piece of work, and how to make that repeat every week without running it by hand.\n\nYou leave with a working setup, a report you generated in the room on real data, and a prompt pack that reproduces all of it against your own brand.\n\nWorkspace access is provided in the room. The agent subscription is yours to bring.",
+   "start": "2026-09-23T08:00:00+00:00",
+   "end": "2026-09-23T09:20:00.000Z",
+   "stage": "Workshop Room A",
+   "track": "AI For Builders",
+   "type": "Workshop",
+   "speakers": [
+    "Jakub Sadowski"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#18c20531-4250-4c28-8154-745f8dcce7b8"
+  },
+  {
+   "id": "de53d91b",
+   "title": "Workshop 12 - AI for Clarity: Turning Technical Complexity into Stories People Act On",
+   "description": "It’s a practical session showing how AI tools (ChatGPT, Gemini, Copilot, etc.) can help professionals remove complexity and create accurate decision narratives. It includes a live demo so people can see the transformation happening in real time.\n\nGiven the mix of technical and business audiences at the summit last year, I think this will work well with:\n• data and analytics teams that want bigger impact with their insights\n• AI technical teams that need to remove jargon when communicating with business colleagues\n• business leaders trying to get better engagement from their presentations",
+   "start": "2026-09-23T08:00:00+00:00",
+   "end": "2026-09-23T09:20:00.000Z",
+   "stage": "Workshop Room B",
+   "track": "AI For Tomorrow",
+   "type": "Workshop",
+   "speakers": [
+    "Iñigo Antolín",
+    "Andy Storch"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#de53d91b-c890-455e-8daf-9c378586908f"
+  },
+  {
+   "id": "bbd8bbd0",
+   "title": "Keynote 34 - Beyond Upskilling: Rebuilding Identity in the Age of AI",
+   "description": "Everyone talks about the exponential curve of AI. Almost no one talks about the flat line next to it: the human capacity to adapt.\n\nThat gap is already splitting organizations into two populations and triggering something deeper than a skills shortage: an identity crisis. Fear, loss of bearings, resistance as a survival reflex.\n\nUpskilling won't fix this. You can't train your way out of an identity transition.\n\nThis keynote introduces The Soft Architecture: an experimental approach for rebuilding professional identity in a transition no one has a map for. If you lead people through change, this is a different kind of conversation.",
+   "start": "2026-09-23T08:20:00+00:00",
+   "end": "2026-09-23T08:35:00.000Z",
+   "stage": "Auditorium Stage",
+   "track": "AI For Good",
+   "type": "Keynote",
+   "speakers": [
+    "Laurence Nguyen"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#bbd8bbd0-6a0e-49b8-a744-3387d55c2f20"
+  },
+  {
+   "id": "e1df4556",
+   "title": "Keynote 33 - Edge AI",
+   "description": "To be announced...",
+   "start": "2026-09-23T08:20:00+00:00",
+   "end": "2026-09-23T08:35:00.000Z",
+   "stage": "Main Stage",
+   "track": "AI For Tech",
+   "type": "Keynote",
+   "speakers": [],
+   "url": "https://aisummitbarcelona.com/schedule#e1df4556-5279-46c5-9022-515fd9746496"
+  },
+  {
+   "id": "a88ec5fd",
+   "title": "Keynote 36 - Creative and Generative AI",
+   "description": "To be announced...",
+   "start": "2026-09-23T08:40:00+00:00",
+   "end": "2026-09-23T08:55:00.000Z",
+   "stage": "Auditorium Stage",
+   "track": "AI For Builders",
+   "type": "Keynote",
+   "speakers": [
+    "Ferdi Alici"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#a88ec5fd-8535-4673-ad36-883af54e9a1f"
+  },
+  {
+   "id": "5ff56370",
+   "title": "Keynote 35 - ¿Qué AI en el Banco de España?",
+   "description": "Exposición sobre cómo se usa la IA en el Banco de España.",
+   "start": "2026-09-23T08:40:00+00:00",
+   "end": "2026-09-23T08:55:00.000Z",
+   "stage": "Main Stage",
+   "track": "AI Foundations",
+   "type": "Keynote",
+   "speakers": [
+    "Ignasi Belda"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#5ff56370-f24c-4009-a481-34cb2e03701b"
+  },
+  {
+   "id": "94a7c242",
+   "title": "Panel 12 - From Scan to Startup: AI Healthcare in the Real World",
+   "description": "AI already reads scans, catches cancers earlier and reshapes drug discovery — but it learned from biased data. Clinicians, founders and investors on what works today and what we must fix.",
+   "start": "2026-09-23T08:45:00+00:00",
+   "end": "2026-09-23T09:25:00.000Z",
+   "stage": "Panel Stage",
+   "track": "AI For Today",
+   "type": "Panel",
+   "speakers": [
+    "Ariadna Maso",
+    "Vlad Lupenko",
+    "Oliver Patel"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#94a7c242-6949-4c6a-8027-7752cd3a5ee0"
+  },
+  {
+   "id": "62670d05",
+   "title": "Keynote 38 - The rise of Hybrid Builders - The profiles shaping the next phase of AI transformation.",
+   "description": "Organizations have never invested more in AI. Yet many still struggle to turn these investments into a measurable business impact. The missing piece is not technology, it is people.  As AI becomes part of everyday work, a new profile is emerging: professionals who understand business challenges, know how to build with AI and help organizations adopt new ways of working. At Mantu, we call them Hybrid Builders. \nThis keynote explores why the next phase of AI transformation will be defined not only by technology, but by the organizations capable of developing the people who can turn AI into business value.",
+   "start": "2026-09-23T09:00:00+00:00",
+   "end": "2026-09-23T09:15:00.000Z",
+   "stage": "Auditorium Stage",
+   "track": "AI For Tomorrow",
+   "type": "Keynote",
+   "speakers": [
+    "Constance Nevoret"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#62670d05-066e-410f-a134-52ec662c0aa6"
+  },
+  {
+   "id": "ee83cbfb",
+   "title": "Demo 19 - From Reactive to Proactive: Building AI Agents that Anticipate Customer Needs",
+   "description": "We’re collecting more data than ever, building powerful chatbots, designing complex workflows but users still just want ONE thing: to get what they need with as little effort as possible.\nIn this talk, we’ll explore how AI agents can help bridge that gap: not by asking users to give more, but by leveraging what we already know to deliver faster, smarter, and more intuitive experiences. In the live demo of an agentic assistant we will see a shift from reactive to proactive behavior. We will discuss common pitfalls when building agentic systems and tap into their evaluation for large scale solutions.",
+   "start": "2026-09-23T09:00:00+00:00",
+   "end": "2026-09-23T09:25:00.000Z",
+   "stage": "Demo Stage",
+   "track": "AI For Builders",
+   "type": "Demo",
+   "speakers": [
+    "Nensi Hakobjanyan"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#ee83cbfb-5081-4f98-b181-0a65045de5ce"
+  },
+  {
+   "id": "d823ad4a",
+   "title": "Keynote 37 - AI in Sales real life. What works, what does not work",
+   "description": "Real life examples of Ai  applied to my team in Sales. Best and worse practices on what works and where we failed badly.",
+   "start": "2026-09-23T09:00:00+00:00",
+   "end": "2026-09-23T09:15:00.000Z",
+   "stage": "Main Stage",
+   "track": "AI For Builders",
+   "type": "Keynote",
+   "speakers": [
+    "Nolwen Attou"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#d823ad4a-a2c3-42a4-9b41-3c521caa739e"
+  },
+  {
+   "id": "2b011365",
+   "title": "Keynote 40 - Cybersecurity",
+   "description": "To be announced...",
+   "start": "2026-09-23T09:20:00+00:00",
+   "end": "2026-09-23T09:35:00.000Z",
+   "stage": "Auditorium Stage",
+   "track": "AI Foundations",
+   "type": "Keynote",
+   "speakers": [
+    "Eduard Singer"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#2b011365-7f8c-4ebc-ba91-2bd405e34b78"
+  },
+  {
+   "id": "5842d29f",
+   "title": "Keynote 39 - MLOps",
+   "description": "To be announced...",
+   "start": "2026-09-23T09:20:00+00:00",
+   "end": "2026-09-23T09:35:00.000Z",
+   "stage": "Main Stage",
+   "track": "AI For Tech",
+   "type": "Keynote",
+   "speakers": [
+    "Andreas Horn"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#5842d29f-5b95-4153-a113-00ee9a4b4cf1"
+  },
+  {
+   "id": "7a1de111",
+   "title": "Demo 20 - Inside the architecture: Building a production-ready AI venture",
+   "description": "What does it actually take to move from AI prototype to production-grade product? In this technical deep dive, Michael van Lier unpacks the architecture behind one of Builders’ AI ventures — from model selection and orchestration layers to data pipelines, infra decisions, and governance.\n\nRather than theory, this session explores real design trade-offs, scalability challenges, and the hard calls that shaped the product. Ideal for technical founders, product leaders, and engineers who want to understand what breaks, what scales, and what matters when building AI systems in the real world.",
+   "start": "2026-09-23T09:30:00+00:00",
+   "end": "2026-09-23T09:55:00.000Z",
+   "stage": "Demo Stage",
+   "track": "AI For Growth",
+   "type": "Demo",
+   "speakers": [
+    "Michael van Lier"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#7a1de111-d94b-4a65-ac86-a36de69126c5"
+  },
+  {
+   "id": "4500ea85",
+   "title": "Panel 13 - Energy Resilience & AI Climate Adaptation",
+   "description": "Two very different things get called climate AI: predicting and pricing risk, and keeping physical systems running when the weather breaks them. This panel holds both and stays honest about which is which. What hazard models can actually forecast at asset level, what insurers and investors will underwrite on the back of it, and the part nobody puts on the slide, that AI compute is itself one of the fastest growing loads on the grid.",
+   "start": "2026-09-23T09:30:00+00:00",
+   "end": "2026-09-23T10:10:00.000Z",
+   "stage": "Panel Stage",
+   "track": "AI For Good",
+   "type": "Panel",
+   "speakers": [
+    "Alejandro Martí",
+    "Rocío Alcocer",
+    "Cain Christoforou"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#4500ea85-7197-4427-a54f-9a0257e7e8e5"
+  },
+  {
+   "id": "fd27a4da",
+   "title": "Workshop 14 - Can AI Replace Your Buyer Interviews? Building Robust Synthetic Personas",
+   "description": "B2B market research has always been the industry's hardest nut to crack: small sample sizes, gatekept buyers, slow timelines, and insights that go stale before you can act on them. In this talk, Kate Busby breaks down how AI-generated synthetic personas are changing the equation, not as a shortcut, but as a rigorous, repeatable process.\nKate walks through the full methodology: how to construct synthetic personas that actually reflect real buyer behavior, the data fidelity checks that separate a useful model from a hallucinated one, and the validation loops needed to trust the output enough to act on it. She'll share hard-won lessons from running this process against real B2B audiences, where it holds up, where it breaks, and how to know the difference.\nAttendees will leave with a practical framework for building synthetic personas that go beyond guesswork, giving growth and marketing teams faster, cheaper, and more reliable access to the qualitative insight B2B research has always struggled to deliver at scale.",
+   "start": "2026-09-23T09:30:00+00:00",
+   "end": "2026-09-23T10:50:00.000Z",
+   "stage": "Workshop Room B",
+   "track": "AI For Builders",
+   "type": "Workshop",
+   "speakers": [
+    "Kate Busby"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#fd27a4da-7d59-4cef-a11c-10f386557fab"
+  },
+  {
+   "id": "d9da7d6c",
+   "title": "Keynote 42 - SaaSApocalypse in the era of AI Agent",
+   "description": "AI agents are rewriting the rules for the entire SaaS industry. Tools we paid monthly subscriptions for can now be recreated by an agent in minutes — and increasingly, users don't want to click through an interface at all; they just want to issue a command. Is this the end of SaaS as we know it?\nIn this talk I'll show why the classic \"feature-for-subscription\" model is running out of road, and what that means for anyone building software today. I'll speak as a practitioner — drawing on lessons from running my own SaaS products — about shifting our thinking from \"ship more features\" to \"build value an agent can't replicate.\"\nA central theme will be sovereignty: in a world where your product talks to AI agents and your data flows through models you don't own, who actually controls the customer relationship, the data, and the value? I'll argue that digital and data sovereignty become the real moat — the thing that separates companies that get commoditized by agents from those that own their future.\nYou'll leave with a concrete map: which business models are most exposed, where new opportunities are opening up, and how to prepare your product today for a world where the first user of your app is an AI agent, not a human.",
+   "start": "2026-09-23T09:40:00+00:00",
+   "end": "2026-09-23T09:55:00.000Z",
+   "stage": "Auditorium Stage",
+   "track": "AI For Builders",
+   "type": "Keynote",
+   "speakers": [
+    "Mike Korba"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#d9da7d6c-08bc-4f04-8aae-94f989134fbb"
+  },
+  {
+   "id": "1418a0c6",
+   "title": "Keynote 41 - Digital Realty",
+   "description": "To be announced...",
+   "start": "2026-09-23T09:40:00+00:00",
+   "end": "2026-09-23T09:55:00.000Z",
+   "stage": "Main Stage",
+   "track": "AI For Tomorrow",
+   "type": "Keynote",
+   "speakers": [],
+   "url": "https://aisummitbarcelona.com/schedule#1418a0c6-02fc-43ff-98eb-3b4e54a4c07a"
+  },
+  {
+   "id": "0276ebde",
+   "title": "Debate 3 — Sovereign AI or Surrender? Should Europe Stop Outsourcing Its AI Future?",
+   "description": "Europe is building 13 AI Factories, funding Mistral and Aleph Alpha, demanding open weights, and writing the world's strictest AI law. Yet 90% of European AI compute still runs on AWS, Azure and GCP, and the foundation model leaderboards are American and Chinese. So is sovereign AI the project of the decade for European strategic autonomy — or an expensive industrial-policy fantasy that taxes EU founders without producing winners? One debater says Europe must stop renting its future. The other says we already lost — partner up and accept it.",
+   "start": "2026-09-23T10:00:00+00:00",
+   "end": "2026-09-23T10:55:00.000Z",
+   "stage": "Auditorium Stage",
+   "track": "AI Foundations",
+   "type": "Debate",
+   "speakers": [
+    "Damien Acheson",
+    "Justin Strharsky",
+    "Jan Kavalírek",
+    "Pedro Romera",
+    "Siobhan Fairman"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#0276ebde-807a-4e32-b952-b8064400915b"
+  },
+  {
+   "id": "483eb6a4",
+   "title": "Demo 21 - From Dashboards to Decisions: Building AI-Powered Analytics on Top of Modern Data Platforms",
+   "description": "AI is transforming how businesses interact with data, but successful AI initiatives start long before an LLM is introduced. Without reliable data foundations, even the most advanced models become expensive sources of incorrect answers.\n\nThis session explores how modern analytics platforms can evolve from traditional dashboards into AI-powered decision-support systems. Using a real-world architecture journey, we compare fragmented reporting environments with a centralized data platform built around a data warehouse, semantic layer, and self-service analytics.\n\nWe will discuss why data architecture determines the practical limits of AI adoption, how to design data flows that create trust in analytical results, and how agent-based interfaces can make data more accessible to business users. Rather than replacing analysts, AI agents act as a natural interface between people and data—automating routine investigations, accelerating insight discovery, and helping organizations answer questions such as “Why did sales decline last month?” in seconds instead of hours.\n\nThe session concludes with a live demonstration of an LLM-powered analytics agent working on top of a governed data platform.",
+   "start": "2026-09-23T10:00:00+00:00",
+   "end": "2026-09-23T10:25:00.000Z",
+   "stage": "Demo Stage",
+   "track": "AI Foundations",
+   "type": "Demo",
+   "speakers": [
+    "VIKTORIIA KNIAZEVA"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#483eb6a4-51a0-499c-98a0-ef303cacb606"
+  },
+  {
+   "id": "030de57f",
+   "title": "Panel 14 - Money, Reinvented: AI Agents, Stablecoins & the Future of Finance",
+   "description": "Agents that pay, tokenized rails, banks racing fintechs to deploy AI under the world's strictest rules. The people building the future of money on what's real and what's next.",
+   "start": "2026-09-23T10:15:00+00:00",
+   "end": "2026-09-23T10:55:00.000Z",
+   "stage": "Panel Stage",
+   "track": "AI For Today",
+   "type": "Panel",
+   "speakers": [
+    "Anya Nova",
+    "Reema Gill",
+    "Bertrand K. Hassani",
+    "Christian Gondek"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#030de57f-8092-42d7-a747-5bd2e9e0791f"
+  },
+  {
+   "id": "4188ab20",
+   "title": "Keynote 44 - Forward Deployment at OpenAI",
+   "description": "",
+   "start": "2026-09-23T10:20:00+00:00",
+   "end": "2026-09-23T10:35:00.000Z",
+   "stage": "Main Stage",
+   "track": "AI For Tech",
+   "type": "Keynote",
+   "speakers": [
+    "Ilyass El Mansouri"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#4188ab20-26cf-4310-8ca4-2ead8b2a2c45"
+  },
+  {
+   "id": "bbf64e66",
+   "title": "Demo 22 - Leverage AI to Build MVPs fast",
+   "description": "Compress your time-to-market by building and shipping functional MVPs in days using AI coding assistants, code generation, and rapid prototyping pipelines.\n\nFocus on validating demand early and iterating fast while adopting AI-native execution to automate development workflows and significantly increase output. At the same time, design with scalability in mind from day one so your product can grow without rework.\nThis is an end-to-end approach to build, test, and scale products at startup speed.",
+   "start": "2026-09-23T10:30:00+00:00",
+   "end": "2026-09-23T10:55:00.000Z",
+   "stage": "Demo Stage",
+   "track": "AI For Builders",
+   "type": "Demo",
+   "speakers": [
+    "Enrique Calvo"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#bbf64e66-f4d7-47f2-9f21-a3cfcb509971"
+  },
+  {
+   "id": "95a0bbc1",
+   "title": "Keynote 45 - Responsible AI",
+   "description": "To be announced...",
+   "start": "2026-09-23T10:40:00+00:00",
+   "end": "2026-09-23T10:55:00.000Z",
+   "stage": "Main Stage",
+   "track": "AI For Good",
+   "type": "Keynote",
+   "speakers": [
+    "Laura Tissot"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#95a0bbc1-6211-40c8-9389-8bc001e351a0"
+  },
+  {
+   "id": "7cb8d5e0",
+   "title": "Keynote 47 - AEO (AI Recommendation): the Critical Growth Channel",
+   "description": "Things move fast, so this may shift a bit before the event but this would be the outline as I see it now\n1. Contextualizing AI visibility against the backdrop of the other major growth engines of the past 30 years: The Internet, Search, Mobile,  Apps, Social Media (Waves 1, 2, & 3), Blockchain. \n2. AEO is already here (and having a huge commercial impact) (data sharing)\n3. What you need to do, *now* to win (best practices sharing)\n4. What the future holds \n5. Q&A",
+   "start": "2026-09-23T11:00:00+00:00",
+   "end": "2026-09-23T11:20:00.000Z",
+   "stage": "Auditorium Stage",
+   "track": "AI For Builders",
+   "type": "Keynote",
+   "speakers": [
+    "Scott Dodson"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#7cb8d5e0-b44f-406c-a63e-7af416a8fb1f"
+  },
+  {
+   "id": "28987128",
+   "title": "Demo 23 - AI for data analytics",
+   "description": "In this session we will cover how the data analytics has been impacted by AI and get a glimpse of a possible future in agentic analytics.",
+   "start": "2026-09-23T11:00:00+00:00",
+   "end": "2026-09-23T11:25:00.000Z",
+   "stage": "Demo Stage",
+   "track": "AI For Builders",
+   "type": "Demo",
+   "speakers": [
+    "Christophe Blefari"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#28987128-0e7a-4935-9b02-258c9d58017c"
+  },
+  {
+   "id": "8c9c09e3",
+   "title": "Keynote 46 - The AI Enterprise Value Gap",
+   "description": "AI capabilities are growing at an unprecedented pace, with a never ending flow of new models that beat every single benchmark. \n\nHowever, enterprise value barely reflects this, and most AI initiatives fail to reach production and provide measurable impact, generating a gap between the technological capabilities available, and how much enterprises benefit from them.\n\nThis talk explores why that gap exists, why it's no longer a technology problem but an execution problem, and how Aily Labs, with their Decision Intelligence App turns intelligence into faster decisions, better operations, and real P&L impact",
+   "start": "2026-09-23T11:00:00+00:00",
+   "end": "2026-09-23T11:20:00.000Z",
+   "stage": "Main Stage",
+   "track": "AI For Today",
+   "type": "Keynote",
+   "speakers": [
+    "Jaime Zornoza"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#8c9c09e3-3927-411b-9de2-d61ef2cc2147"
+  },
+  {
+   "id": "31002b56",
+   "title": "Panel 15 - Who's Really Deciding? Human Agency in the Age of AI",
+   "description": "An algorithm nudges what your kid reads before bed. A hiring filter decides who a recruiter never sees. A health app flags what's wrong before your doctor does. None of this is speculative — it's this year's default UX. As AI mediates more of daily life — work, health, relationships, money, parenting — how much control do people actually keep, and how much do they just assume they still have? Voices from product, psychology, and policy separate where human agency genuinely holds from where it's already quietly gone. 40 minutes.",
+   "start": "2026-09-23T11:00:00+00:00",
+   "end": "2026-09-23T11:40:00.000Z",
+   "stage": "Panel Stage",
+   "track": "AI For Good",
+   "type": "Panel",
+   "speakers": [
+    "Laura Sibony",
+    "Don Kilburg",
+    "Ana Peleteiro Ramallo",
+    "Caroline De Cock",
+    "Leon Tsvasman"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#31002b56-274b-453b-bfd7-44e402b05549"
+  },
+  {
+   "id": "eca3b91a",
+   "title": "Keynote 49 - Tokens, Latency, Sovereignty: The Physics Pulling AI to the Edge",
+   "description": "",
+   "start": "2026-09-23T11:20:00+00:00",
+   "end": "2026-09-23T11:40:00.000Z",
+   "stage": "Auditorium Stage",
+   "track": "AI For Tech",
+   "type": "Keynote",
+   "speakers": [
+    "John Roche"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#eca3b91a-453d-4068-85be-91bcbf0554b1"
+  },
+  {
+   "id": "972e354e",
+   "title": "Keynote 48 - Dataiku",
+   "description": "To be announced...",
+   "start": "2026-09-23T11:20:00+00:00",
+   "end": "2026-09-23T11:40:00.000Z",
+   "stage": "Main Stage",
+   "track": "AI For Tomorrow",
+   "type": "Keynote",
+   "speakers": [
+    "Wided Boutar"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#972e354e-fdff-4c49-9586-5f61f879d66b"
+  },
+  {
+   "id": "c292eab6",
+   "title": "Demo 24 - Wakastart",
+   "description": "To be announced...",
+   "start": "2026-09-23T11:30:00+00:00",
+   "end": "2026-09-23T11:55:00.000Z",
+   "stage": "Demo Stage",
+   "track": "AI For Builders",
+   "type": "Demo",
+   "speakers": [
+    "Denis Shiarra"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#c292eab6-e081-42e2-8975-8799e44380cf"
+  },
+  {
+   "id": "3fe3aa0e",
+   "title": "Workshop 15 - Not your weights, not your brain!",
+   "description": "Can open models drive your agentic needs? This session explores the current state of open AI, including local AI. It then goes on to examine how to incorporate open models to your workflow. Open models come in many flavors and sizes: from large near-frontier behemoth models, to small models that can run on your laptop. We'll show when best to use each, and how to integrate them with your favorite tools for conversational and agentic use cases. We'll further explore how quantization libraries such as llama.cpp and MLX allow  large models to run locally, achieving more control, total privacy, low latency, no cloud costs.",
+   "start": "2026-09-23T11:30:00+00:00",
+   "end": "2026-09-23T12:50:00.000Z",
+   "stage": "Workshop Room A",
+   "track": "AI For Tech",
+   "type": "Workshop",
+   "speakers": [
+    "Pedro Cuenca"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#3fe3aa0e-ea01-49c5-b845-c7aeb7c1bc9b"
+  },
+  {
+   "id": "ef774465",
+   "title": "Workshop 16 - \"Who Owns What AI Made? A Practical Framework for IP, Compliance, and Trust in AI-Driven Creative Work\"",
+   "description": "Every AI-generated asset your team produces today carries a question nobody wants to answer under deadline pressure: Who owns it? What does the EU AI Act require? And did the tool you used just quietly claim rights to your client's brief? This talk cuts through the ambiguity.\n\nDrawing on real-world implementation experience, David Lahoz Martín walks through a practical framework for protecting intellectual property in AI-assisted work, covering three areas that are usually handled separately and shouldn't be: IP protection and provenance, compliance with the EU AI Act and overlapping privacy regulations, and the often-overlooked terms of service obligations buried in the AI tools themselves.\n\nThe result is a working framework agencies and brands can apply across every phase of the creative process, from prompt to publish, giving both your company and your clients a defensible answer when someone finally asks the question.",
+   "start": "2026-09-23T11:30:00+00:00",
+   "end": "2026-09-23T12:50:00.000Z",
+   "stage": "Workshop Room B",
+   "track": "AI For Today",
+   "type": "Workshop",
+   "speakers": [
+    "David Lahoz Martín"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#ef774465-64a2-4812-9dc4-4268276941cf"
+  },
+  {
+   "id": "e2ff60de",
+   "title": "Keynote 51 -  Memory in AI systems - Why state is the missing keystone",
+   "description": "When your agent decides something is worth remembering past its current session, where does that write go today, and how is it retrieved? We will discuss how data layers and agent state memory are critical to scalable, productionised agentic workflows.",
+   "start": "2026-09-23T11:40:00+00:00",
+   "end": "2026-09-23T12:00:00.000Z",
+   "stage": "Auditorium Stage",
+   "track": "AI Foundations",
+   "type": "Keynote",
+   "speakers": [
+    "Bernard Kavanagh"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#e2ff60de-648e-45bb-b8fd-24fc18c9e3f4"
+  },
+  {
+   "id": "480f328a",
+   "title": "Keynote 50 - Damm",
+   "description": "",
+   "start": "2026-09-23T11:40:00+00:00",
+   "end": "2026-09-23T12:00:00.000Z",
+   "stage": "Main Stage",
+   "track": "AI For Today",
+   "type": "Keynote",
+   "speakers": [
+    "Laura Gil"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#480f328a-b201-4a11-988e-f04d8956c1d8"
+  },
+  {
+   "id": "b319a532",
+   "title": "Keynote 52 - Orbio",
+   "description": "",
+   "start": "2026-09-23T12:00:00+00:00",
+   "end": "2026-09-23T12:15:00.000Z",
+   "stage": "Auditorium Stage",
+   "track": "AI For Tomorrow",
+   "type": "Keynote",
+   "speakers": [
+    "Antonio Melé"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#b319a532-6e43-4f79-95de-4677bd8cbe0e"
+  },
+  {
+   "id": "22e5c16d",
+   "title": "Demo 25 - Shifting Gears: A Practical Guide to Adopting Spec-Driven Development",
+   "description": "As AI coding agents become mainstream, engineering teams are discovering a new problem: freestyle AI generates code without traceability. When the AI writes the code directly from a prompt, how do you answer, \"Why was this built this way?\"\n\nIn this session, we will explore Nuvolar's pragmatic journey to Spec-Driven Development (SDD) using the OpenSpec framework. By placing a structured layer of documentation between human requirements and AI output, we transformed our engineering workflow. We will walk through our customized open-spec lifecycle.\n\nMost importantly, we will highlight how to keep humans in the driver's seat. You will learn how we implemented mandatory gates to ensure engineers own the architecture and mitigate risks, while the AI agent handles the boilerplate. Finally, we will share our hard-won lessons on what didn’t work, what did and where do we go to now!",
+   "start": "2026-09-23T12:00:00+00:00",
+   "end": "2026-09-23T12:25:00.000Z",
+   "stage": "Demo Stage",
+   "track": "AI For Builders",
+   "type": "Demo",
+   "speakers": [
+    "Pere Martí",
+    "Gerard Auguets Pulido"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#22e5c16d-c31c-4828-a63b-fc01f2591c65"
+  },
+  {
+   "id": "a3cac224",
+   "title": "Panel 16 - The New Gatekeepers: Brand Visibility in the Age of AI Search",
+   "description": "Zero-click search is here: customers ask AI, not Google. How GEO is replacing SEO, what happens to your website when agents do the browsing, and who wins when LLMs decide what gets seen.",
+   "start": "2026-09-23T12:00:00+00:00",
+   "end": "2026-09-23T12:40:00.000Z",
+   "stage": "Panel Stage",
+   "track": "AI For Builders",
+   "type": "Panel",
+   "speakers": [
+    "Daniel Espejo",
+    "Antoine Heftler",
+    "Jakob Seeger",
+    "Fernando Angulo"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#a3cac224-0428-4ee0-a765-c80fef767420"
+  },
+  {
+   "id": "a2073b10",
+   "title": "Keynote 53 - The Wrong Question: Why Human-in-the-Loop Is No Longer Enough",
+   "description": "Human-in-the-Loop has become a technical checkbox: a person somewhere in the pipeline, approving outputs. Alia Zafar argues that is the wrong question. The decisions that determine how AI reshapes work, inequality, climate and national competitiveness are not made in the loop. They are made in governance, and largely by whoever holds the technology, the capital and the infrastructure.\n\nDrawing on three decades across banking, energy, telecoms and international development, she sets out a practical framework for keeping people at the centre of AI transformation: where oversight actually has to sit, which risks are being consistently underweighted, and what intentional governance looks like inside an organisation rather than in a principles document.",
+   "start": "2026-09-23T12:20:00+00:00",
+   "end": "2026-09-23T12:35:00.000Z",
+   "stage": "Auditorium Stage",
+   "track": "AI For Good",
+   "type": "Keynote",
+   "speakers": [
+    "Alia Zafar"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#a2073b10-2aec-45b1-b0c3-a8328918d459"
+  },
+  {
+   "id": "1cbd0add",
+   "title": "Demo 26 - The AI Founder's Diary: 16 Months of Building AI-First Companies",
+   "description": "Vincent Jong has spent the last 16 months testing whether one person can build a real company with AI. The result: three products launched solo. One is flat, one is growing, one one he shut down.\n\nIn this session he walks through what actually happened. The real numbers (revenue, costs, time to launch), which growth channels failed and which worked, and where AI turned out to be useful versus where it was no help at all. The short version: building got 10x easier, selling didn't. But there's more to it.\n\nVincent is a 7x founder, former CPO / Product leader at Leadfeeder and ZoomInfo, and now builds companies at Poolside Ventures.\n\nIf you're building with AI or thinking about starting something, come steal 16 months of lessons in 30 minutes.",
+   "start": "2026-09-23T12:30:00+00:00",
+   "end": "2026-09-23T12:55:00.000Z",
+   "stage": "Demo Stage",
+   "track": "AI For Builders",
+   "type": "Demo",
+   "speakers": [
+    "Vincent Jong"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#1cbd0add-62e5-4297-bb89-582946b8bf13"
+  },
+  {
+   "id": "100509c3",
+   "title": "Use Case 10 - From Wrong Parts to Right Revenue: AI-Driven Spare Parts Identification in Manufacturing",
+   "description": "To be announced...",
+   "start": "2026-09-23T12:30:00+00:00",
+   "end": "2026-09-23T12:55:00.000Z",
+   "stage": "Main Stage",
+   "track": "AI For Good",
+   "type": "Use Case",
+   "speakers": [
+    "Anna Lukasson-Herzig"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#100509c3-46f2-4d1a-b0d4-66bf55c33c45"
+  },
+  {
+   "id": "460c90d0",
+   "title": "Keynote 54 - AI & Education",
+   "description": "To be announced...",
+   "start": "2026-09-23T12:40:00+00:00",
+   "end": "2026-09-23T12:55:00.000Z",
+   "stage": "Auditorium Stage",
+   "track": "AI For Tomorrow",
+   "type": "Keynote",
+   "speakers": [
+    "Dr. Rajesh Kumar K V"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#460c90d0-de7f-480d-8907-e59d028b9c85"
+  },
+  {
+   "id": "0765bef7",
+   "title": "Panel 17 - AI vs AI: Deepfakes, Fraud & the New Cyber Battlefield",
+   "description": "Voice clones empty bank accounts, deepfakes pass KYC checks, and attackers now automate with agents. The people defending banks, newsrooms and infrastructure on fighting AI with AI.",
+   "start": "2026-09-23T12:45:00+00:00",
+   "end": "2026-09-23T13:25:00.000Z",
+   "stage": "Panel Stage",
+   "track": "AI Foundations",
+   "type": "Panel",
+   "speakers": [
+    "Quentin Cozette",
+    "Roberta Schmid"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#0765bef7-f085-4231-be2f-4346514050e4"
+  },
+  {
+   "id": "4ffdc83f",
+   "title": "Keynote 55 - Why most AI GTM fails (and what's converting instead)",
+   "description": "Many AI products impress in demos but stall in adoption. This talk explores the gap between technical possibility and commercial traction: the buyer signals that matter, the pricing and positioning shifts that unlock budget, and the product traps that quietly kill deals. A grounded, operator-level view on AI go-to-market in 2026.",
+   "start": "2026-09-23T13:00:00+00:00",
+   "end": "2026-09-23T13:15:00.000Z",
+   "stage": "Auditorium Stage",
+   "track": "AI For Builders",
+   "type": "Keynote",
+   "speakers": [
+    "Sharon Klaver"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#4ffdc83f-3f62-4ffc-b190-ed786f81744e"
+  },
+  {
+   "id": "98f190c2",
+   "title": "Demo 27 - Future of healthcare AI",
+   "description": "Matěj Misař is one of the leading voices driving the real-world implementation of artificial intelligence in healthcare across Central and Eastern Europe. While many still view CEE as a “catch-up region,” the reality may surprise you.\n\nSome countries in the region have already achieved up to 89% AI penetration across radiology departments. Others are launching national AI tenders across hospital networks, building reimbursement frameworks, and turning AI from innovation into standard clinical practice. Behind this momentum stand local heroes: healthtech companies from CEE now deploying AI solutions in hospitals across Europe, Asia, and the Middle East.\n\nWho is driving this transformation, and what can the rest of Europe learn from it?\n\nMatěj Misař, healthcare AI advisor to multiple ministries, chairman of the healthcare group of the Czech Association of Artificial Intelligence, and CEO of Carebot, the most widely deployed clinical AI platform in CEE, will reveal why the future of healthcare AI may be built faster in Prague, Warsaw, Budapest, or Sofia than many expect.",
+   "start": "2026-09-23T13:00:00+00:00",
+   "end": "2026-09-23T13:25:00.000Z",
+   "stage": "Demo Stage",
+   "track": "AI For Today",
+   "type": "Demo",
+   "speakers": [
+    "Matej Misar"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#98f190c2-5aca-4707-9c47-588a380fb76e"
+  },
+  {
+   "id": "ec9b5961",
+   "title": "Use Case 11 - When we crashed our AI Interviewer and Amplitude saved our lives",
+   "description": "",
+   "start": "2026-09-23T13:00:00+00:00",
+   "end": "2026-09-23T13:25:00.000Z",
+   "stage": "Main Stage",
+   "track": "AI For Today",
+   "type": "Use Case",
+   "speakers": [
+    "Bruno Barbagli",
+    "Dani Diestre Tomas"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#ec9b5961-b9c5-4426-8e75-0b99a450eb42"
+  },
+  {
+   "id": "d779f2ea",
+   "title": "Workshop 17 - Bizaway",
+   "description": "To be announced...",
+   "start": "2026-09-23T13:00:00+00:00",
+   "end": "2026-09-23T14:20:00.000Z",
+   "stage": "Workshop Room A",
+   "track": "AI For Builders",
+   "type": "Workshop",
+   "speakers": [
+    "Tyler Foster"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#d779f2ea-03d7-4a6d-8e18-54d4d084ea0f"
+  },
+  {
+   "id": "9fb1377f",
+   "title": "Workshop 18 - Futures workshop. Coming of Age 20/40",
+   "description": "Coming of Age 20/40 invites you to an exploration of the future and challenge your thinking to go beyond the current mode of using AI. \n \nYou will meet four young Europeans from 2040 — Rowan, Nova, Cypher and Zane. You can talk to them about their lives through Orbs, voice-driven AI devices built around large language models. You can even discover their most personal belongings in their backpacks. People from the future, synthetic personas or LLMs? The session does not resolve that ambiguity. \n \nTry a new way of interacting with an AI, without screen, prompt box, private exchange. A whole group talks to one AI at once, aloud, through physical objects in the room. This is a session for exploring. Come with questions. Expect to leave with better ones.",
+   "start": "2026-09-23T13:00:00+00:00",
+   "end": "2026-09-23T14:20:00.000Z",
+   "stage": "Workshop Room B",
+   "track": "AI Foundations",
+   "type": "Workshop",
+   "speakers": [
+    "Orsi Nagy"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#9fb1377f-7ceb-457e-947c-7b2245ab4115"
+  },
+  {
+   "id": "55e445b3",
+   "title": "Keynote 56 - The Real Disruption isn't AI. It is Human Intelligence.",
+   "description": "Artificial Intelligence · Human Intelligence · Future of Work · Leadership · Organizational Culture · Human Potential · Transformation · Emotional Intelligence · Responsible AI",
+   "start": "2026-09-23T13:20:00+00:00",
+   "end": "2026-09-23T13:35:00.000Z",
+   "stage": "Auditorium Stage",
+   "track": "AI For Tomorrow",
+   "type": "Keynote",
+   "speakers": [
+    "Myriam Ben Farhat"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#55e445b3-b738-442c-bfde-dab8d3ed090a"
+  },
+  {
+   "id": "52f6e954",
+   "title": "Demo 28 - How to reach 10M€ ARR in 5 years self funded with a family business ?",
+   "description": "Leexi was founded in late 2021 by Xavier Lombard, his wife and two sons, born from a simple frustration: the value created in professional meetings disappears without a trace.\nIn five years, the company reached 10M€ ARR entirely self-funded, refusing multiple VC offers — including a 15M€ valuation from Volta Ventures — to preserve independence, culture and long-term decision-making.\nThe formula: obsessive product depth (350+ features), European data sovereignty as a structural moat, zero churn culture (one resignation in four years), and a discipline that turned every euro of revenue into the next hire.\nThe lesson is not about family — it's about alignment: when founders share the same values, the same roof and the same long-term vision, they move faster, decide better, and build something that lasts.",
+   "start": "2026-09-23T13:30:00+00:00",
+   "end": "2026-09-23T13:55:00.000Z",
+   "stage": "Demo Stage",
+   "track": "AI Foundations",
+   "type": "Demo",
+   "speakers": [
+    "Xavier Lombard"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#52f6e954-d966-4fd2-a74e-253d4cd64ab4"
+  },
+  {
+   "id": "726e1d0b",
+   "title": "Use Case 12 - Pigment x Uberall",
+   "description": "To be Announced...",
+   "start": "2026-09-23T13:30:00+00:00",
+   "end": "2026-09-23T13:55:00.000Z",
+   "stage": "Main Stage",
+   "track": "AI For Builders",
+   "type": "Use Case",
+   "speakers": [
+    "Anselme Vignon",
+    "Jose Ramon Iglesias"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#726e1d0b-78d6-4b00-a5de-b74f98056cd5"
+  },
+  {
+   "id": "4c541890",
+   "title": "Panel 18 — BlueTechPort and the Blue Economy Industry",
+   "description": "Barcelona is one of the Mediterranean's great ports and cruise hubs — and the water is going digital. AI in port logistics and terminal flow, predictive maintenance, autonomous and assisted vessels, ocean data, and the decarbonization push reshaping the blue economy. The operators moving real tonnage on what AI changes at the quay.",
+   "start": "2026-09-23T13:30:00+00:00",
+   "end": "2026-09-23T14:10:00.000Z",
+   "stage": "Panel Stage",
+   "track": "AI For Good",
+   "type": "Panel",
+   "speakers": [
+    "Ruben Hernandez",
+    "Pablo Bou",
+    "Cori Crider",
+    "Miquel de la Mano"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#4c541890-37cb-4dbf-9d70-0c5b9887473f"
+  },
+  {
+   "id": "5e240cd0",
+   "title": "Keynote 57 - JetBrains",
+   "description": "To be announced...",
+   "start": "2026-09-23T13:40:00+00:00",
+   "end": "2026-09-23T13:55:00.000Z",
+   "stage": "Auditorium Stage",
+   "track": "AI For Today",
+   "type": "Keynote",
+   "speakers": [],
+   "url": "https://aisummitbarcelona.com/schedule#5e240cd0-376c-4c9b-ba3d-f8287b1be35c"
+  },
+  {
+   "id": "beb752f1",
+   "title": "Debate 4 — The 2027 Crash: Is AI the New Dot-Com Bubble?",
+   "description": "$500 billion in AI capex this year alone. NVIDIA at a $4-trillion market cap. Startups raising $1 billion before product. And a chorus of investors, economists and former bulls now whispering the b-word. Is AI the most important infrastructure build of the century — worth every dollar — or the largest mispricing of risk since 1999, with the 2027 hangover already booked? The closing debate of AI Summit Barcelona puts a believer and a sceptic in the ring while the audience decides whether to ride the wave or run for cash.",
+   "start": "2026-09-23T14:00:00+00:00",
+   "end": "2026-09-23T14:55:00.000Z",
+   "stage": "Auditorium Stage",
+   "track": "AI For Growth",
+   "type": "Debate",
+   "speakers": [
+    "Damien Acheson",
+    "Oleg Chervonnyi",
+    "Patricia Pastor",
+    "Astghik Zakharyan",
+    "Jorge Blasco",
+    "Oriol Juncosa"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#beb752f1-984d-4c9e-8db9-d9e480128694"
+  },
+  {
+   "id": "6306f1cd",
+   "title": "Demo 29 - How AI Is Rebuilding Modern Sales Teams",
+   "description": "AI is not just a tool. It is changing how B2B sales teams are built and scaled.\n\nIn this session, I will show how companies use AI, automation, and AI agents to identify buying signals, define precise ICPs, automate outreach, and structure their CRM into a predictable sales engine.\n\nYou will learn how to let AI handle research, data, qualification, and workflows, while your team focuses on conversations, trust, and closing.\n\nThis is practical, system-driven, and based on real implementations.\n\nIf you want to grow your revenue and win more B2B clients without hiring a large sales team, this session is for you.",
+   "start": "2026-09-23T14:00:00+00:00",
+   "end": "2026-09-23T14:25:00.000Z",
+   "stage": "Demo Stage",
+   "track": "AI For Builders",
+   "type": "Demo",
+   "speakers": [
+    "Sami Ghozzi"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#6306f1cd-e755-4e2c-86db-95980fc250de"
+  },
+  {
+   "id": "9cd43d96",
+   "title": "Use Case 13 - Zurich",
+   "description": "",
+   "start": "2026-09-23T14:00:00+00:00",
+   "end": "2026-09-23T14:25:00.000Z",
+   "stage": "Main Stage",
+   "track": "AI For Tomorrow",
+   "type": "Use Case",
+   "speakers": [
+    "Jan-Philipp Tebbe",
+    "Javier Cuadra"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#9cd43d96-602c-4ba4-a390-48fa1a7f1db5"
+  },
+  {
+   "id": "ddcd6669",
+   "title": "Panel 19 - From BSC to Brussels: Europe's Supercomputing Bet on AI",
+   "description": "Frontier AI runs on supercomputers — and right now, Europe is on a building spree. The AI Factories initiative is wiring 13 supercomputers across the continent. Barcelona's MareNostrum 5 already sits in the global top tier. National centres are competing for GPUs, talent and political backing, on the bet that sovereign compute means sovereign AI. But does it? We bring together the people running Europe's biggest AI compute infrastructure, the policymakers funding the push, and the startups and researchers actually trying to use this hardware — to ask whether Europe is building real industrial capacity or expensive symbolism, who gets access, how it stacks up against the hyperscalers, and what the next five years of European AI infrastructure actually look like.",
+   "start": "2026-09-23T14:15:00+00:00",
+   "end": "2026-09-23T14:55:00.000Z",
+   "stage": "Panel Stage",
+   "track": "AI Foundations",
+   "type": "Panel",
+   "speakers": [
+    "Ziad Matar",
+    "Gerald Mullally",
+    "Milos Mastník",
+    "Diego Perino",
+    "Raphaëlle Achach"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#ddcd6669-81d7-4c0f-8da5-c682391a1099"
+  },
+  {
+   "id": "4a3bd51f",
+   "title": "Demo 30 - Deeptech",
+   "description": "To be announced...",
+   "start": "2026-09-23T14:30:00+00:00",
+   "end": "2026-09-23T14:55:00.000Z",
+   "stage": "Demo Stage",
+   "track": "AI For Tomorrow",
+   "type": "Demo",
+   "speakers": [
+    "Wolf Boone"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#4a3bd51f-e6a0-44b2-8a60-c03a429d33d3"
+  },
+  {
+   "id": "12631a90",
+   "title": "Use Case 14 - Conforama",
+   "description": "To be announced...",
+   "start": "2026-09-23T14:30:00+00:00",
+   "end": "2026-09-23T14:55:00.000Z",
+   "stage": "Main Stage",
+   "track": "AI For Today",
+   "type": "Use Case",
+   "speakers": [
+    "Xavier Papiol"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#12631a90-0b50-4579-8350-bb296f642adb"
+  },
+  {
+   "id": "ba419b0a",
+   "title": "Workshop 19",
+   "description": "",
+   "start": "2026-09-23T14:30:00+00:00",
+   "end": "2026-09-23T15:50:00.000Z",
+   "stage": "Workshop Room A",
+   "track": "AI For Good",
+   "type": "Workshop",
+   "speakers": [
+    "Rozina Sidhu"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#ba419b0a-a7a4-40f4-a113-8ac85dd58a77"
+  },
+  {
+   "id": "d7abc3a7",
+   "title": "Workshop 20 - AI & Education",
+   "description": "We will host a working workshop to do real world working examples of creating the data needed to build the intelligence behind frontier models.",
+   "start": "2026-09-23T14:30:00+00:00",
+   "end": "2026-09-23T15:50:00.000Z",
+   "stage": "Workshop Room B",
+   "track": "AI For Tomorrow",
+   "type": "Workshop",
+   "speakers": [
+    "Marcus Castro"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#d7abc3a7-245c-4b46-af2a-3c00b47848af"
+  },
+  {
+   "id": "f16eeb64",
+   "title": "Fireside 7 — How a Mortgage Broker Becomes an AI Company",
+   "description": "Mortgages are slow, document-heavy and heavily regulated — which makes them an obvious target for AI and a genuinely hard one.\n\nRicard Garriga, CEO of Trioteca, on where AI actually compresses the process today, where it structurally can't, and how much of the remaining friction is technology versus other institutions' procedures.\n\nAlso: what a pan-European product consistently gets wrong about the Spanish market.",
+   "start": "2026-09-23T15:00:00+00:00",
+   "end": "2026-09-23T15:15:00.000Z",
+   "stage": "Auditorium Stage",
+   "track": "AI For Today",
+   "type": "Fireside Chat",
+   "speakers": [
+    "Ricard Garriga",
+    "Josep Maria Ribes Bonet"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#f16eeb64-f7dc-4398-9140-421ab0207f57"
+  },
+  {
+   "id": "f4edb726",
+   "title": "Use Case 15",
+   "description": "",
+   "start": "2026-09-23T15:00:00+00:00",
+   "end": "2026-09-23T15:25:00.000Z",
+   "stage": "Main Stage",
+   "track": "AI For Tech",
+   "type": "Use Case",
+   "speakers": [
+    "Marcos Valera"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#f4edb726-528b-46e8-b34b-307c0366946f"
+  },
+  {
+   "id": "f58373fe",
+   "title": "Panel 20 - Fair, Explainable, Accountable: Building Responsible AI in Production",
+   "description": "Every company claims their AI is responsible — few can show the audit trail. Bias testing that catches real bias, explainability that survives a regulator's questions, and the governance structures that hold up when a customer, a journalist, or a lawsuit comes asking. Builders and compliance leads on what responsible AI looks like once it's not just a slide in the deck. 40 minutes.",
+   "start": "2026-09-23T15:00:00+00:00",
+   "end": "2026-09-23T15:40:00.000Z",
+   "stage": "Panel Stage",
+   "track": "AI For Good",
+   "type": "Panel",
+   "speakers": [
+    "Nathan Bonnet",
+    "Abiola Laseinde",
+    "Stephany Oliveros"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#f58373fe-d419-49ce-a3f5-bd7dd7fd5004"
+  },
+  {
+   "id": "59f84565",
+   "title": "Demo 32 - AI Visibility: How Buyers Find You Without Searching",
+   "description": "AI is changing how people discover and choose products. This panel breaks down how tools like ChatGPT, Perplexity, and Google AI Overviews decide what to recommend and how brands can actually show up there. Expect practical strategies around content, brand mentions, and distribution that drive pipeline.",
+   "start": "2026-09-23T15:30:00+00:00",
+   "end": "2026-09-23T15:55:00.000Z",
+   "stage": "Demo Stage",
+   "track": "AI For Builders",
+   "type": "Demo",
+   "speakers": [
+    "Tanya Van Gastel"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#59f84565-3bd5-46cb-99cb-2ddf6010fffa"
+  },
+  {
+   "id": "400870fc",
+   "title": "Use Case 16 - Beyond the bot ... what makes a voice agent worth talking to",
+   "description": "Most voice agents are built to be useful. Very few are built to be good to talk to. There's a difference and it matters more than we think.\nIn this talk, we map the spectrum of what AI voice conversations can actually be. I draw on three real experiments from my own world: a Second Brain agent designed to surface knowledge in a 10-minute walk, a Carl Jung-inspired philosophical companion built on ElevenLabs, exploring what depth and genuine curiosity feel like in a machine; and  a real-world onboarding case that tested what happens when voice agents meet high-stakes human moments. Together, these cases build a framework for thinking about conversation quality not just accuracy or speed, but presence, specificity, and the feeling that something actually understood you.",
+   "start": "2026-09-23T15:30:00+00:00",
+   "end": "2026-09-23T15:55:00.000Z",
+   "stage": "Main Stage",
+   "track": "AI For Today",
+   "type": "Use Case",
+   "speakers": [
+    "Anna Bohonek",
+    "Alan Záruba"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#400870fc-05ca-4ee3-bda5-4d6384bd7d5a"
+  },
+  {
+   "id": "52a76e66",
+   "title": "Fireside 10 - Barcelona: A Place Where Innovation Flourishes",
+   "description": "Barcelona is not just a city — it is a European innovation hub with a strategy. The BlueTechPort brings together the city's Blue Economy ambitions, startup energy, and institutional backing into one living ecosystem. Two of its architects explain how Barcelona's innovation identity is being built, why the harbour is at its centre, and what it means for companies looking to grow here.",
+   "start": "2026-09-23T16:00:00+00:00",
+   "end": "2026-09-23T16:15:00.000Z",
+   "stage": "Auditorium Stage",
+   "track": "AI For Good",
+   "type": "Fireside Chat",
+   "speakers": [
+    "Emma Cobos",
+    "Miquel Rodríguez Planas"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#52a76e66-151b-4ddc-ba47-33a905fff4ce"
+  }
+ ]
+}

@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Summit Barcelona 2026: build your agenda</title>
+<meta name="description" content="Pick sessions from the AI Summit Barcelona 2026 programme, see what overlaps, export to your calendar.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#F4F7F9; --card:#FFFFFF; --ink:#12263A; --muted:#5B6B7A; --line:#D6DEE5;
+  --sea:#0B7A75; --sea-soft:#DDF1EF; --ochre:#B7791F; --ochre-soft:#FBF1DC;
+}
+*{box-sizing:border-box}
+html{font-family:"Bricolage Grotesque",system-ui,sans-serif;color:var(--ink);background:var(--bg)}
+body{margin:0;line-height:1.45}
+a{color:var(--sea)}
+header{padding:32px 20px 12px;max-width:1240px;margin:0 auto}
+h1{font-size:clamp(28px,5vw,44px);font-weight:600;letter-spacing:-.02em;line-height:1.05;margin:0 0 8px}
+header p{margin:0;color:var(--muted);max-width:60ch}
+.bar{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line);padding:10px 20px}
+.bar .in{max-width:1240px;margin:0 auto;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.days{display:flex;gap:4px;margin-right:8px}
+.days button{border:1px solid var(--line);background:var(--card);padding:8px 14px;border-radius:999px;font:inherit;font-weight:500;cursor:pointer;color:var(--ink)}
+.days button[aria-pressed=true]{background:var(--ink);color:#fff;border-color:var(--ink)}
+select,input[type=search]{font:inherit;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);min-height:38px}
+input[type=search]{flex:1;min-width:160px}
+label.toggle{display:flex;align-items:center;gap:6px;color:var(--muted);cursor:pointer;white-space:nowrap}
+main{max-width:1240px;margin:0 auto;padding:8px 20px 120px}
+.row{display:grid;grid-template-columns:64px 1fr;gap:12px;padding:14px 0;border-bottom:1px solid var(--line)}
+.row time{font-weight:600;font-variant-numeric:tabular-nums;padding-top:12px}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:10px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px;cursor:pointer;position:relative;transition:opacity .15s}
+.card:focus-within,.card:hover{border-color:var(--ink)}
+.card.on{border-color:var(--sea);background:var(--sea-soft);box-shadow:inset 3px 0 0 var(--sea)}
+.row.has-pick .card:not(.on){opacity:.45}
+.row.has-pick .card:not(.on):hover{opacity:1}
+.meta{font-size:13px;color:var(--muted);display:flex;gap:8px;flex-wrap:wrap;margin-bottom:4px}
+.meta .stage{color:var(--ink)}
+.card h3{font-size:16px;font-weight:600;line-height:1.25;margin:0 0 4px;letter-spacing:-.01em}
+.who{font-size:13px;color:var(--muted)}
+.pick{position:absolute;top:10px;right:10px;width:18px;height:18px;margin:0;accent-color:var(--sea)}
+.clash{margin-top:8px;font-size:13px;color:var(--ochre);background:var(--ochre-soft);border-radius:6px;padding:4px 8px}
+details{margin-top:6px;font-size:14px}
+summary{color:var(--sea);cursor:pointer;list-style:none;width:max-content}
+summary::-webkit-details-marker{display:none}
+details p{margin:6px 0 0;color:var(--ink);white-space:pre-line}
+.empty{padding:40px 0;color:var(--muted)}
+footer.dock{position:fixed;left:0;right:0;bottom:0;background:var(--ink);color:#fff;padding:12px 20px;z-index:6}
+footer.dock .in{max-width:1240px;margin:0 auto;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+footer.dock .n{font-weight:600;margin-right:auto}
+footer.dock button{font:inherit;font-weight:500;padding:9px 14px;border-radius:8px;border:1px solid rgba(255,255,255,.35);background:transparent;color:#fff;cursor:pointer}
+footer.dock button.primary{background:#fff;color:var(--ink);border-color:#fff}
+footer.dock button:disabled{opacity:.4;cursor:default}
+.credit{font-size:13px;color:var(--muted);padding:24px 0 0}
+:focus-visible{outline:2px solid var(--sea);outline-offset:2px}
+@media (max-width:600px){
+  header{padding:20px 14px 8px}
+  .bar,main{padding-left:14px;padding-right:14px}
+  .row{grid-template-columns:1fr;gap:6px}
+  .row time{padding-top:0}
+}
+@media (prefers-reduced-motion:reduce){.card{transition:none}}
+</style>
+</head>
+<body>
+<header>
+  <h1>AI Summit Barcelona 2026: build your agenda</h1>
+  <p>Two days, six stages, 140 sessions. Tick what you want to attend. Sessions in the same row start at the same time, so a pick greys out what you give up. Export the result to your calendar or share it as a link.</p>
+</header>
+
+<div class="bar"><div class="in">
+  <div class="days" id="days"></div>
+  <select id="stage"><option value="">All stages</option></select>
+  <select id="track"><option value="">All tracks</option></select>
+  <select id="type"><option value="">All formats</option></select>
+  <input type="search" id="q" placeholder="Search title, speaker, topic">
+  <label class="toggle"><input type="checkbox" id="mine"> Only my picks</label>
+</div></div>
+
+<main id="main"><div class="empty">Loading the programme…</div></main>
+
+<footer class="dock"><div class="in">
+  <span class="n" id="count">0 sessions picked</span>
+  <button id="share">Copy link</button>
+  <button id="clear">Clear</button>
+  <button id="ics" class="primary">Export .ics</button>
+</div></footer>
+
+<script>
+const TZ = 'Europe/Madrid';
+const state = { day: '2026-09-22', stage: '', track: '', type: '', q: '', mine: false, picks: new Set() };
+let S = [];
+
+const fmt = new Intl.DateTimeFormat('en-GB', { hour: '2-digit', minute: '2-digit', timeZone: TZ });
+const dayFmt = new Intl.DateTimeFormat('en-GB', { weekday: 'short', day: 'numeric', month: 'short', timeZone: TZ });
+const hhmm = iso => fmt.format(new Date(iso));
+const dayOf = iso => new Date(iso).toLocaleDateString('en-CA', { timeZone: TZ });
+const mins = iso => Math.round(new Date(iso) / 60000);
+const overlap = (a, b) => a.id !== b.id && mins(a.start) < mins(b.end) && mins(b.start) < mins(a.end);
+const esc = s => s.replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+
+function loadPicks() {
+  const h = new URLSearchParams(location.hash.slice(1)).get('s');
+  const src = h ? h.split(',') : JSON.parse(localStorage.getItem('picks') || '[]');
+  state.picks = new Set(src.filter(Boolean));
+}
+function savePicks() {
+  const ids = [...state.picks];
+  localStorage.setItem('picks', JSON.stringify(ids));
+  history.replaceState(null, '', ids.length ? '#s=' + ids.join(',') : location.pathname);
+}
+
+function fillSelect(id, values) {
+  const el = document.getElementById(id);
+  [...new Set(values)].filter(Boolean).sort().forEach(v => el.add(new Option(v, v)));
+  el.onchange = () => { state[id] = el.value; render(); };
+}
+
+function render() {
+  const picked = S.filter(s => state.picks.has(s.id));
+  const q = state.q.toLowerCase();
+  const shown = S.filter(s => dayOf(s.start) === state.day
+    && (!state.stage || s.stage === state.stage)
+    && (!state.track || s.track === state.track)
+    && (!state.type || s.type === state.type)
+    && (!state.mine || state.picks.has(s.id))
+    && (!q || (s.title + ' ' + s.speakers.join(' ') + ' ' + s.description).toLowerCase().includes(q)));
+
+  const rows = new Map();
+  shown.forEach(s => { const k = hhmm(s.start); (rows.get(k) || rows.set(k, []).get(k)).push(s); });
+
+  const main = document.getElementById('main');
+  if (!rows.size) { main.innerHTML = '<div class="empty">Nothing matches these filters. Loosen one of them.</div>'; return; }
+  main.innerHTML = [...rows].map(([t, list]) => {
+    const has = list.some(s => state.picks.has(s.id));
+    return `<section class="row${has ? ' has-pick' : ''}"><time>${t}</time><div class="cards">${list.map(s => card(s, picked)).join('')}</div></section>`;
+  }).join('') + `<p class="credit">Programme data from <a href="https://aisummitbarcelona.com/schedule">aisummitbarcelona.com</a>. Times are Barcelona local. Unofficial tool, not affiliated with the organisers. Source on <a href="https://github.com/fernandocucci/aisummit-agenda">GitHub</a>.</p>`;
+
+  document.getElementById('count').textContent = `${picked.length} session${picked.length === 1 ? '' : 's'} picked`;
+  document.getElementById('ics').disabled = document.getElementById('share').disabled = !picked.length;
+}
+
+function card(s, picked) {
+  const on = state.picks.has(s.id);
+  const clash = on ? picked.filter(p => overlap(p, s)) : [];
+  const dur = (mins(s.end) - mins(s.start));
+  return `<article class="card${on ? ' on' : ''}" data-id="${s.id}">
+    <input type="checkbox" class="pick" aria-label="Pick ${esc(s.title)}" ${on ? 'checked' : ''}>
+    <div class="meta"><span>${s.type}</span><span class="stage">${s.stage}</span><span>${dur} min</span>${s.track ? `<span>${s.track}</span>` : ''}</div>
+    <h3>${esc(s.title)}</h3>
+    ${s.speakers.length ? `<div class="who">${esc(s.speakers.join(', '))}</div>` : ''}
+    ${clash.length ? `<div class="clash">Overlaps with ${clash.map(c => esc(c.title.replace(/^[^-]+ - /, ''))).join('; ')}</div>` : ''}
+    ${s.description ? `<details><summary>Details</summary><p>${esc(s.description)}</p></details>` : ''}
+  </article>`;
+}
+
+function toggle(id) {
+  state.picks.has(id) ? state.picks.delete(id) : state.picks.add(id);
+  savePicks(); render();
+}
+
+function ics() {
+  const stamp = d => new Date(d).toISOString().replace(/[-:]/g, '').replace(/\.\d{3}/, '');
+  const clean = t => t.replace(/[\;,]/g, m => '\\' + m).replace(/\n/g, '\\n');
+  const ev = S.filter(s => state.picks.has(s.id)).map(s => [
+    'BEGIN:VEVENT', `UID:${s.id}@aisummit-agenda`, `DTSTAMP:${stamp(Date.now())}`,
+    `DTSTART:${stamp(s.start)}`, `DTEND:${stamp(s.end)}`,
+    `SUMMARY:${clean(s.title)}`, `LOCATION:${clean(s.stage + ', WTC Barcelona')}`,
+    `DESCRIPTION:${clean((s.speakers.join(', ') + '\n\n' + s.description).trim())}`,
+    `URL:${s.url}`, 'END:VEVENT'].join('\r\n'));
+  const body = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//aisummit-agenda//EN', ...ev, 'END:VCALENDAR'].join('\r\n');
+  const a = Object.assign(document.createElement('a'), { href: URL.createObjectURL(new Blob([body], { type: 'text/calendar' })), download: 'ai-summit-barcelona-2026.ics' });
+  a.click(); URL.revokeObjectURL(a.href);
+}
+
+document.getElementById('main').addEventListener('click', e => {
+  if (e.target.closest('details, a')) return;
+  const c = e.target.closest('.card'); if (c) toggle(c.dataset.id);
+});
+document.getElementById('main').addEventListener('keydown', e => {
+  if (e.key === ' ' && e.target.classList.contains('card')) { e.preventDefault(); toggle(e.target.dataset.id); }
+});
+document.getElementById('q').oninput = e => { state.q = e.target.value; render(); };
+document.getElementById('mine').onchange = e => { state.mine = e.target.checked; render(); };
+document.getElementById('clear').onclick = () => { state.picks.clear(); savePicks(); render(); };
+document.getElementById('ics').onclick = ics;
+document.getElementById('share').onclick = async () => {
+  await navigator.clipboard.writeText(location.href);
+  const b = document.getElementById('share'); b.textContent = 'Link copied'; setTimeout(() => b.textContent = 'Copy link', 1500);
+};
+
+fetch('sessions.json').then(r => r.json()).then(d => {
+  S = d.sessions;
+  loadPicks();
+  const days = document.getElementById('days');
+  [...new Set(S.map(s => dayOf(s.start)))].sort().forEach(day => {
+    const b = document.createElement('button');
+    b.textContent = dayFmt.format(new Date(day + 'T12:00:00Z'));
+    b.setAttribute('aria-pressed', day === state.day);
+    b.onclick = () => { state.day = day; [...days.children].forEach(x => x.setAttribute('aria-pressed', x === b)); render(); };
+    days.append(b);
+  });
+  fillSelect('stage', S.map(s => s.stage));
+  fillSelect('track', S.map(s => s.track));
+  fillSelect('type', S.map(s => s.type));
+  render();
+});
+</script>
+</body>
+</html>
