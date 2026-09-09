@@ -27,7 +27,8 @@
    "speakers": [
     "Barbara Cresti",
     "Juan Reyes",
-    "Steve Hines"
+    "Steve Hines",
+    "Carmen Herrero"
    ],
    "url": "https://aisummitbarcelona.com/schedule#0111a87d-469b-4fe9-b0e6-3327e2aa9b74"
   },
@@ -55,6 +56,7 @@
    "track": "AI Foundations",
    "type": "Workshop",
    "speakers": [
+    "Nuno Silva",
     "Albert Franquesa"
    ],
    "url": "https://aisummitbarcelona.com/schedule#cbcdab71-6d5e-4f59-85d6-eb58c80a5082"
@@ -103,7 +105,7 @@
   },
   {
    "id": "6e155c8d",
-   "title": "Fireside Chat with Blackrock",
+   "title": "Fireside Chat with BlackRock",
    "description": "",
    "start": "2026-09-22T08:40:00+00:00",
    "end": "2026-09-22T08:55:00.000Z",
@@ -111,7 +113,8 @@
    "track": "AI For Growth",
    "type": "Fireside Chat",
    "speakers": [
-    "Martin C. Syms"
+    "Martin C. Syms",
+    "Cathy White"
    ],
    "url": "https://aisummitbarcelona.com/schedule#6e155c8d-43e0-4a10-90bc-4e2bff86e78e"
   },
@@ -142,9 +145,7 @@
    "stage": "Auditorium Stage",
    "track": "AI For Growth",
    "type": "Keynote",
-   "speakers": [
-    "Lucas Sala"
-   ],
+   "speakers": [],
    "url": "https://aisummitbarcelona.com/schedule#52b07301-169b-46bf-9bc3-216e459ba2be"
   },
   {
@@ -391,22 +392,10 @@
    "stage": "Auditorium Stage",
    "track": "AI For Builders",
    "type": "Keynote",
-   "speakers": [],
-   "url": "https://aisummitbarcelona.com/schedule#acdd0498-8b38-47d7-bd36-357bab4e36b4"
-  },
-  {
-   "id": "2bbc6688",
-   "title": "Demo 7 - Open Models & Fine-tuning",
-   "description": "To be announced...",
-   "start": "2026-09-22T11:00:00+00:00",
-   "end": "2026-09-22T11:25:00.000Z",
-   "stage": "Demo Stage",
-   "track": "AI For Tech",
-   "type": "Demo",
    "speakers": [
-    "Etienne Dilocker"
+    "Sadek Drobi"
    ],
-   "url": "https://aisummitbarcelona.com/schedule#2bbc6688-109f-40bf-bcf7-6d933c4850c6"
+   "url": "https://aisummitbarcelona.com/schedule#acdd0498-8b38-47d7-bd36-357bab4e36b4"
   },
   {
    "id": "631ecb05",
@@ -591,7 +580,9 @@
    "type": "Panel",
    "speakers": [
     "Arno Strotgen",
-    "Carl Strathearn"
+    "Carl Strathearn",
+    "Gabriel Mesquida Masana",
+    "Carina Kaeser"
    ],
    "url": "https://aisummitbarcelona.com/schedule#262458f6-3b81-4f31-8b24-740587d408a4"
   },
@@ -692,7 +683,9 @@
    "stage": "Demo Stage",
    "track": "AI For Today",
    "type": "Demo",
-   "speakers": [],
+   "speakers": [
+    "Rory O'Driscoll"
+   ],
    "url": "https://aisummitbarcelona.com/schedule#92e4da2e-13ea-4eb6-b5a7-eac921d55d14"
   },
   {
@@ -705,7 +698,8 @@
    "track": "AI For Tech",
    "type": "Use Case",
    "speakers": [
-    "Miguel Arroja"
+    "Miguel Arroja",
+    "Terrell Sheridan"
    ],
    "url": "https://aisummitbarcelona.com/schedule#e89300c0-8cdb-45df-b90c-bdc2eda5e295"
   },
@@ -794,7 +788,10 @@
     "Magda Kufrej",
     "Anna Thomas",
     "Anna Via",
-    "Isabella Loaiza"
+    "Isabella Loaiza",
+    "Larissa Dorothea Murmann",
+    "Javier Rayón",
+    "Alfonso Bustos"
    ],
    "url": "https://aisummitbarcelona.com/schedule#5f820c9a-ac20-4180-93de-0a1b06235f76"
   },
@@ -930,7 +927,8 @@
    "track": "AI For Today",
    "type": "Fireside Chat",
    "speakers": [
-    "Sophie Cornay"
+    "Sophie Cornay",
+    "Mike Butcher"
    ],
    "url": "https://aisummitbarcelona.com/schedule#11c85b3b-d041-4259-aa46-8c3ff80f7258"
   },
@@ -958,7 +956,8 @@
    "track": "AI For Growth",
    "type": "Fireside Chat",
    "speakers": [
-    "Tim Beck"
+    "Tim Beck",
+    "Henrik Beckmann"
    ],
    "url": "https://aisummitbarcelona.com/schedule#8ccfd44f-1daf-4364-8089-f00a6ff60067"
   },
@@ -992,6 +991,23 @@
    "url": "https://aisummitbarcelona.com/schedule#a30bc8f6-5394-4ee8-a9eb-a16ca495fc71"
   },
   {
+   "id": "a61fe9c3",
+   "title": "Closing D1: El Ecosistema de IA de Cataluña: Cooperación, Talento y Soluciones de Valor Real",
+   "description": "La Digital Catalonia Alliance (DCA), una iniciativa de la Generalitat de Catalunya impulsada por el Centro de Investigación e Innovación i2CAT, reúne a más de 800 empresas de tecnología digital avanzada. En esta ocasión, empresas innovadoras de la comunidad DCA-IA hablarán sobre cómo impulsar un ecosistema de Inteligencia Artificial dinámico, competitivo e interconectado.\n\nLa sesión profundizará en casos de uso reales, proyectos piloto y la visión estratégica del sector en Cataluña, destacando el talento y la capacidad del ecosistema local para liderar la tecnología del futuro y mostrando cómo la colaboración local y la diversidad de capacidades permiten abordar retos complejos con agilidad y excelencia.",
+   "start": "2026-09-22T16:00:00+00:00",
+   "end": "2026-09-22T16:40:00.000Z",
+   "stage": "Panel Stage",
+   "track": "AI For Growth",
+   "type": "Panel",
+   "speakers": [
+    "Tetiana Klymchuk",
+    "Carlos Varea",
+    "Martí Norberto",
+    "José María Felguera Garrido"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#a61fe9c3-c6bc-49df-a6e2-34eebeb54761"
+  },
+  {
    "id": "f6b006ca",
    "title": "Keynote 29 - Beyond the AI Noise: Creating Content People Can’t Ignore",
    "description": "In a world where anyone can generate content in seconds, standing out has never been harder - or more valuable. In this talk, Tycho Luijten, founder and CEO of Dapper, shares how brands can create content that cuts through the AI-generated noise: work that's distinctive, human, and impossible to ignore.",
@@ -1004,20 +1020,6 @@
     "Tycho Luijten"
    ],
    "url": "https://aisummitbarcelona.com/schedule#f6b006ca-2572-4371-a5bd-830829feaedc"
-  },
-  {
-   "id": "38649f9d",
-   "title": "Closing Day 1",
-   "description": "",
-   "start": "2026-09-22T17:00:00+00:00",
-   "end": "2026-09-22T17:20:00.000Z",
-   "stage": "Main Stage",
-   "track": "",
-   "type": "Panel",
-   "speakers": [
-    "Adam Hruska"
-   ],
-   "url": "https://aisummitbarcelona.com/schedule#38649f9d-e16c-43c3-8003-ce4160edffb7"
   },
   {
    "id": "9e9580e2",
@@ -1172,7 +1174,8 @@
    "speakers": [
     "Ariadna Maso",
     "Vlad Lupenko",
-    "Oliver Patel"
+    "Antoine Pivron",
+    "Alejandro Turpin"
    ],
    "url": "https://aisummitbarcelona.com/schedule#94a7c242-6949-4c6a-8027-7752cd3a5ee0"
   },
@@ -1799,7 +1802,7 @@
   {
    "id": "4c541890",
    "title": "Panel 18 — BlueTechPort and the Blue Economy Industry",
-   "description": "Barcelona is one of the Mediterranean's great ports and cruise hubs — and the water is going digital. AI in port logistics and terminal flow, predictive maintenance, autonomous and assisted vessels, ocean data, and the decarbonization push reshaping the blue economy. The operators moving real tonnage on what AI changes at the quay.",
+   "description": "AI needs more than algorithms and computing power. It depends on physical infrastructure — energy, water, data centres and connectivity — but also on governance infrastructure: regulation, institutions, trust and the right market incentives. In the blue economy, where innovation must go hand in hand with environmental sustainability and human well-being, responsible AI is not an aspiration but a condition. Bringing together research, industry and governance, this BlueTechPort panel explores how we can build the conditions for AI to innovate, scale and create long-term public value",
    "start": "2026-09-23T13:30:00+00:00",
    "end": "2026-09-23T14:10:00.000Z",
    "stage": "Panel Stage",
@@ -1986,9 +1989,10 @@
    "track": "AI For Good",
    "type": "Panel",
    "speakers": [
+    "Stephany Oliveros",
     "Nathan Bonnet",
     "Abiola Laseinde",
-    "Stephany Oliveros"
+    "Alex Tsankov"
    ],
    "url": "https://aisummitbarcelona.com/schedule#f58373fe-d419-49ce-a3f5-bd7dd7fd5004"
   },
@@ -2041,12 +2045,15 @@
   "Barbara Cresti": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/89-1782987742217.jpg",
   "Juan Reyes": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/10-1782491994841.jpg",
   "Steve Hines": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/steve-hines-1783688986923.jpg",
+  "Carmen Herrero": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/carmen-herrero-1788873305229-0.png",
   "Nouamane Tazi": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/11-1782492013038.jpg",
   "Pablo Vargas": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/154-1783359660595.jpg",
+  "Nuno Silva": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/nuno-silva-1788874180955-0.png",
   "Albert Franquesa": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/albert-franquesa-1787132833100-7.jpg",
   "Luc JULIA": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/27-1782897781550.jpg",
   "Alexandre Gol i Mestre": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/107-1783696895508-0.jpg",
   "Martin C. Syms": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/martin-c--syms-1787850316658-0.jpg",
+  "Cathy White": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/cathy-white-1788273937596-0.png",
   "Florian Kunzke": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/8-1782491951645.jpg",
   "Zakaria Mansour": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/49-1782900318162.jpg",
   "Malgorzata Luszkiewicz": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/speaker-background-malgorzata-1783418697042.jpg",
@@ -2054,7 +2061,6 @@
   "Laura Tejada": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/laura-tejada-1787158348442-0.jpg",
   "Pablo Rodriguez": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/pablo-rodrigues2-0--1787931110847-0.png",
   "Aleksandr Ostapenko": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/91-1782987805866.jpg",
-  "Lucas Sala": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/team-photos-1786704796257-0.png",
   "Nicky Verd": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/25-1782897716383.jpg",
   "Philippe Sigal": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/118-1782996064124.jpg",
   "Laura Gilbert": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/23-1782897562335.jpg",
@@ -2075,11 +2081,11 @@
   "Simon Bosch": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/simon-bosch--1--1787845542125-0.png",
   "Danica Smith": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/danica-smith-1788001952361-4.jpg",
   "Joan Salvatella": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/110-1782995752379.jpg",
-  "Jon Thomas": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/jon-thomas-1788002532138-0.jpg",
+  "Jon Thomas": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/1-1788855331175-0.jpg",
   "Gonzalo Lopez Tarasido": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/gonzalo-lopez-attou-1788373170117-0.png",
   "Jordina Torrents Barrena": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/4-1782491852160.jpg",
   "Howard Wright": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/howard-wright-1783331949566.jpg",
-  "Etienne Dilocker": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/51-1782900376086.jpg",
+  "Sadek Drobi": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/sadek-drobi-1788355790643-0.jpg",
   "Darrell Etherington": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/46-1782900207076.jpg",
   "Carla Carvajal": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/carla-carvajal-1787132834041-10.jpg",
   "Seena Amidi": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/seena-amidi-1788356335766-0.jpg",
@@ -2092,10 +2098,12 @@
   "Roberta Scrofani": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/126-1782996341476.jpg",
   "Tyler Foster": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/tyler-foster-1784823754912-0.jpg",
   "Matteo Ruffini": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/matteo-ruffini-1786034212614-0.jpg",
-  "Arno Strotgen": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/arno-strotgen-1788439675539-0.png",
-  "Carl Strathearn": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/69-1782910838321.jpg",
   "Alex Shershebnev": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/109-1782995722205.jpg",
   "Mahe Bayireddi": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/42-1784284349982-0.jpg",
+  "Arno Strotgen": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/arno-strotgen-1788439675539-0.png",
+  "Carl Strathearn": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/69-1782910838321.jpg",
+  "Gabriel Mesquida Masana": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/-gabriel-mesquida-masana-1788782280786-0.png",
+  "Carina Kaeser": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/carina-kaeser--1--1788799437528-0.png",
   "Rodrigo Aramayo": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/rodrigo-aramayo-1783358494473.jpg",
   "Kevin Kahn": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/45-1782900177368.jpg",
   "Jeff Gothelf": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/34-1782898157433.jpg",
@@ -2107,9 +2115,11 @@
   "Marvyn Halfon": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/maryvn-halfon-1788442516558-0.png",
   "Shayamal Vallabhjee": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/shayamal-villabahmebje-1783690901234-0.jpg",
   "Ghazaleh Samandari": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/ghazaleh-samandari-1786195068301-16.jpg",
-  "Miguel Arroja": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/miguel-arroja-1786195062065-1.jpg",
+  "Rory O'Driscoll": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/rory-o-driscoll-1787132834875-12.jpg",
   "Sam Jacobs": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/24-1782897670391.jpg",
   "Sacha Morard": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/84-1782987566239.jpg",
+  "Miguel Arroja": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/miguel-arroja-1786195062065-1.jpg",
+  "Terrell Sheridan": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/terrell-sheridan-1788886138147-0.png",
   "Daniel Traça": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/37-1782898266615.jpg",
   "Bhavishya Ramchander": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/67-1782910772960.jpg",
   "Maxim Khalilov": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/maxim-khalilov-1783697722104-0.jpg",
@@ -2137,12 +2147,17 @@
   "Alexandre Saiz": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/alex-saiz-1783696275325-0.jpg",
   "Olga Sargsyan": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/olga-1787234879781-0.jpg",
   "Sophie Cornay": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/sophie-coirnay-1786019177388-0.jpg",
+  "Mike Butcher": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/mike-butcher-1788878016649-0.jpg",
   "Dr. Martin Ignatovski": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/100-1782988070085.jpg",
   "Tim Beck": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/tim-beck-1784301965765-0.jpg",
+  "Henrik Beckmann": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/henrik-beckmann-1788873014275-0.png",
   "Artavazd Mehrabyan": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/17-1782492138342.jpg",
+  "Tetiana Klymchuk": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/tetiana-klymchuk-1788356480337-0.jpg",
+  "Carlos Varea": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/carlos-varea-filella-1788886842765-0.jpg",
+  "Martí Norberto": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/marti--norberto-1788886815445-0.jpg",
+  "José María Felguera Garrido": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/jose-m--felguera-garrido-1788886757680-0.jpg",
   "Oleg Kovpak": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/oleg-kovpak-1786195071906-25.jpg",
   "Tycho Luijten": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/tycho-luijten-1787157213889-0.jpg",
-  "Adam Hruska": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/adam-hruska-1784277072111-0.jpeg",
   "Martin LeBlanc": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/70-1782910867575.jpg",
   "Greg Kozakiewicz": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/20-1782491979963.jpg",
   "Edouard Getaz": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/71-1782910897960.jpg",
@@ -2157,7 +2172,7 @@
   "Ferdi Alici": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/97-1782987987998.jpg",
   "Ariadna Maso": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/76-1782911073656.jpg",
   "Vlad Lupenko": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/vladimir-lupenko-1787159673326-0.jpg",
-  "Oliver Patel": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/oliver-patel-1783689836095-0.jpg",
+  "Antoine Pivron": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/photo-1788256722036-0.png",
   "Constance Nevoret": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/constance-nevoret-1784796971086-0.jpg",
   "Nensi Hakobjanyan": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/52-1782900412502.jpg",
   "Nolwen Attou": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/nolwen-attou-1788364112714-0.jpg",
@@ -2220,13 +2235,13 @@
   "Pablo Bou": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/pablo-bou-1788173623712-2.jpg",
   "Cori Crider": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/cori-crider-1788173623711-1.jpg",
   "Miquel de la Mano": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/miquel-de-la-mano-1788173623703-0.jpg",
-  "Oleg Chervonnyi": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/83-1782987533281.jpg",
-  "Patricia Pastor": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/94-1782987891064.jpg",
-  "Astghik Zakharyan": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/111-1782995784290.jpg",
   "Sami Ghozzi": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/74-1782910994064.jpg",
   "Jan-Philipp Tebbe": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/img-20190912-154003-2-1788346891302-0.jpg",
   "Javier Cuadra": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/javier-cuadra-alconero-1788508971134-0.jpg",
-  "Ziad Matar": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/ziad-matar-bio-pic-1788463103159-0.jpg",
+  "Oleg Chervonnyi": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/83-1782987533281.jpg",
+  "Patricia Pastor": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/94-1782987891064.jpg",
+  "Astghik Zakharyan": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/111-1782995784290.jpg",
+  "Ziad Matar": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/ziad-matar-1788446228953-0.png",
   "Gerald Mullally": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/36-1782898222590.jpg",
   "Milos Mastník": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/147-1783356787951.jpg",
   "Diego Perino": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/diego-perino-1786195069706-19.jpg",
@@ -2234,9 +2249,10 @@
   "Wolf Boone": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/16-1782492122036.jpg",
   "Xavier Papiol": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/32-1782898086308.jpg",
   "Rozina Sidhu": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/rozina-sidhu-1786195067132-12.jpg",
+  "Stephany Oliveros": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/155-1783360169506.jpg",
   "Nathan Bonnet": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/75-1782911043050.jpg",
   "Abiola Laseinde": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/148-1783356895582.jpg",
-  "Stephany Oliveros": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/155-1783360169506.jpg",
+  "Alex Tsankov": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/131-1783324300224.jpg",
   "Ricard Garriga": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/61-1782910582620.jpg",
   "Josep Maria Ribes Bonet": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/josep-maria--1--1788358115515-0.png",
   "Marcos Valera": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/19-1782492074797.jpg",
