@@ -2,18 +2,61 @@
  "source": "https://aisummitbarcelona.com/schedule",
  "sessions": [
   {
+   "id": "a17f33b8",
+   "title": "Opening Session - Catalunya 2030: A €1 Billion Bet on AI",
+   "description": "In this session, Albert Tort, Secretary of Telecommunications and Digital Transformation of the Generalitat de Catalunya, and Maria Galindo, Secretary for Digital Policies of the Government of Catalonia, will explain Catalunya's plan to invest €1 billion in artificial intelligence by 2030 — and what it means for everyone building AI from Barcelona. They will break down where the money goes first: sovereign public cloud, chip and supercomputing infrastructure, AI talent programs, and a public administration rebuilt around AI. Expect a concrete view of how startups, enterprises and researchers can plug into the strategy — and why Catalunya intends to become the place where European AI gets built.",
+   "start": "2026-09-22T07:30:00+00:00",
+   "end": "2026-09-22T07:50:00.000Z",
+   "stage": "Main Stage",
+   "track": "AI For Tomorrow",
+   "type": "Keynote",
+   "speakers": [
+    "Albert Tort Pugibet",
+    "Maria Galindo Garcia-Delgado"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#a17f33b8-9870-4019-86b2-4fceba5904d6"
+  },
+  {
+   "id": "5f305ccd",
+   "title": "Keynote 2 - The Hidden Blockers to Autonomous Operations",
+   "description": "Autonomous AI agents promise to revolutionize enterprise operations, moving beyond simple chat interfaces to execute complex, multi-step business workflows. Yet, despite massive investments in state-of-the-art LLMs, most enterprise agent pilots hit a hard wall when deployed into real-world operational environments. They loop endlessly, act on stale batch data, bypass security controls, or trigger cascade failures across critical backend systems.\n\nThe problem isn't the intelligence of the model; it's the fragmentation of the underlying enterprise architecture.\n\nIn this session, Avinash Jha explores why autonomous agents collapse without a Unified Information Fabric. Drawing from real-world enterprise failure modes, this talk breaks down the critical infrastructure gaps, from legacy API boundaries to unmonitored tool execution and presents a pragmatic blueprint for bridging AI reasoning with enterprise execution.\n\nKey Takeaways:\n\nThe Enterprise Integration Gap: Why traditional, deterministic API gateways fail when handling non-deterministic, agentic execution loops and dynamic prompt streams.\n\nThe Three-Tier Gateway Topology: How to complement existing API Gateways with AI/LLM Gateways (for model routing, streaming, and token cost controls) and MCP Gateways (for agent tool discovery, runtime context, and kill-switch governance).\n\nZero-Trust Identity for Agents: How to replace high-privilege service accounts with task-scoped, short-lived cryptographic tokens to prevent runaway agent actions.\n\nThe Unified Fabric Blueprint: A step-by-step architectural framework to connect real-time event streams, model context protocols, and legacy systems of record into a resilient foundation for autonomous operations.",
+   "start": "2026-09-22T08:00:00+00:00",
+   "end": "2026-09-22T08:15:00.000Z",
+   "stage": "Auditorium Stage",
+   "track": "AI For Builders",
+   "type": "Keynote",
+   "speakers": [
+    "Avinash Jha"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#5f305ccd-64b0-479b-bb83-9442bfc8e176"
+  },
+  {
    "id": "e7489ade",
-   "title": "Demo 1 - The Trillion-Dollar Moat Isn’t the Model",
-   "description": "As AI models become increasingly capable, accessible, and interchangeable, competitive advantage is shifting from the model itself to the harness around it: context, tools, workflows, infrastructure, and feedback loops. This talk explores why that shift challenges trillion-dollar AI valuations and how Replit’s free mode and harness turn commodity intelligence into reliable, end-to-end software creation.",
+   "title": "Demo 1 - Forward Deployment at OpenAI",
+   "description": "A look inside a Forward Deployed Engineering project building a tax AI system, where production traces become evaluations and coding agents turn observed failures into tested improvements.",
    "start": "2026-09-22T08:00:00+00:00",
    "end": "2026-09-22T08:25:00.000Z",
    "stage": "Demo Stage",
    "track": "AI For Builders",
    "type": "Demo",
    "speakers": [
-    "Pablo Vargas"
+    "Ilyass El Mansouri"
    ],
    "url": "https://aisummitbarcelona.com/schedule#e7489ade-def9-4ae2-a57a-4fc5d5ebeb2e"
+  },
+  {
+   "id": "b58634d8",
+   "title": "Keynote 1 - Hacking and Cybersecurity in the age of AI",
+   "description": "AI has changed dramatically many areas. Cybersecurity is one of them. Searching, exploiting and patching vulns or managing cybersecurity is completely related to AI, but at the same time AI Digital Services and Agentic AI are bringing new set of vulnerabilities, therefore exploiting AI and securing AI is a new task that is changing dramatically the way CISOs manage the hardening of the systems. It's crazy moment for cybersecurity because of IA. Come to enjoy a talk about this brave new world.",
+   "start": "2026-09-22T08:00:00+00:00",
+   "end": "2026-09-22T08:15:00.000Z",
+   "stage": "Main Stage",
+   "track": "AI Foundations",
+   "type": "Keynote",
+   "speakers": [
+    "Chema Alonso"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#b58634d8-8bbe-431e-8ca9-99a84e804b7e"
   },
   {
    "id": "0111a87d",
@@ -49,14 +92,13 @@
   {
    "id": "cbcdab71",
    "title": "Workshop 2 - When code is cheap, governance is the hard part",
-   "description": "Code generation is close to free now. Review, sign-off and audit are not, and that gap lands on engineering leaders. Bring a laptop, this one is hands on from minute five.\n\nYou will take a repository, ask an AI agent to change it, then close the loop. Put your standards where the agent reads them. Wire a live rules check into the agent's own turn over MCP. Make it fix its own violations before the code reaches you. \n\nYou leave with a working repository, the configuration and a reusable skill, running on whatever AI coding tool you already use.\n\nI'll draw on what we've learned governing 950+ enterprise SaaS instances, with scan data going back to 2017: where AI-generated changes fail before production, and how automated checks and audit trails hold humans and AI to the same standard without slowing releases.\n\nLevel: practitioner.\n\nPrerequisites: a laptop, git, Node 20 or later, a GitHub account, and an AI coding tool you can sign into (Claude Code, Cursor, Codex, Windsurf, Replit or any MCP client).",
+   "description": "The Challenge \n\nCode generation is close to free now. Review, sign-off, and audit are not, and that gap lands squarely on engineering leaders. In this session, I'll show you where AI-generated changes actually fail before production, and how automated checks and audit trails hold humans and AI to the same standard without slowing releases.\n\nWhat You'll Do & Take Away \n\nHands-on from minute five, you will take a repository, ask an AI agent to change it, and close the loop. You'll put your standards where the agent reads them by wiring a live rules check into the agent's own turn over MCP, making it fix its own violations before the code reaches you.\n\nBy the end, you leave with a working repository, the configuration, and a reusable skill running on the AI coding tool of your choice.\n\nWho Should Attend \n\nAnyone who writes code with an AI tool, and anyone who has to sign it off.\n\nWhat to Bring & How to Prepare\n\nPrimary Setup: Bring a laptop with a browser and a free GitHub account. The repository opens directly in GitHub Codespaces, so there is nothing to install, and a free AI coding account is enough for every task.\n\nPower Users: If you already use Claude Code, Cursor, Codex, Windsurf, Replit, or another MCP client, feel free to bring that instead.\n\nNo Laptop? No Problem: Every step is demonstrated live on screen, and pairing with the person next to you works fine. The repository stays public so you can redo everything afterwards on your own time.",
    "start": "2026-09-22T08:00:00+00:00",
    "end": "2026-09-22T09:20:00.000Z",
    "stage": "Workshop Room B",
    "track": "AI Foundations",
    "type": "Workshop",
    "speakers": [
-    "Nuno Silva",
     "Albert Franquesa"
    ],
    "url": "https://aisummitbarcelona.com/schedule#cbcdab71-6d5e-4f59-85d6-eb58c80a5082"
@@ -74,6 +116,21 @@
     "Luc JULIA"
    ],
    "url": "https://aisummitbarcelona.com/schedule#8a345477-e941-4dd7-9e84-7ea0b28d5aac"
+  },
+  {
+   "id": "6a505d60",
+   "title": "Fireside Chat: Applied AI in Practice: Anthropic’s Plans for Spain",
+   "description": "Fireside chat with Julia Hernandez, Member of Technical Staff, Applied AI, Spain at Anthropic.\nA conversation about deploying Claude in businesses and Anthropic’s plans for the Spanish AI ecosystem.",
+   "start": "2026-09-22T08:20:00+00:00",
+   "end": "2026-09-22T08:35:00.000Z",
+   "stage": "Main Stage",
+   "track": "AI For Today",
+   "type": "Fireside Chat",
+   "speakers": [
+    "Cathy White",
+    "Julia Hernandez"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#6a505d60-1a72-41bb-8066-8361d1ef18e8"
   },
   {
    "id": "beb7947c",
@@ -106,7 +163,7 @@
   {
    "id": "6e155c8d",
    "title": "Fireside Chat with BlackRock",
-   "description": "",
+   "description": "Martin C. Syms, Managing Director and International Head of BlackRock's Aladdin Engineering Group, in conversation with Cathy White on where AI actually creates value in finance. Trusted data as the foundation of sustainable AI business models. AI that cuts complexity and speeds up decisions without replacing human judgment. Why the strongest opportunities come from embedding AI into existing platforms and connecting workflows and data across public and private markets, and why, as models become a commodity, the advantage shifts to trusted ecosystems and platform integration.",
    "start": "2026-09-22T08:40:00+00:00",
    "end": "2026-09-22T08:55:00.000Z",
    "stage": "Main Stage",
@@ -138,14 +195,17 @@
   },
   {
    "id": "52b07301",
-   "title": "Keynote 8 - Collaborative AI",
-   "description": "The best things were never built alone.\n\nAI becomes most powerful when it helps teams think, decide, and build together. It can hold shared context, connect conversations, surface decisions, clarify ownership, and keep work moving across people and functions.\n\nInstead of living only in individual workflows, AI can become a collaborative layer for the whole team: reducing friction, preserving knowledge, and helping everyone move with the same understanding.\n\nThe opportunity is not just faster work. It is better coordination, stronger alignment, and smarter collective execution.\n\nBecause the future of AI at work is shared.",
+   "title": "Fireside chat with AWS",
+   "description": "To be announced...",
    "start": "2026-09-22T09:00:00+00:00",
    "end": "2026-09-22T09:15:00.000Z",
    "stage": "Auditorium Stage",
    "track": "AI For Growth",
-   "type": "Keynote",
-   "speakers": [],
+   "type": "Fireside Chat",
+   "speakers": [
+    "Paul Tremblot",
+    "Caio Zanolla"
+   ],
    "url": "https://aisummitbarcelona.com/schedule#52b07301-169b-46bf-9bc3-216e459ba2be"
   },
   {
@@ -164,7 +224,7 @@
   },
   {
    "id": "2bfe1b8d",
-   "title": "Keynote 7 - The art of the possible: Agentic AI",
+   "title": "Keynote 7 - The art of the possible: Agentic AI, by Google Cloud",
    "description": "Concrete case studies highlighting what is viable today versus what is emerging over the next 12–18 months.",
    "start": "2026-09-22T09:00:00+00:00",
    "end": "2026-09-22T09:15:00.000Z",
@@ -189,6 +249,32 @@
     "Nicky Verd"
    ],
    "url": "https://aisummitbarcelona.com/schedule#afd44d88-a2a7-4e92-b127-5fcb2aedc787"
+  },
+  {
+   "id": "124e3dbf",
+   "title": "Keynote 9 - The Enterprise AI 'No Man's Land': Who Takes the Ground and Who Holds It?",
+   "description": "",
+   "start": "2026-09-22T09:20:00+00:00",
+   "end": "2026-09-22T09:35:00.000Z",
+   "stage": "Main Stage",
+   "track": "AI For Today",
+   "type": "Keynote",
+   "speakers": [
+    "Mark Hill"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#124e3dbf-22cc-4cce-95d8-da9bf399f295"
+  },
+  {
+   "id": "3283f8a2",
+   "title": "Deploying AI Across the Workforce with Gemini Enterprise, by Google Cloud",
+   "description": "Move beyond passive search and rigid assistants. In this session, you will discover how any employee can build custom AI agents, automate workflows across your existing stack, and establish the governance layer needed to scale securely across the organization with Gemini Enterprise",
+   "start": "2026-09-22T09:30:00+00:00",
+   "end": "2026-09-22T10:30:00.000Z",
+   "stage": "",
+   "track": "",
+   "type": "",
+   "speakers": [],
+   "url": "https://aisummitbarcelona.com/schedule#3283f8a2-81a0-4779-b672-7dacd8602fcc"
   },
   {
    "id": "20536e7e",
@@ -224,8 +310,8 @@
   },
   {
    "id": "59adfc24",
-   "title": "Workshop 3 - Creative & Generative AI",
-   "description": "To be announced...",
+   "title": "Workshop 3 - Why and how to build a personal brand on LinkedIn with AI, the right way (one of the few moats left)",
+   "description": "AI made building things easy. So, what's actually left to compete on?\n\nThis session argues it's brand, trust, and human relationships. Three things AI can't clone from a screenshot, and all three take time to build.\n\nGoogle's Zero Moment of Truth research points to 7 hours and 11 touch points before someone trusts you enough to buy. In this session, we break down what that looks like in B2B today, and we zoom in on LinkedIn specifically.\n\nGive AI the right context, and it can actually help you build brand, trust, and relationships. Skip that step and you get slop. We'll build the context live, on stage, with a volunteer from the audience. One person, their real business.\n\nJacob Zangel and Charlie Hills dig into who they are, what they stand for, their ICP, and what actually sets them apart from the competition.\n\nOnly once that's on the table does AI get involved in helping them create content for LinkedIn. We might even create a post (or two), live. You leave knowing what you need to feed AI so it can actually help you, instead of handing you slop.\n\n⚠️ Important! Who is this for?\n\nB2B founders, execs, marketers, and builders already posting on LinkedIn consistently, at least once or twice a week over the past few months.\n\nYou want to see how Charlie Hills grew a following of 250K+ on LinkedIn, 70K newsletter subscribers, and over 100M organic lifetime impressions. We'll show you all the different parts of his LinkedIn AI OS, and demonstrate live how some of the core parts actually work.\n\nIf you're not posting yet, or not posting consistently, this session won't be the best use of your time.\n\nWhat you'll walk away with:\n\n→ The few moats left in B2B, and why building a personal brand is the one you can start on Monday\n→ The 2026 B2B buying math: why \"88 touches across 10 stakeholders\" replaced the old advice to just be everywhere, and what that means for your content plan\n→ The context that makes AI useful, not slop: watch us pull it out of a volunteer live, ICP, positioning, differentiation, before we start creating any content with AI",
    "start": "2026-09-22T09:30:00+00:00",
    "end": "2026-09-22T10:50:00.000Z",
    "stage": "Workshop Room A",
@@ -294,7 +380,9 @@
     "Maanas Mediratta",
     "Dave Garcia",
     "Simon Bosch",
-    "Barnaba Barcellona"
+    "Barnaba Barcellona",
+    "Emma Rees",
+    "Michael Kessler"
    ],
    "url": "https://aisummitbarcelona.com/schedule#17e970ab-8a76-43aa-9171-e7ecf6ec8d8d"
   },
@@ -345,8 +433,8 @@
   },
   {
    "id": "f44ea52f",
-   "title": "Keynote 14 - Open Models & Fine-tuning",
-   "description": "To be announced...",
+   "title": "Keynote 14 - AI, Rewired: Building Edge Intelligence That Adapts, Distributes and Acts",
+   "description": "This session explores how to overcome static model limits by deploying adaptive, high-performance edge intelligence on resource-constrained devices. We present a full-stack co-design framework combining conditional fine-tuning (IGU-LoRA), advanced quantization (L4Q), and RL-driven orchestration across heterogeneous silicon (CPU, GPU, and NPU). Learn how deployment-aware architectures like CoA-LoRA solve critical battery, thermal, and memory bandwidth constraints in real time. Discover how this technology powers the next wave of AI PCs to deliver seamless, low-latency agentic experiences directly on the device.",
    "start": "2026-09-22T10:20:00+00:00",
    "end": "2026-09-22T10:35:00.000Z",
    "stage": "Main Stage",
@@ -359,14 +447,16 @@
   },
   {
    "id": "6b203cbb",
-   "title": "Demo 6 - Robotics",
-   "description": "To be announced...",
+   "title": "Demo 6 - Turn inbound demand into revenue, autonomously",
+   "description": "Live on stage: an autonomous sales agent built in minutes, a real inbound call, a closed sale — and one deterministic outcome you pay for.",
    "start": "2026-09-22T10:30:00+00:00",
    "end": "2026-09-22T10:55:00.000Z",
    "stage": "Demo Stage",
    "track": "AI For Tomorrow",
    "type": "Demo",
-   "speakers": [],
+   "speakers": [
+    "Alex Bisbe"
+   ],
    "url": "https://aisummitbarcelona.com/schedule#6b203cbb-8c64-4f60-99ac-908e50a2f889"
   },
   {
@@ -385,10 +475,10 @@
   },
   {
    "id": "acdd0498",
-   "title": "Keynote 17 - Prismic",
+   "title": "Keynote 17 - The Infinite Remix",
    "description": "What happens to the value of a website, a product, or even a song, when generating another version becomes almost effortless? Sadek Drobi (Founder & CEO, Prismic) follows that question from an AI music experiment into the way Prismic is building products and autonomous loops. The answer is not to generate more stuff, but to define what must survive every regeneration: your intent, opinions, goals and understanding of your community. Companies that capture these with enough depth won’t just keep pace with the models, they’ll evolve alongside them.",
    "start": "2026-09-22T11:00:00+00:00",
-   "end": "2026-09-22T11:20:00.000Z",
+   "end": "2026-09-22T11:15:00.000Z",
    "stage": "Auditorium Stage",
    "track": "AI For Builders",
    "type": "Keynote",
@@ -398,9 +488,23 @@
    "url": "https://aisummitbarcelona.com/schedule#acdd0498-8b38-47d7-bd36-357bab4e36b4"
   },
   {
+   "id": "2bbc6688",
+   "title": "Demo 7 - Sentiment Analysis using Databricks AI Functions",
+   "description": "The Business Challenge: Exploring how modern organizations effectively monitor live brand sentiment, emerging trends, and customer reactions across high-velocity social platforms. \n \nStreaming Architecture: A comprehensive walkthrough of a robust, cloud-native architecture using Azure Databricks, Event Hubs, and Unity Catalog for secure and scalable data ingestion. \n \nLLM-Powered Enrichment: Demonstrating how to democratize AI by using built-in Databricks SQL AI functions (such as ai_analyze_sentiment, ai_extract, and ai_classify) to process unstructured text without complex Python ML frameworks. \n \nEnd-to-End Execution: Showcasing the full data lifecycle—from ingesting live social content and storing it efficiently in Delta Lake, to visualizing the enriched results through Databricks AI/BI dashboards. \n \nConversational Analytics: Highlighting Databricks Genie to show how business users can interact with the analyzed data using natural language to uncover deeper, on-the-fly insights.",
+   "start": "2026-09-22T11:00:00+00:00",
+   "end": "2026-09-22T11:25:00.000Z",
+   "stage": "Demo Stage",
+   "track": "AI For Tech",
+   "type": "Demo",
+   "speakers": [
+    "Raghav Matta"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#2bbc6688-109f-40bf-bcf7-6d933c4850c6"
+  },
+  {
    "id": "631ecb05",
    "title": "Keynote 16 - Learning Is the New Infrastructure. Most Companies Haven't Built It Yet.",
-   "description": "Most AI workforce transformations fail not because of the technology, but because organisations don't know how to learn at speed. Prof. Dr. Thomas Funke draws on 20 years of research and practice, from WU Vienna to building TechQuartier in Frankfurt to co-founding Tomorrow University of Applied Sciences, to argue that learning is the defining infrastructure challenge of the AI era.\n\nThis session gives CHROs, L&D leaders, and CEOs a concrete framework: what a learning organisation actually looks like, why traditional training approaches are structurally broken, and what it takes to build the organisational capability to absorb AI-driven change continuously. Using Tomorrow University as a live case study, Thomas shows what AI-native learning infrastructure looks like in practice and what leaders can do immediately to start building it.",
+   "description": "Most AI workforce transformations fail not because of the technology, but because organisations cannot absorb change at speed. Christian Rebernik draws on 25 years of building at scale, as CTO and Managing Director at N26, founder of the digital health platform Vivy, and cofounder of <a href=\"https://tomorrow.university\">Tomorrow University of Applied Sciences</a>, to argue that learning is the defining infrastructure challenge of the AI era.\n\nEvery company has rolled out AI. Almost none have changed how they work. This session gives CEOs, CHROs and anyone deploying AI inside an organisation a concrete framework: what a learning organisation actually looks like, why training programmes structurally cannot deliver it, and the three conditions that separate organisations that absorb change from those that only announce it. Using Tomorrow University as a live case study, Christian shows what this looks like in practice, and the one question leaders can ask their own teams this week.",
    "start": "2026-09-22T11:00:00+00:00",
    "end": "2026-09-22T11:20:00.000Z",
    "stage": "Main Stage",
@@ -414,7 +518,7 @@
   {
    "id": "c930f87a",
    "title": "Panel 5 - Strategic Money: How Corporates Really Invest in AI Startups",
-   "description": "Corporate venture money isn't chasing the same thing as a fund. A strategic investor wants synergy, access, and an eventual seat at the table, not just a return. This panel puts corporate innovation and venture arms on stage to unpack how they actually pick, structure and manage AI investments and partnerships: what they're really underwriting beyond the cap table, where that clashes with how independent VCs think, and what founders get wrong pitching a corporate as if it were a fund. Built for founders courting strategic capital and for anyone trying to understand how big companies actually move on AI.",
+   "description": "Corporate venture money isn't chasing the same thing as a fund. A strategic investor wants synergy, access, and an eventual seat at the table, not just a return. This panel brings together the people who sit between corporates and startups to unpack how strategic AI investments and partnerships actually get picked, structured and managed: what a corporate is really underwriting beyond the cap table, where that clashes with how independent VCs think, and what founders get wrong pitching a corporate as if it were a fund. Built for founders courting strategic capital and for anyone trying to understand how big companies actually move on AI.",
    "start": "2026-09-22T11:00:00+00:00",
    "end": "2026-09-22T11:40:00.000Z",
    "stage": "Panel Stage",
@@ -423,7 +527,9 @@
    "speakers": [
     "Darrell Etherington",
     "Carla Carvajal",
-    "Seena Amidi"
+    "Seena Amidi",
+    "Borja Breña",
+    "Marta Antúnez"
    ],
    "url": "https://aisummitbarcelona.com/schedule#c930f87a-34fb-4330-8d46-264d3ba16550"
   },
@@ -432,7 +538,7 @@
    "title": "Keynote 19 - Going beyond vibes with genuinely useful evals",
    "description": "Move beyond gut checks with evaluations that measure what actually matters. Build reliable feedback loops to improve quality, catch regressions, and ship with confidence.",
    "start": "2026-09-22T11:20:00+00:00",
-   "end": "2026-09-22T11:40:00.000Z",
+   "end": "2026-09-22T11:35:00.000Z",
    "stage": "Auditorium Stage",
    "track": "AI For Tech",
    "type": "Keynote",
@@ -500,15 +606,15 @@
   },
   {
    "id": "32655c1c",
-   "title": "Keynote 21 - Bizaway",
-   "description": "",
+   "title": "Keynote 21 - The magic of turning human brainwaves into art with AI",
+   "description": "Artists Ferdi Alici and Phoebe Violett explore the fascinating intersection of brain-computer interfaces, AI and creativity — and show how AI could unlock new artistic worlds around and within us.",
    "start": "2026-09-22T11:40:00+00:00",
-   "end": "2026-09-22T12:00:00.000Z",
+   "end": "2026-09-22T12:15:00.000Z",
    "stage": "Auditorium Stage",
-   "track": "AI For Builders",
+   "track": "",
    "type": "Keynote",
    "speakers": [
-    "Tyler Foster"
+    "Ferdi Alici"
    ],
    "url": "https://aisummitbarcelona.com/schedule#32655c1c-bf9f-49d3-9eb0-b22dc9e92758"
   },
@@ -525,20 +631,6 @@
     "Matteo Ruffini"
    ],
    "url": "https://aisummitbarcelona.com/schedule#5e7ccb14-80da-43ba-a687-b85a901dfedd"
-  },
-  {
-   "id": "5abb7e53",
-   "title": "Keynote 22 - Fighting Back Against Intelligent Fraud with AI Agents",
-   "description": "AI is foundational to how businesses operate and a critical connection between people and companies, making AI-assisted fraud prevention a core business priority.\n\nAs organizations deploy intelligent agents to drive speed and efficiency, attackers are deploying their own AI to mimic real people and exploit trust at scale. The result: a new, largely unprotected frontline where identity is fluid and traditional safeguards fall short.\n\nIn this keynote, Phenom CEO and co-founder Mahe Bayireddi outlines how leading companies are responding by embedding fraud detection across critical workflows, coordinating networks of AI agents to identify risk signals in real time, and reinforcing automation with human oversight. The goal is not to slow innovation, but to ensure that speed, security and trust are built together from the start.",
-   "start": "2026-09-22T12:00:00+00:00",
-   "end": "2026-09-22T12:15:00.000Z",
-   "stage": "Auditorium Stage",
-   "track": "AI Foundations",
-   "type": "Keynote",
-   "speakers": [
-    "Mahe Bayireddi"
-   ],
-   "url": "https://aisummitbarcelona.com/schedule#5abb7e53-0774-4515-8823-0e5620d940da"
   },
   {
    "id": "0d91b1c1",
@@ -582,7 +674,8 @@
     "Arno Strotgen",
     "Carl Strathearn",
     "Gabriel Mesquida Masana",
-    "Carina Kaeser"
+    "Carina Kaeser",
+    "Simi Wang"
    ],
    "url": "https://aisummitbarcelona.com/schedule#262458f6-3b81-4f31-8b24-740587d408a4"
   },
@@ -616,7 +709,7 @@
   },
   {
    "id": "96c62415",
-   "title": "Use Case 2 - Neo4j x Astrazeneca",
+   "title": "Use Case 2 - Knowledge Graphs for Drug Discovery with Neo4j",
    "description": "",
    "start": "2026-09-22T12:30:00+00:00",
    "end": "2026-09-22T12:55:00.000Z",
@@ -624,7 +717,6 @@
    "track": "AI Foundations",
    "type": "Use Case",
    "speakers": [
-    "Antonio Fabregat",
     "Jesús Barrasa"
    ],
    "url": "https://aisummitbarcelona.com/schedule#96c62415-f2da-4520-9d07-da694aa62e59"
@@ -676,8 +768,8 @@
   },
   {
    "id": "92e4da2e",
-   "title": "Demo 11 - Voice AI",
-   "description": "To be announced...",
+   "title": "Demo 11 - The Agent Was the Easy Part: Putting an AI Analyst in Front of a Whole Company",
+   "description": "AirHelp is a flight-compensation company with a small data team and a wide\nvariety of data-hungry stakeholders, all asking the same kind of question:\n\"what was X last month, split by Y?\" We put an AI analyst — AIDA — into Slack\nso the whole company could ask directly.\n\nThe talk is about the part that isn't the agent. We deliberately did not\nbuild text-to-SQL. AIDA cannot write a query against the warehouse. It can\nonly compose answers from metrics a human has already defined, tested and\nversion-controlled in our semantic layer. That constraint is the product.\nText-to-SQL demos work on stage and fail in production, because no warehouse\nis self-describing and the model does not know what your company means by\n\"active customer\".\n\nI'll cover the architecture, real examples of how it changed the way people\nget answers day to day, and the culture shift it forced — inside the data\nteam, where the job moved from answering questions to defining what the\nanswers mean, and outside it, where people had to learn what a governed\nanswer is and when the system should say no.\n\nThe takeaway for anyone leaving to build this on Monday: your agent is a\nfunction of your definitions. Spend the money there.",
    "start": "2026-09-22T13:00:00+00:00",
    "end": "2026-09-22T13:25:00.000Z",
    "stage": "Demo Stage",
@@ -718,6 +810,20 @@
    "url": "https://aisummitbarcelona.com/schedule#6e644c97-75bd-45ce-96ab-e9a7ba9cc9c5"
   },
   {
+   "id": "5596366a",
+   "title": "Workshop 8 - Building Your Second Brain",
+   "description": "You leave this room with a second brain of your own: a personal knowledge base your AI can actually read. Answer any question about your team or your last twelve months at work in under a minute, sources attached. Start the day with an empty inbox instead of 128 unread emails. Build a deck from your own notes in two hours instead of two days. This is not a demo. You install the tools, connect your first sources and write a skill that runs before you leave, and you walk out with a folder structure, your first knowledge files and something already working for you. Bring a laptop, ideally with Cursor, Obsidian or Claude installed in advance.",
+   "start": "2026-09-22T13:00:00+00:00",
+   "end": "2026-09-22T14:20:00.000Z",
+   "stage": "Workshop Room B",
+   "track": "AI For Builders",
+   "type": "Workshop",
+   "speakers": [
+    "Maxime Gaudin"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#5596366a-429b-4bd7-8185-e37320e0918a"
+  },
+  {
    "id": "c682faff",
    "title": "Keynote 26 - AI & Education",
    "description": "To be announced...",
@@ -732,9 +838,21 @@
    "url": "https://aisummitbarcelona.com/schedule#c682faff-e1f1-4593-b8c0-480f0774053a"
   },
   {
+   "id": "816aece7",
+   "title": "Hands-On Workshop: Building Agents with Google Antigravity (Bring Your Laptop), by Google Cloud",
+   "description": "Step into the future of autonomous software engineering in this 90-minute hands-on lab challenge. Take command with Google Antigravity as you solve real-world tasks - moving from rapid terminal refactoring to orchestrating autonomous multi-agent swarms that execute tools, browse the web, and build software alongside you. (Please bring your laptop!)",
+   "start": "2026-09-22T13:30:00+00:00",
+   "end": "2026-09-22T15:00:00.000Z",
+   "stage": "",
+   "track": "",
+   "type": "",
+   "speakers": [],
+   "url": "https://aisummitbarcelona.com/schedule#816aece7-a58e-428d-8cc4-70e1d7d28d2f"
+  },
+  {
    "id": "27251c37",
    "title": "Demo 12 - When anyone can build, the person who decides WHAT to build becomes the bottleneck",
-   "description": "Engineering output has exploded. At leading AI companies, a five-person team now ships what fifteen used to. At Bricks, an AI proptech startup I shipped 10+ production AI agents in 3 months.  Alone with Claude Code as my unfair advantage. But the part of product work that actually decides whether you build the right thing — getting six people in a room to agree hasn't gotten any faster because it can't. \n\nAlignment lives in Slack threads and kickoff meetings and then evaporates. There's nowhere for an LLM to automate it. The result: a compressed PM-to-engineering ratio where the bottleneck has quietly moved from \"can we build it\" to \"do we know what to build, and does everyone agree.\" \n\nThis talk is about what breaks when that compression hits, what I got wrong shipping solo at Bricks, and 4 shifts/changes builders need to make now whether you're a PM, an engineer, or a founder watching your team try to figure out who owns what.",
+   "description": "Building got cheap. Deciding what deserves to be built did not.\n\nAt Bricks I shipped production AI agents acting as product builder with coding agents as teammates. I could move faster than ever but I quickly realized that my ability to judge whether what I had just built was actually right dropped. \n\nThis talk is field notes from that gap. What breaks when delivery outruns judgment. Why stuffing more context into agents makes them try to satisfy everything and what I think builders need to change now, whether you’re a PM, an engineer, or a founder watching your team figure out who owns what.",
    "start": "2026-09-22T13:30:00+00:00",
    "end": "2026-09-22T13:55:00.000Z",
    "stage": "Demo Stage",
@@ -746,6 +864,22 @@
    "url": "https://aisummitbarcelona.com/schedule#27251c37-ed6d-484f-9ba2-2b13c5f913b0"
   },
   {
+   "id": "fc709162",
+   "title": "Use Case 4 - Efficiency? Not only. A new way of working and delivering value to customers",
+   "description": "Ecoembes and NTT DATA share what happened when an efficiency programme turned into a change in how teams actually work. Starting from a familiar goal — do the same things faster — the first results forced a rethink of the development model, team structures and the business–technology relationship, built on SPECs, spec-driven and test-driven development, and AI. The freed capacity raised a harder question: what becomes possible that wasn't viable before? A real-world account of simplifying and personalising customer interactions, and the scaling challenges — measurement, security, governance, model cost, architecture.",
+   "start": "2026-09-22T13:30:00+00:00",
+   "end": "2026-09-22T13:55:00.000Z",
+   "stage": "Main Stage",
+   "track": "AI For Today",
+   "type": "Use Case",
+   "speakers": [
+    "Oscar Hernández Porta",
+    "Eduard Truñó",
+    "Manuel de Arcocha"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#fc709162-b956-407b-bb3f-1740d6a8f37d"
+  },
+  {
    "id": "6ca1b342",
    "title": "Panel 8 - Retail Rewired: AI from Storefront to Checkout",
    "description": "From demand forecasting and dynamic pricing to AI stylists, smart inventory, and a checkout that knows you before you reach it — retail is being rebuilt aisle by aisle. And now agents are starting to shop on the customer's behalf, forcing brands to rethink who they're really selling to. Retail and e-commerce operators on what AI is already changing on the shop floor and online, and what breaks when real customers and real margins are on the line.",
@@ -755,9 +889,9 @@
    "track": "AI For Today",
    "type": "Panel",
    "speakers": [
+    "Neel Arora",
     "Bhavishya Ramchander",
-    "Maxim Khalilov",
-    "Neel Arora"
+    "Arnaud Sliwa-Biset"
    ],
    "url": "https://aisummitbarcelona.com/schedule#6ca1b342-5055-4aea-a180-286bb3fcfdeb"
   },
@@ -787,7 +921,6 @@
    "speakers": [
     "Magda Kufrej",
     "Anna Thomas",
-    "Anna Via",
     "Isabella Loaiza",
     "Larissa Dorothea Murmann",
     "Javier Rayón",
@@ -836,8 +969,8 @@
     "Sarah Anto",
     "Faith Ruto",
     "Leslie Ann Keeler",
-    "Stefanie Söhnchen",
-    "Danae Vara"
+    "Danae Vara",
+    "Juliet Macdowell"
    ],
    "url": "https://aisummitbarcelona.com/schedule#2e8efa4d-ed41-493d-8778-9f78655f1617"
   },
@@ -871,6 +1004,35 @@
    "url": "https://aisummitbarcelona.com/schedule#6db918e2-4fc5-4a12-82a9-ace2c7ba3e91"
   },
   {
+   "id": "05115713",
+   "title": "Workshop 9 - From Prototype to Production: Building, Securing, and Scaling AI Agents with Amazon Bedrock AgentCore",
+   "description": "Building an AI agent is the easy part. Getting it to production — authorized, observable, debuggable, and scalable — is the real engineering challenge. In this hands-on workshop, AWS Solutions Architects and specialists walk you through the key building blocks of Amazon Bedrock AgentCore. You'll scaffold an agent with the AgentCore CLI, connect it to tools (MCP servers, APIs, knowledge bases), wire up identity-aware access control, and deploy it — all within a provided AWS sandbox environment and without managing infrastructure. Bring your curiosity and your laptop — whether you work with LangChain, Strands SDK, OpenAI Agents SDK, Claude Agent SDK, or your own framework, you'll leave with practical, hands-on experience building agents that are ready to evolve toward production. This is not a demo. You will build, break, and debug.\n\nLevel: Intermediate to Advanced (300–400), structured in progressive modules with guided support — beginners can follow along while experienced builders push into advanced patterns (agent runtime deployment, multi-tool orchestration with authentication, MCP server integration, IAM-backed access policies, production observability and tracing). Recommended: basic Python and familiarity with AWS core services (IAM, Lambda).\n\nFor: software engineers, AI/ML engineers, platform engineers, cloud architects, DevOps/SRE practitioners, and technical founders building AI agent systems.",
+   "start": "2026-09-22T14:30:00+00:00",
+   "end": "2026-09-22T15:50:00.000Z",
+   "stage": "Workshop Room A",
+   "track": "AI For Builders",
+   "type": "Workshop",
+   "speakers": [
+    "Francisco Amaya",
+    "Israel Lopez Moriano"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#05115713-0418-47d5-bbdb-5a41642cb7dd"
+  },
+  {
+   "id": "f88217cf",
+   "title": "Workshop 10 - Tether",
+   "description": "To be announced...",
+   "start": "2026-09-22T14:30:00+00:00",
+   "end": "2026-09-22T15:50:00.000Z",
+   "stage": "Workshop Room B",
+   "track": "AI Foundations",
+   "type": "Workshop",
+   "speakers": [
+    "Alberto Valero"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#f88217cf-035f-44d6-bd6e-ea8644baf0d3"
+  },
+  {
    "id": "f3503966",
    "title": "Fireside 1 - From Dating Fatigue to AI Saturation: Why People Are Coming Back to Real Life",
    "description": "Dating apps removed rejection, not loneliness. AI removed friction, not the need to be known.\n\nMaxime Barbier built Timeleft on the opposite bet: put strangers around a dinner table in 200 cities worldwide, and make the awkward part the point. In this fireside he argues that friction is a feature, that restaurants have become the last piece of social infrastructure we have left, and that the harder an experience is to outsource to a model, the more it is worth doing yourself.\n\nBooking gives you a room. Skyscanner gives you a flight. Timeleft gives you a human.\n\nA deliberately contrarian counterweight to the rest of the programme, on loneliness, third places, and what we quietly lose to LLMs.",
@@ -900,6 +1062,18 @@
    "url": "https://aisummitbarcelona.com/schedule#51e1a479-e437-4761-af71-1d3e28e1cfa3"
   },
   {
+   "id": "8b4bf90d",
+   "title": "Use Case 7 - AI Built on Trust: Turning Smart Data into Secure Intelligence",
+   "description": "Discover how smart, governed data can power AI without compromising security, sovereignty or control. A real-world approach to transforming sensitive information into secure, actionable intelligence.",
+   "start": "2026-09-22T15:00:00+00:00",
+   "end": "2026-09-22T15:25:00.000Z",
+   "stage": "Main Stage",
+   "track": "AI For Tomorrow",
+   "type": "Use Case",
+   "speakers": [],
+   "url": "https://aisummitbarcelona.com/schedule#8b4bf90d-e8e6-4970-bf02-0cce51adf360"
+  },
+  {
    "id": "07123223",
    "title": "Panel 10 - Place Your Bets: AI in Gaming, Gambling & Live Entertainment",
    "description": "Gambling, gaming, streaming, live events. AI is rewriting the entire entertainment stack, from iGaming algorithms predicting the next bet, to recommendation engines deciding what 200 million people watch tonight, to computer vision changing how a live show feels. It is one of AI's biggest and fastest-moving commercial playgrounds. Operators and builders on what is genuinely running in production today, where personalisation stops paying and starts costing trust, and whether Europe can build the next generation of entertainment with AI at the core.",
@@ -911,7 +1085,6 @@
    "speakers": [
     "Xavier Simó",
     "Alejandro Mowszet",
-    "Alexandre Saiz",
     "Olga Sargsyan",
     "Roberto Villani"
    ],
@@ -947,6 +1120,21 @@
    "url": "https://aisummitbarcelona.com/schedule#4b4a11f7-266c-456f-9e56-0b66c1dd0a1f"
   },
   {
+   "id": "9b57563f",
+   "title": "Use Case 8 - Building a Voice Agent for Sports Centre Customer Service",
+   "description": "IBM & Baskonia Alaves Group present the design and deployment of an AI voice agent for customer service, beginning at the BAKH training and leisure center and built to extend across the group. The session covers the architecture behind the solution, the integration with existing booking and membership systems, and the operational results observed to date. It also addresses the practical challenges of conversational voice in a live environment, the criteria used to decide what the agent handles and what escalates to a human team, and what the initial deployment revealed about scaling further.",
+   "start": "2026-09-22T15:30:00+00:00",
+   "end": "2026-09-22T15:55:00.000Z",
+   "stage": "Main Stage",
+   "track": "AI For Tech",
+   "type": "Use Case",
+   "speakers": [
+    "Jesús Beatove",
+    "Mario Tristan Del Pino"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#9b57563f-e407-4b1a-8bc1-471fb1fba1ae"
+  },
+  {
    "id": "8ccfd44f",
    "title": "Fireside 3 — What AI Companies Actually Charge For",
    "description": "Per-seat pricing assumes headcount. If the product does the work instead of helping a person do it, what exactly is being sold — and to whom?\n\nTim Beck, Co-Founder and CEO of BLP Digital, on the monetisation question underneath every AI product decision: seats versus outcomes, what inference costs do to gross margin, and which pricing models are quietly breaking.\n\nA commercial conversation, not a product one.",
@@ -972,7 +1160,7 @@
    "type": "Fireside Chat",
    "speakers": [
     "Artavazd Mehrabyan",
-    "Stefanie Söhnchen"
+    "Mike Butcher"
    ],
    "url": "https://aisummitbarcelona.com/schedule#e05a5876-dcd1-4262-bc97-90b5224cfa92"
   },
@@ -1001,11 +1189,27 @@
    "type": "Panel",
    "speakers": [
     "Tetiana Klymchuk",
-    "Carlos Varea",
+    "Carlos Varea Filella",
     "Martí Norberto",
-    "José María Felguera Garrido"
+    "Josep Maria Felguera Garrido",
+    "Jara Forcadell"
    ],
    "url": "https://aisummitbarcelona.com/schedule#a61fe9c3-c6bc-49df-a6e2-34eebeb54761"
+  },
+  {
+   "id": "97d2b9b0",
+   "title": "Fireside 5 - AI in Regulated Industries: Booster or Barrier?",
+   "description": "",
+   "start": "2026-09-22T16:20:00+00:00",
+   "end": "2026-09-22T16:35:00.000Z",
+   "stage": "Auditorium Stage",
+   "track": "AI Foundations",
+   "type": "Fireside Chat",
+   "speakers": [
+    "Mark Hill",
+    "Juan Buero"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#97d2b9b0-7a54-488d-80c7-d439dfd3c4d4"
   },
   {
    "id": "f6b006ca",
@@ -1020,6 +1224,37 @@
     "Tycho Luijten"
    ],
    "url": "https://aisummitbarcelona.com/schedule#f6b006ca-2572-4371-a5bd-830829feaedc"
+  },
+  {
+   "id": "c6c6a0bc",
+   "title": "Fireside 6 - What's Left to Teach When AI Already Knows the Answer?",
+   "description": "Business education was built on transferring knowledge to people who did not have it. That premise is gone. In fifteen minutes, EU Business School takes on what a degree is actually worth now, which skills survive contact with AI, and whether institutions selling multi-year programmes can move fast enough to stay honest with the students paying for them.",
+   "start": "2026-09-22T16:40:00+00:00",
+   "end": "2026-09-22T16:55:00.000Z",
+   "stage": "Auditorium Stage",
+   "track": "AI For Tomorrow",
+   "type": "Fireside Chat",
+   "speakers": [
+    "Dr. Obaid Amjad",
+    "Angelo Antinoro",
+    "Katrina Logie"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#c6c6a0bc-519a-430c-8da5-cc0ad06db165"
+  },
+  {
+   "id": "22721aba",
+   "title": "Keynote 30 - The intelligence of digital twins: AI to help protect cultural heritage",
+   "description": "Since it was founded in 2013, Iconem has leveraged the latest innovations to document heritage sites under threat, from conflict zones to UNESCO World Heritage sites, turning raw data from the field into precise 3D models at a scale and speed no other process could match. \nThis talk retraces that journey: how cultural heritage digitization and AI became inseparable from the start, and how the company's ongoing R&D pushes further, enriching these models into spatialized knowledge systems and intimate,  immersive experiences for all. \nAlongside the technical path, expect a visual journey through some of the most striking digital twins produced to date, and a look at what AI still has to offer a field where what is lost cannot be recaptured.",
+   "start": "2026-09-22T16:40:00+00:00",
+   "end": "2026-09-22T17:00:00.000Z",
+   "stage": "Main Stage",
+   "track": "AI For Builders",
+   "type": "Keynote",
+   "speakers": [
+    "Andrea Louis",
+    "Yves Ubelmann"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#22721aba-ac75-43e7-8d0e-c0390ffeedbf"
   },
   {
    "id": "9e9580e2",
@@ -1037,8 +1272,8 @@
   },
   {
    "id": "bd88ffbb",
-   "title": "Demo 17 - Healthcare",
-   "description": "To be announced...",
+   "title": "Demo 17 - From Digital Twins to Biological Twins: Modeling Human Life with AI",
+   "description": "You can measure your biology. The hard part is knowing if anything you did actually changed it. Astel Allame will show live what that looks like in practice at NutriCheck: 4 drops of blood collected at home, thousands of molecular signals and biomarkers turned into your biological twin. The model runs on one person, with everyone as their own reference, to target the right nutrition, supplementation and lifestyle interventions, and make preventive health truly accessible, measurable and actionable.",
    "start": "2026-09-23T08:00:00+00:00",
    "end": "2026-09-23T08:25:00.000Z",
    "stage": "Demo Stage",
@@ -1051,15 +1286,15 @@
   },
   {
    "id": "21d892ad",
-   "title": "Keynote 31 - From the AI Era to a Change of Era: The Sunrise of AI Agents",
-   "description": "This talk we'll explore the implications of a new reality where humans will work with new colleages called AI Agents. The rule games have changed forever so individuals and enterprises will need to re-adapt to be competitive.\nAI Agents don't replace work, they intensify it so I'll give a positive view about the new opportunities and how to leverage those ones.",
+   "title": "Keynote 31 - AI to keep Europe Safe",
+   "description": "A Keynote from Airbus Defense and Space",
    "start": "2026-09-23T08:00:00+00:00",
    "end": "2026-09-23T08:15:00.000Z",
    "stage": "Main Stage",
    "track": "AI For Builders",
    "type": "Keynote",
    "speakers": [
-    "Eduardo Ordax"
+    "Roser Roca Toha"
    ],
    "url": "https://aisummitbarcelona.com/schedule#21d892ad-df97-4b8c-8625-e8202b22336f"
   },
@@ -1073,9 +1308,11 @@
    "track": "AI For Builders",
    "type": "Panel",
    "speakers": [
+    "Ferdi Alici",
     "Martin LeBlanc",
     "Greg Kozakiewicz",
-    "Edouard Getaz"
+    "Deniz Kozakiewicz",
+    "Giulia de Oliveira Camargo"
    ],
    "url": "https://aisummitbarcelona.com/schedule#f06fbe98-3c0c-4d93-9f71-625504632551"
   },
@@ -1124,27 +1361,56 @@
   },
   {
    "id": "e1df4556",
-   "title": "Keynote 33 - Edge AI",
-   "description": "To be announced...",
+   "title": "Keynote 33 - AI Agents: from Zero to Corporate Hero",
+   "description": "What changes when AI stops being something we ask for advice and starts carrying out meaningful parts of a workflow? In this talk, we'll explore the most impactful AI agent workflows we've introduced across our companies, from work automation to data analytics, how they fundamentally changed the way we work, and the many lessons we learned along the way.",
    "start": "2026-09-23T08:20:00+00:00",
    "end": "2026-09-23T08:35:00.000Z",
    "stage": "Main Stage",
-   "track": "AI For Tech",
-   "type": "Keynote",
-   "speakers": [],
-   "url": "https://aisummitbarcelona.com/schedule#e1df4556-5279-46c5-9022-515fd9746496"
-  },
-  {
-   "id": "a88ec5fd",
-   "title": "Keynote 36 - Creative and Generative AI",
-   "description": "To be announced...",
-   "start": "2026-09-23T08:40:00+00:00",
-   "end": "2026-09-23T08:55:00.000Z",
-   "stage": "Auditorium Stage",
    "track": "AI For Builders",
    "type": "Keynote",
    "speakers": [
-    "Ferdi Alici"
+    "Bruno Fondevila",
+    "Manuel Álvarez"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#e1df4556-5279-46c5-9022-515fd9746496"
+  },
+  {
+   "id": "93e93961",
+   "title": "Hands-On Workshop: Building Agents with Google Antigravity (Bring Your Laptop), by Google Cloud",
+   "description": "Step into the future of autonomous software engineering in this 90-minute hands-on lab challenge. Take command with Google Antigravity as you solve real-world tasks - moving from rapid terminal refactoring to orchestrating autonomous multi-agent swarms that execute tools, browse the web, and build software alongside you. (Please bring your laptop!)",
+   "start": "2026-09-23T08:30:00+00:00",
+   "end": "2026-09-23T10:00:00.000Z",
+   "stage": "",
+   "track": "",
+   "type": "",
+   "speakers": [],
+   "url": "https://aisummitbarcelona.com/schedule#93e93961-b034-444a-9e48-4f8adb056ba4"
+  },
+  {
+   "id": "c92378cf",
+   "title": "Demo 18 - How to Use AI to Grow Your B2B Revenue",
+   "description": "I’ll show you how to use AI to win clients and grow revenue.\n\nUsing Claude Code, ColdIQ, Prospeo, and other tools, I’ll build a complete B2B growth system live. You’ll see how to find ideal customers, identify decision-makers, enrich contacts, and launch personalized outreach.\n\nWhether you’re a startup looking for your first customers or a large B2B company ready to accelerate growth, this session is for you.\n\nBonus: I’ll show you how to use the same system for fundraising. It’s the exact system we used to help a Swiss client raise $5 million.\n\nReal tools. Real workflows. Real growth.",
+   "start": "2026-09-23T08:30:00+00:00",
+   "end": "2026-09-23T08:55:00.000Z",
+   "stage": "Demo Stage",
+   "track": "AI For Builders",
+   "type": "Demo",
+   "speakers": [
+    "Sami Ghozzi"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#c92378cf-7aff-4dce-b5cb-f226a56c6820"
+  },
+  {
+   "id": "a88ec5fd",
+   "title": "Keynote 36 - How to Build Human Capability as AI Gets Smarter",
+   "description": "AI is making us faster, more productive, and more capable. But there is a question hiding behind those gains: Are we becoming more capable—or simply more capable with AI?\n\nAs organizations race to deploy copilots, agents, and increasingly autonomous systems, Don Kilburg argues that leaders need to pay attention to another critical asset: Cognitive Capital—the human capacity for judgment, critical thinking, learning, creativity, adaptability, and wisdom.\n\nIn this keynote, Kilburg explores the Capacity Shadow: the potentially hidden gap between what people can accomplish with AI and what they remain capable of doing without it. Emerging research suggests that AI-assisted performance and independent human capability can diverge—and, importantly, that how we design human-AI interaction can change the outcome.\n\nKilburg introduces Cognitive System Design, a practical approach to building AI-enabled organizations that don’t just maximize today’s performance, but deliberately develop the human capabilities they will need tomorrow.\n\nThe goal isn’t less AI. It’s better human-AI systems.\n\nYou have an AI strategy. Do you have a cognitive strategy?",
+   "start": "2026-09-23T08:40:00+00:00",
+   "end": "2026-09-23T08:55:00.000Z",
+   "stage": "Auditorium Stage",
+   "track": "AI For Good",
+   "type": "Keynote",
+   "speakers": [
+    "Don Kilburg"
    ],
    "url": "https://aisummitbarcelona.com/schedule#a88ec5fd-8535-4673-ad36-883af54e9a1f"
   },
@@ -1175,7 +1441,7 @@
     "Ariadna Maso",
     "Vlad Lupenko",
     "Antoine Pivron",
-    "Alejandro Turpin"
+    "Alex Turpin"
    ],
    "url": "https://aisummitbarcelona.com/schedule#94a7c242-6949-4c6a-8027-7752cd3a5ee0"
   },
@@ -1210,7 +1476,7 @@
   {
    "id": "d823ad4a",
    "title": "Keynote 37 - AI in Sales real life. What works, what does not work",
-   "description": "Real life examples of Ai  applied to my team in Sales. Best and worse practices on what works and where we failed badly.",
+   "description": "Real life examples of AI applied to our Revenue Department. Best and worse practices on what works and where we failed badly.",
    "start": "2026-09-23T09:00:00+00:00",
    "end": "2026-09-23T09:15:00.000Z",
    "stage": "Main Stage",
@@ -1266,7 +1532,7 @@
   {
    "id": "4500ea85",
    "title": "Panel 13 - Energy Resilience & AI Climate Adaptation",
-   "description": "Two very different things get called climate AI: predicting and pricing risk, and keeping physical systems running when the weather breaks them. This panel holds both and stays honest about which is which. What hazard models can actually forecast at asset level, what insurers and investors will underwrite on the back of it, and the part nobody puts on the slide, that AI compute is itself one of the fastest growing loads on the grid.",
+   "description": "Two very different things get called climate AI: predicting and pricing risk, and keeping physical systems running when the weather breaks them. This panel holds both and stays honest about which is which. What hazard models can actually forecast at asset level, what insurers and investors will underwrite on the back of it, and what happens when AI's own compute becomes one of the fastest growing loads on the same grid everyone is trying to protect.",
    "start": "2026-09-23T09:30:00+00:00",
    "end": "2026-09-23T10:10:00.000Z",
    "stage": "Panel Stage",
@@ -1275,9 +1541,25 @@
    "speakers": [
     "Alejandro Martí",
     "Rocío Alcocer",
-    "Cain Christoforou"
+    "Natalia Olson-Urtecho",
+    "Jean-Charles Prabonneau"
    ],
    "url": "https://aisummitbarcelona.com/schedule#4500ea85-7197-4427-a54f-9a0257e7e8e5"
+  },
+  {
+   "id": "764de660",
+   "title": "Workshop 13 - From Design to Live Campaign: Marketing Automation Rebuilt Around AI Agents",
+   "description": "Marketing automation has a production bottleneck. Turning a design into an inbox-proof email takes days of specialist work. Wiring it into the platform (personalization, data extensions, automations, journeys) takes days more. Every campaign pays that tax again.\n\nWe rebuilt that workflow around AI agents, and we'll show the whole thing running: a Figma design goes in, production-grade email-safe HTML comes out, validated across real inboxes, and the email, the AMPscript personalization, the Data Extensions, the Automations and the Journey get built inside the marketing platform. The specialist stays in command throughout, setting the intent and approving at gates the agents cannot pass on their own.\n\nFull autonomy is not the goal. In a discipline where a bad send is irreversible, it shouldn't be. Orchestration is.\n\nThen we hand the controls to the room: ask for a change, and we run it live.\"\n\nRequirements:\nNo requirements. No laptop, no setup, no accounts.\n\nThis is a demo-led session, not a build-along. The workflow runs on our own repository and against live client platforms, so we can't hand out the environment, and building the full pipeline live would eat well past our slot. What you get instead is the complete workflow end to end, plus a live segment where you call the changes and we operate the system in front of you.\n\nNo technical background required.",
+   "start": "2026-09-23T09:30:00+00:00",
+   "end": "2026-09-23T10:50:00.000Z",
+   "stage": "Workshop Room A",
+   "track": "AI For Tech",
+   "type": "Workshop",
+   "speakers": [
+    "Cristina Cantero",
+    "David Sanchez Serrano"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#764de660-ecd7-4152-b681-8a3c85c253ea"
   },
   {
    "id": "fd27a4da",
@@ -1309,14 +1591,16 @@
   },
   {
    "id": "1418a0c6",
-   "title": "Keynote 41 - Digital Realty",
-   "description": "To be announced...",
+   "title": "Keynote 41 - Private AI Exchange: Private by Design. Public by Choice.",
+   "description": "Build the base in Private AI for core workloads that matters. Rent the spike in Public AI.\nDigital Realty provides the meeting place for both.",
    "start": "2026-09-23T09:40:00+00:00",
    "end": "2026-09-23T09:55:00.000Z",
    "stage": "Main Stage",
    "track": "AI For Tomorrow",
    "type": "Keynote",
-   "speakers": [],
+   "speakers": [
+    "Lars Vonhof"
+   ],
    "url": "https://aisummitbarcelona.com/schedule#1418a0c6-02fc-43ff-98eb-3b4e54a4c07a"
   },
   {
@@ -1333,7 +1617,9 @@
     "Justin Strharsky",
     "Jan Kavalírek",
     "Pedro Romera",
-    "Siobhan Fairman"
+    "Siobhan Fairman",
+    "Diego Perino",
+    "Nouamane Tazi"
    ],
    "url": "https://aisummitbarcelona.com/schedule#0276ebde-807a-4e32-b952-b8064400915b"
   },
@@ -1350,6 +1636,20 @@
     "VIKTORIIA KNIAZEVA"
    ],
    "url": "https://aisummitbarcelona.com/schedule#483eb6a4-51a0-499c-98a0-ef303cacb606"
+  },
+  {
+   "id": "99276bfd",
+   "title": "Keynote 43 - The 10x Enterprise: Scaling AI Platforms for Compound Value",
+   "description": "While base models advance with every quarterly update, most enterprise AI agents remain trapped in proof-of-concept purgatory. The core bottleneck is no longer intelligence, which can be easily rented off the shelf, but the non-rentable foundation: deep domain context, persistent memory, action rights, continuous evaluation, and real-world agent governance.\n\nThis infrastructure represents the custom platform layer every organization must own to unlock true enterprise scale. In this session, Arvand breaks down the architectural blueprint for the next-generation AI platform, outlining what to rent, what to build, and precisely where to start to drive compound value.",
+   "start": "2026-09-23T10:00:00+00:00",
+   "end": "2026-09-23T10:15:00.000Z",
+   "stage": "Main Stage",
+   "track": "AI For Today",
+   "type": "Keynote",
+   "speakers": [
+    "Arvand Modarresi"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#99276bfd-67eb-4f6d-b206-d0e63bdeda41"
   },
   {
    "id": "030de57f",
@@ -1370,17 +1670,29 @@
   },
   {
    "id": "4188ab20",
-   "title": "Keynote 44 - Forward Deployment at OpenAI",
-   "description": "",
+   "title": "Keynote 44 - Your User Is Asleep at 3am. What Is Your Agent Allowed to Do?",
+   "description": "Almost every agent at this conference assumes there's someone there to answer it. Ours often can't be: the traveller is in the air, asleep, or standing at a gate at three in the morning.\nThat changes what you have to build. A booking isn't a transaction — it's a workflow that can break for weeks. Something has to hold the problem until it's resolved, know what it's allowed to do without asking, and know when to wake a human instead.\nTyler Foster, CPTO at BizAway, on how a trip is modelled so that one delayed flight invalidates everything downstream of it, where the line sits between what an agent decides alone and what it escalates to a person, and what six months of defect data across two codebases decided about how much we were willing to let it do unattended.",
    "start": "2026-09-23T10:20:00+00:00",
    "end": "2026-09-23T10:35:00.000Z",
    "stage": "Main Stage",
    "track": "AI For Tech",
    "type": "Keynote",
    "speakers": [
-    "Ilyass El Mansouri"
+    "Tyler Foster"
    ],
    "url": "https://aisummitbarcelona.com/schedule#4188ab20-26cf-4310-8ca4-2ead8b2a2c45"
+  },
+  {
+   "id": "fbf30865",
+   "title": "Deploying AI Across the Workforce with Gemini Enterprise, by Google Cloud",
+   "description": "Move beyond passive search and rigid assistants. In this session, you will discover how any employee can build custom AI agents, automate workflows across your existing stack, and establish the governance layer needed to scale securely across the organization with Gemini Enterprise",
+   "start": "2026-09-23T10:30:00+00:00",
+   "end": "2026-09-23T11:30:00.000Z",
+   "stage": "",
+   "track": "",
+   "type": "",
+   "speakers": [],
+   "url": "https://aisummitbarcelona.com/schedule#fbf30865-c151-447f-87d3-ea2b62da7fd3"
   },
   {
    "id": "bbf64e66",
@@ -1398,8 +1710,8 @@
   },
   {
    "id": "95a0bbc1",
-   "title": "Keynote 45 - Responsible AI",
-   "description": "To be announced...",
+   "title": "Keynote 45 - Greener AI is possible: the decisions behind Ecosia's AI products",
+   "description": "Ecosia is a search engine owned by a foundation. It can't be sold, it will never go public, and 100% of its profits go to climate action. We built generative AI without pretending the costs weren't real but knowing Greener AI was not impossible. The decisions behind a lighter-footprint AI and a genuine European competitor to Big Tech.",
    "start": "2026-09-23T10:40:00+00:00",
    "end": "2026-09-23T10:55:00.000Z",
    "stage": "Main Stage",
@@ -1412,10 +1724,10 @@
   },
   {
    "id": "7cb8d5e0",
-   "title": "Keynote 47 - AEO (AI Recommendation): the Critical Growth Channel",
-   "description": "Things move fast, so this may shift a bit before the event but this would be the outline as I see it now\n1. Contextualizing AI visibility against the backdrop of the other major growth engines of the past 30 years: The Internet, Search, Mobile,  Apps, Social Media (Waves 1, 2, & 3), Blockchain. \n2. AEO is already here (and having a huge commercial impact) (data sharing)\n3. What you need to do, *now* to win (best practices sharing)\n4. What the future holds \n5. Q&A",
+   "title": "Keynote 47 - AEO (Answer Engine Optimization): The Critical Growth Channel",
+   "description": "AI Visibility (appearing in AI recommendations) is imperative amidst the current decline in search traffic. Understand the nature of the moment and what you can do to take advantage of it.",
    "start": "2026-09-23T11:00:00+00:00",
-   "end": "2026-09-23T11:20:00.000Z",
+   "end": "2026-09-23T11:15:00.000Z",
    "stage": "Auditorium Stage",
    "track": "AI For Builders",
    "type": "Keynote",
@@ -1443,7 +1755,7 @@
    "title": "Keynote 46 - The AI Enterprise Value Gap",
    "description": "AI capabilities are growing at an unprecedented pace, with a never ending flow of new models that beat every single benchmark. \n\nHowever, enterprise value barely reflects this, and most AI initiatives fail to reach production and provide measurable impact, generating a gap between the technological capabilities available, and how much enterprises benefit from them.\n\nThis talk explores why that gap exists, why it's no longer a technology problem but an execution problem, and how Aily Labs, with their Decision Intelligence App turns intelligence into faster decisions, better operations, and real P&L impact",
    "start": "2026-09-23T11:00:00+00:00",
-   "end": "2026-09-23T11:20:00.000Z",
+   "end": "2026-09-23T11:15:00.000Z",
    "stage": "Main Stage",
    "track": "AI For Today",
    "type": "Keynote",
@@ -1475,7 +1787,7 @@
    "title": "Keynote 49 - Tokens, Latency, Sovereignty: The Physics Pulling AI to the Edge",
    "description": "",
    "start": "2026-09-23T11:20:00+00:00",
-   "end": "2026-09-23T11:40:00.000Z",
+   "end": "2026-09-23T11:35:00.000Z",
    "stage": "Auditorium Stage",
    "track": "AI For Tech",
    "type": "Keynote",
@@ -1489,7 +1801,7 @@
    "title": "Keynote 48 - Dataiku",
    "description": "To be announced...",
    "start": "2026-09-23T11:20:00+00:00",
-   "end": "2026-09-23T11:40:00.000Z",
+   "end": "2026-09-23T11:35:00.000Z",
    "stage": "Main Stage",
    "track": "AI For Tomorrow",
    "type": "Keynote",
@@ -1500,15 +1812,15 @@
   },
   {
    "id": "c292eab6",
-   "title": "Demo 24 - Wakastart",
-   "description": "To be announced...",
+   "title": "Demo 24 - Cybercoding in Live Action: Securing a Legacy Application",
+   "description": "Modernizing Enterprise Software: The Cybercoding Methodology\nIn an era defined by accelerating cyber threats and stringent European regulatory demands—specifically NIS2 compliance for all B2B SaaS platforms—traditional application refactoring is no longer viable. Cybercoding shifts the paradigm by enabling organizations to transform any legacy asset—regardless of the original programming language, or even starting from raw documentation, UI screenshots, and functional requirements—into a modern, secure, enterprise-grade application in under a day.\n1. Comprehensive Legacy Reverse-Engineering\nThe process begins with an automated deep-dive analysis of the existing estate:\nFunctional & Business Rule Extraction: Reverse-engineering core domain logic, user workflows, and implicit business rules directly from the source code, legacy specs, or visual assets.\nSecurity & Vulnerability Audit: Complete static (SAST) and dynamic (DAST) code analysis to identify legacy CVEs, OWASP Top 10 vulnerabilities, and architectural flaws.\nDatabase Schema Mapping: Parsing existing database models and translating them into modern ORM interface definitions (e.g., Prisma) to ensure structured data evolution without ad-hoc patches.\nDependency & Screen Analysis: Auditing third-party libraries, code obsolescence, and UI component trees to generate technical reports alongside next-generation HTML mockups for every screen.\n2. Specification Engineering: The Coding PRD & Skill-Gated AI\nOnce the legacy estate is mapped, the system generates a structured Product Requirements Document (PRD) that serves as an immutable contract for the generation engine:\nSkill-Driven AI Coding: Code generation is strictly bounded by dedicated Waka Skills hosted in Git repositories. These skills constrain the AI, preventing code drift, hallucinations, or unapproved architectural patterns, and ensuring full alignment with the target technology stack (e.g., TypeScript, NestJS, Next.js).\nNative Enterprise Guardrails: Built-in enforcement of security management, token handling, multi-tenancy models, fine-grained RBAC matrices, and automated design systems (including dark mode) directly within the PRD.\n3. End-to-End Test Orchestration & Infrastructure Alignment\nTo guarantee complete functional parity and total integrity throughout the rewrite:\nAutomated Test Suite Generation: Test suites are derived directly from the legacy source logic and re-executed against the target application to verify end-to-end consistency and prevent functional regression.\nSpec-to-Code-to-Infra Alignment: Perfect synchronization between application specs, generated microservices (Frontend, Backend, API), and the target deployment environment (Kubernetes pods, object storage, managed databases).\n4. Regulatory Compliance & Cyber Resilience\nBy unifying automated analysis, skill-constrained AI generation, and target infrastructure provisioning, Cybercoding condenses multi-month refactoring projects into a matter of days:\nOut-of-the-Box Compliance: Delivered applications natively meet ISO 27001 and NIS2 security standards.\nProactive Security Posture: Eliminates historical technical debt and critical vulnerabilities, ensuring B2B SaaS platforms are resilient against modern cyberattack vectors.",
    "start": "2026-09-23T11:30:00+00:00",
    "end": "2026-09-23T11:55:00.000Z",
    "stage": "Demo Stage",
    "track": "AI For Builders",
    "type": "Demo",
    "speakers": [
-    "Denis Shiarra"
+    "Denis Schirra"
    ],
    "url": "https://aisummitbarcelona.com/schedule#c292eab6-e081-42e2-8975-8799e44380cf"
   },
@@ -1542,10 +1854,10 @@
   },
   {
    "id": "e2ff60de",
-   "title": "Keynote 51 -  Memory in AI systems - Why state is the missing keystone",
+   "title": "Keynote 51 - Memory in AI systems - Why state is the missing keystone",
    "description": "When your agent decides something is worth remembering past its current session, where does that write go today, and how is it retrieved? We will discuss how data layers and agent state memory are critical to scalable, productionised agentic workflows.",
    "start": "2026-09-23T11:40:00+00:00",
-   "end": "2026-09-23T12:00:00.000Z",
+   "end": "2026-09-23T11:55:00.000Z",
    "stage": "Auditorium Stage",
    "track": "AI Foundations",
    "type": "Keynote",
@@ -1556,10 +1868,10 @@
   },
   {
    "id": "480f328a",
-   "title": "Keynote 50 - Damm",
+   "title": "Keynote 50 - AI at Damm: Real-World Use Cases from a 150-Year-Old Company",
    "description": "",
    "start": "2026-09-23T11:40:00+00:00",
-   "end": "2026-09-23T12:00:00.000Z",
+   "end": "2026-09-23T11:55:00.000Z",
    "stage": "Main Stage",
    "track": "AI For Today",
    "type": "Keynote",
@@ -1658,22 +1970,22 @@
   },
   {
    "id": "460c90d0",
-   "title": "Keynote 54 - AI & Education",
-   "description": "To be announced...",
+   "title": "Keynote 54 - Your AI Can Write the UI. This Makes Sure It Writes Your UI.",
+   "description": "AI agents build UI by imitating what already exists in your codebase. If your repo holds design debt, your AI will multiply it. Learn how npx roast-my-design-system, an open-source deterministic auditor and MCP server, measures system health, generates ready-to-run fix prompts for instant cleanup, precise agent rules, and keeps AI code generators strictly on-system at enterprise scale.",
    "start": "2026-09-23T12:40:00+00:00",
    "end": "2026-09-23T12:55:00.000Z",
    "stage": "Auditorium Stage",
-   "track": "AI For Tomorrow",
+   "track": "AI For Builders",
    "type": "Keynote",
    "speakers": [
-    "Dr. Rajesh Kumar K V"
+    "Greg Kozakiewicz"
    ],
    "url": "https://aisummitbarcelona.com/schedule#460c90d0-de7f-480d-8907-e59d028b9c85"
   },
   {
    "id": "0765bef7",
-   "title": "Panel 17 - AI vs AI: Deepfakes, Fraud & the New Cyber Battlefield",
-   "description": "Voice clones empty bank accounts, deepfakes pass KYC checks, and attackers now automate with agents. The people defending banks, newsrooms and infrastructure on fighting AI with AI.",
+   "title": "Panel 17 - AI vs AI: Deepfakes, Detection & the Trust Gap",
+   "description": "Deepfakes and automated attacks are getting cheaper faster than defences are catching up. What detection can actually catch today, what it takes to prove an AI system can be trusted, and how far a supervisory authority can reach. Fighting AI with AI, from the detection lab to the audit.",
    "start": "2026-09-23T12:45:00+00:00",
    "end": "2026-09-23T13:25:00.000Z",
    "stage": "Panel Stage",
@@ -1681,7 +1993,10 @@
    "type": "Panel",
    "speakers": [
     "Quentin Cozette",
-    "Roberta Schmid"
+    "Xavier Valero",
+    "Paula López Otero",
+    "Roberta Schmid",
+    "Natalia Olson-Urtecho"
    ],
    "url": "https://aisummitbarcelona.com/schedule#0765bef7-f085-4231-be2f-4346514050e4"
   },
@@ -1730,8 +2045,8 @@
   },
   {
    "id": "d779f2ea",
-   "title": "Workshop 17 - Bizaway",
-   "description": "To be announced...",
+   "title": "Workshop 17 - BizAway Lab: Harness Building: Build a full-featured travel app with us",
+   "description": "We’re handing you the keys to a working BizAway travel client, and the harness to build on top of it. Login is ready to go; everything after that is a sandbox designed for you to extend, automate, and customize.\n\nYou'll start with a high-level prompt and a solid harness structure, then end the session with a production-ready travel web app that’s unmistakably yours. Your name on it, your look, your calls. Nobody leaves with the same build.\n\nLevel: Beginner to intermediate. If you're comfortable in a terminal and can read code, you're set. No frontend background needed.\n\nWhat to bring\n- Cursor or VS Code with GitHub Copilot (active agent subscription required).\n- Node.js 20.9+ (22 LTS recommended) installed for local execution.\n\nWe'll provide workspace access and demo credentials when you arrive. Having your tools installed and authenticated ahead of time means more time spent building.",
    "start": "2026-09-23T13:00:00+00:00",
    "end": "2026-09-23T14:20:00.000Z",
    "stage": "Workshop Room A",
@@ -1759,7 +2074,7 @@
   {
    "id": "55e445b3",
    "title": "Keynote 56 - The Real Disruption isn't AI. It is Human Intelligence.",
-   "description": "Artificial Intelligence · Human Intelligence · Future of Work · Leadership · Organizational Culture · Human Potential · Transformation · Emotional Intelligence · Responsible AI",
+   "description": "AI is changing how organisations work, but the deeper shift is human. Myriam Ben Farhat, VP of People Experience & Inclusion at Chess.com, on why human and emotional intelligence, leadership and organisational culture decide whether AI transformation actually works, and what that asks of the people leading it.",
    "start": "2026-09-23T13:20:00+00:00",
    "end": "2026-09-23T13:35:00.000Z",
    "stage": "Auditorium Stage",
@@ -1786,8 +2101,8 @@
   },
   {
    "id": "726e1d0b",
-   "title": "Use Case 12 - Pigment x Uberall",
-   "description": "To be Announced...",
+   "title": "Use Case 12 - Data, Context, and Intelligence: How Uberall Built an Agentic Planning Architecture with Pigment",
+   "description": "Join Anselme Vignon (Pigment) and Jose Ramon Iglesias (Uberall) to discover how Uberall transformed its FP&A processes using Agentic AI. This session explores the winning formula of \"Data + Context + Intelligence,\" revealing how Uberall solved the missing piece of the AI puzzle to achieve over 95% accuracy in their automated reporting and analysis. Learn how to build a secure, multi-agent architecture that combines custom enterprise context with Pigment's governed compute engine, allowing your team to move from slow, quarterly cycles to live, agile decision-making.",
    "start": "2026-09-23T13:30:00+00:00",
    "end": "2026-09-23T13:55:00.000Z",
    "stage": "Main Stage",
@@ -1801,7 +2116,7 @@
   },
   {
    "id": "4c541890",
-   "title": "Panel 18 — BlueTechPort and the Blue Economy Industry",
+   "title": "Panel 18 — BlueTechPort: Shaping Responsible AI for the Blue Economy",
    "description": "AI needs more than algorithms and computing power. It depends on physical infrastructure — energy, water, data centres and connectivity — but also on governance infrastructure: regulation, institutions, trust and the right market incentives. In the blue economy, where innovation must go hand in hand with environmental sustainability and human well-being, responsible AI is not an aspiration but a condition. Bringing together research, industry and governance, this BlueTechPort panel explores how we can build the conditions for AI to innovate, scale and create long-term public value",
    "start": "2026-09-23T13:30:00+00:00",
    "end": "2026-09-23T14:10:00.000Z",
@@ -1818,14 +2133,16 @@
   },
   {
    "id": "5e240cd0",
-   "title": "Keynote 57 - JetBrains",
-   "description": "To be announced...",
+   "title": "Keynote 57 - Everyone Is 10x. The Company Isn't.",
+   "description": "A year ago, getting developers to use AI was the hard part. It isn't anymore. Give them agents, and they'll use them: three to five each, chosen per task, every choice defensible on its own. What breaks now is everything around them. Knowledge stays trapped in whichever tool produced it. Spend is visible per tool, not per piece of work. Policies cover some agents and not others. Work stops at every handoff.\n\nArtem Khvastunov leads Professional Services at JetBrains. This talk is one engagement in detail, the hardest one his team has run so far. The organization in question: 3,000+ people, twenty-six years of products, ownership boundaries drawn long before agents existed, and a culture where nothing is ever adopted by decree. AI spend rose roughly tenfold in six months, and answering one basic question — what did this piece of work cost us — took four days of manual spreadsheet work. Standardizing on a single AI tool was the obvious fix and the wrong one. What worked instead, and how much of it transfers.",
    "start": "2026-09-23T13:40:00+00:00",
    "end": "2026-09-23T13:55:00.000Z",
    "stage": "Auditorium Stage",
-   "track": "AI For Today",
+   "track": "AI For Builders",
    "type": "Keynote",
-   "speakers": [],
+   "speakers": [
+    "Artem Khvastunov"
+   ],
    "url": "https://aisummitbarcelona.com/schedule#5e240cd0-376c-4c9b-ba3d-f8287b1be35c"
   },
   {
@@ -1839,36 +2156,37 @@
    "type": "Debate",
    "speakers": [
     "Damien Acheson",
-    "Oleg Chervonnyi",
     "Patricia Pastor",
     "Astghik Zakharyan",
     "Jorge Blasco",
-    "Oriol Juncosa"
+    "Oriol Juncosa",
+    "Nouamane Tazi",
+    "Lily Joo"
    ],
    "url": "https://aisummitbarcelona.com/schedule#beb752f1-984d-4c9e-8db9-d9e480128694"
   },
   {
    "id": "6306f1cd",
-   "title": "Demo 29 - How AI Is Rebuilding Modern Sales Teams",
-   "description": "AI is not just a tool. It is changing how B2B sales teams are built and scaled.\n\nIn this session, I will show how companies use AI, automation, and AI agents to identify buying signals, define precise ICPs, automate outreach, and structure their CRM into a predictable sales engine.\n\nYou will learn how to let AI handle research, data, qualification, and workflows, while your team focuses on conversations, trust, and closing.\n\nThis is practical, system-driven, and based on real implementations.\n\nIf you want to grow your revenue and win more B2B clients without hiring a large sales team, this session is for you.",
+   "title": "Demo 29 - Experiencing the Spanish AI Act Sandbox",
+   "description": "We’ll be sharing InfoJobs’ lessons learned from participating in the Spanish AI Act Sandbox. We will explain how the Sandbox was structured, look at the guidance and tools provided by the experts, and show the High Risk adaptation framework proposed during the initiative.",
    "start": "2026-09-23T14:00:00+00:00",
    "end": "2026-09-23T14:25:00.000Z",
    "stage": "Demo Stage",
    "track": "AI For Builders",
    "type": "Demo",
    "speakers": [
-    "Sami Ghozzi"
+    "Anna Via"
    ],
    "url": "https://aisummitbarcelona.com/schedule#6306f1cd-e755-4e2c-86db-95980fc250de"
   },
   {
    "id": "9cd43d96",
-   "title": "Use Case 13 - Zurich",
-   "description": "",
+   "title": "Use Case 13 - Coding with AI - The good, the bad and the ugly",
+   "description": "Everyone knows Claude Code. Codex, too. But what happens when you actually try to build with them inside a big company? That's where the difficulties appear — out of nowhere. What we learned is that two things make the difference: fundamentals, and visualization. Let us show you what worked for us — and what shook our foundations along the way.",
    "start": "2026-09-23T14:00:00+00:00",
    "end": "2026-09-23T14:25:00.000Z",
    "stage": "Main Stage",
-   "track": "AI For Tomorrow",
+   "track": "AI For Tech",
    "type": "Use Case",
    "speakers": [
     "Jan-Philipp Tebbe",
@@ -1887,8 +2205,6 @@
    "type": "Panel",
    "speakers": [
     "Ziad Matar",
-    "Gerald Mullally",
-    "Milos Mastník",
     "Diego Perino",
     "Raphaëlle Achach"
    ],
@@ -1896,15 +2212,15 @@
   },
   {
    "id": "4a3bd51f",
-   "title": "Demo 30 - Deeptech",
-   "description": "To be announced...",
+   "title": "Demo 30 - Automated, Augmented or Resilient? A Live AI Task Audit",
+   "description": "AI doesn't replace jobs in one go. It takes over tasks, one by one. In Europe, 53% of jobs are already exposed to AI, and many will transform. The most useful way to see where your job is heading is to look at what actually fills your week, not your job title.\n\n\nIn this live demo, you'll use a vibecoded app to map your top tasks against what AI can already do. Five quick questions per task will show you which tasks are exposed to automation, which AI will likely augment, and which stay resilient because they depend on your unique human premium. Come and reflect on your professional future before the summit ends!",
    "start": "2026-09-23T14:30:00+00:00",
    "end": "2026-09-23T14:55:00.000Z",
    "stage": "Demo Stage",
    "track": "AI For Tomorrow",
    "type": "Demo",
    "speakers": [
-    "Wolf Boone"
+    "Magda Kufrej"
    ],
    "url": "https://aisummitbarcelona.com/schedule#4a3bd51f-e6a0-44b2-8a60-c03a429d33d3"
   },
@@ -1938,8 +2254,8 @@
   },
   {
    "id": "d7abc3a7",
-   "title": "Workshop 20 - AI & Education",
-   "description": "We will host a working workshop to do real world working examples of creating the data needed to build the intelligence behind frontier models.",
+   "title": "Workshop 20 - How to write a rubric properly",
+   "description": "In this workshop, you will learn how to evaluate frontier AI Models.  You will create a checklist and have others score a model according to yours. You will learn the properties that separate a real rubric from a plausible ones, and how to balance between difficulty and plausibility.",
    "start": "2026-09-23T14:30:00+00:00",
    "end": "2026-09-23T15:50:00.000Z",
    "stage": "Workshop Room B",
@@ -1953,7 +2269,7 @@
   {
    "id": "f16eeb64",
    "title": "Fireside 7 — How a Mortgage Broker Becomes an AI Company",
-   "description": "Mortgages are slow, document-heavy and heavily regulated — which makes them an obvious target for AI and a genuinely hard one.\n\nRicard Garriga, CEO of Trioteca, on where AI actually compresses the process today, where it structurally can't, and how much of the remaining friction is technology versus other institutions' procedures.\n\nAlso: what a pan-European product consistently gets wrong about the Spanish market.",
+   "description": "What happens when artificial intelligence moves from being a supporting technology to becoming a core part of a company’s value proposition?\n\nThis fireside chat will explore how AI is reshaping the mortgage and real estate sector through the experience of a company undergoing that transformation firsthand. We will examine how AI is changing the way value is created for both homebuyers and financial institutions, and how it improves the customer journey, enable new services for banks, and drive significant gains in internal efficiency.\n\nBeyond individual use cases, the session will explore a broader question: when does a company that uses AI actually become an AI company?",
    "start": "2026-09-23T15:00:00+00:00",
    "end": "2026-09-23T15:15:00.000Z",
    "stage": "Auditorium Stage",
@@ -1964,6 +2280,21 @@
     "Josep Maria Ribes Bonet"
    ],
    "url": "https://aisummitbarcelona.com/schedule#f16eeb64-f7dc-4398-9140-421ab0207f57"
+  },
+  {
+   "id": "3c2e52bb",
+   "title": "Demo 31 - The Best AI Opportunities Might Be in the Industries Nobody Wants to Build For.",
+   "description": "What if the biggest AI opportunities aren’t in the most crowded markets, but in the industries technology has overlooked for years?\n\nWe’ll share how we went from building AI automations for property management companies to uncovering deeper pain points in a sector still heavily reliant on legacy software, fragmented tools and manual processes. That insight led us to build Wabee, an AI-native SaaS platform designed from the ground up for property and community management.\n\nWe’ll show how AI became part of the entire journey — from researching the market and challenging our assumptions with Claude to using Claude Code to turn the idea into a working MVP and iterate at a speed that would have been difficult for a small team just a few years ago.\n\nThrough a live demo of Wabee, we’ll share what AI helped us accelerate, where human expertise was still essential, and what we learned when the product met real users.\n\nMore than a Wabee story, this session is about how founders can use AI not only to build faster, but to uncover overlooked markets and turn real industry pain into new product opportunities.",
+   "start": "2026-09-23T15:00:00+00:00",
+   "end": "2026-09-23T15:25:00.000Z",
+   "stage": "Demo Stage",
+   "track": "AI For Builders",
+   "type": "Demo",
+   "speakers": [
+    "Cecilia Oxandabarat",
+    "maria Velasco Laprea"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#3c2e52bb-18a1-46c6-8040-05866dd678f2"
   },
   {
    "id": "f4edb726",
@@ -1997,6 +2328,21 @@
    "url": "https://aisummitbarcelona.com/schedule#f58373fe-d419-49ce-a3f5-bd7dd7fd5004"
   },
   {
+   "id": "d9fd36ab",
+   "title": "Fireside 8 - Everyone Talks AI. Who’s Actually Transforming?",
+   "description": "AI pilots are everywhere. Real transformation is harder to find. In this fireside chat, Enric Escalé Garrell, Partner at SDG Group, cuts through the AI hype to explore what separates experimentation from meaningful business transformation. Expect real-world lessons, a business-first perspective, and an inside look at how SDG is applying the same transformation principles to itself through SHIFT.",
+   "start": "2026-09-23T15:20:00+00:00",
+   "end": "2026-09-23T15:35:00.000Z",
+   "stage": "Auditorium Stage",
+   "track": "AI Foundations",
+   "type": "Fireside Chat",
+   "speakers": [
+    "Mike Butcher",
+    "Enric Escalé"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#d9fd36ab-a77b-4775-b86d-10670bddb3a6"
+  },
+  {
    "id": "59f84565",
    "title": "Demo 32 - AI Visibility: How Buyers Find You Without Searching",
    "description": "AI is changing how people discover and choose products. This panel breaks down how tools like ChatGPT, Perplexity, and Google AI Overviews decide what to recommend and how brands can actually show up there. Expect practical strategies around content, brand mentions, and distribution that drive pipeline.",
@@ -2026,11 +2372,11 @@
    "url": "https://aisummitbarcelona.com/schedule#400870fc-05ca-4ee3-bda5-4d6384bd7d5a"
   },
   {
-   "id": "52a76e66",
-   "title": "Fireside 10 - Barcelona: A Place Where Innovation Flourishes",
+   "id": "7e791409",
+   "title": "Fireside 9 - Barcelona: A Place Where Innovation Flourishes",
    "description": "Barcelona is not just a city — it is a European innovation hub with a strategy. The BlueTechPort brings together the city's Blue Economy ambitions, startup energy, and institutional backing into one living ecosystem. Two of its architects explain how Barcelona's innovation identity is being built, why the harbour is at its centre, and what it means for companies looking to grow here.",
-   "start": "2026-09-23T16:00:00+00:00",
-   "end": "2026-09-23T16:15:00.000Z",
+   "start": "2026-09-23T15:40:00+00:00",
+   "end": "2026-09-23T15:55:00.000Z",
    "stage": "Auditorium Stage",
    "track": "AI For Good",
    "type": "Fireside Chat",
@@ -2038,68 +2384,91 @@
     "Emma Cobos",
     "Miquel Rodríguez Planas"
    ],
-   "url": "https://aisummitbarcelona.com/schedule#52a76e66-151b-4ddc-ba47-33a905fff4ce"
+   "url": "https://aisummitbarcelona.com/schedule#7e791409-3dfa-47de-a872-4a5b731fe304"
+  },
+  {
+   "id": "02605d54",
+   "title": "Closing ceremony by the Molt Honorable Mr. Salvador Illa i Roca, President of the Government of Catalonia.",
+   "description": "",
+   "start": "2026-09-23T16:00:00+00:00",
+   "end": "2026-09-23T16:20:00.000Z",
+   "stage": "Main Stage",
+   "track": "",
+   "type": "Keynote",
+   "speakers": [
+    "Salvador Illa i Roca"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#02605d54-81dd-4888-851d-66ceffab2d95"
   }
  ],
  "photos": {
+  "Albert Tort Pugibet": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/albert-tort-1789640424680-0.jpg",
+  "Maria Galindo Garcia-Delgado": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/maria-galindo-1789640424710-1.jpg",
+  "Ilyass El Mansouri": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/iliyass-openai-1783679560021.jpg",
   "Barbara Cresti": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/89-1782987742217.jpg",
   "Juan Reyes": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/10-1782491994841.jpg",
   "Steve Hines": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/steve-hines-1783688986923.jpg",
   "Carmen Herrero": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/carmen-herrero-1788873305229-0.png",
-  "Nouamane Tazi": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/11-1782492013038.jpg",
-  "Pablo Vargas": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/154-1783359660595.jpg",
-  "Nuno Silva": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/nuno-silva-1788874180955-0.png",
+  "Avinash Jha": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/avinash-jha-1789583497654-0.jpg",
+  "Chema Alonso": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/1-1782491787272.jpg",
   "Albert Franquesa": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/albert-franquesa-1787132833100-7.jpg",
+  "Nouamane Tazi": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/11-1782492013038.jpg",
+  "Cathy White": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/cathy-white-1788273937596-0.png",
+  "Julia Hernandez": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/julia-hernandez-1789655703156-0.jpg",
   "Luc JULIA": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/27-1782897781550.jpg",
   "Alexandre Gol i Mestre": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/107-1783696895508-0.jpg",
-  "Martin C. Syms": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/martin-c--syms-1787850316658-0.jpg",
-  "Cathy White": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/cathy-white-1788273937596-0.png",
   "Florian Kunzke": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/8-1782491951645.jpg",
+  "Martin C. Syms": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/martin-c--syms-1787850316658-0.jpg",
   "Zakaria Mansour": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/49-1782900318162.jpg",
   "Malgorzata Luszkiewicz": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/speaker-background-malgorzata-1783418697042.jpg",
   "Anita Perera": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/39-1782898330400.jpg",
   "Laura Tejada": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/laura-tejada-1787158348442-0.jpg",
   "Pablo Rodriguez": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/pablo-rodrigues2-0--1787931110847-0.png",
   "Aleksandr Ostapenko": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/91-1782987805866.jpg",
+  "Paul Tremblot": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/paul-tremblot--1--1789726643104-0.png",
+  "Caio Zanolla": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/caio-zanolla-1789735453649-0.jpg",
   "Nicky Verd": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/25-1782897716383.jpg",
+  "Mark Hill": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/mark-hill-1789583432909-0.jpg",
   "Philippe Sigal": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/118-1782996064124.jpg",
   "Laura Gilbert": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/23-1782897562335.jpg",
   "Gianluca Gilardi": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/gianluca-gilardi-1788356754458-0.jpg",
   "Jose Manuel Pérez Marzabal": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/62-1782910616320.jpg",
-  "Jacob Zangel": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/jacob-zangel-1787729011515-0.png",
-  "Charlie Hills": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/charlie-hills-1787132834008-9.jpg",
+  "David Arnoux": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/speaker-background-1783353933208.jpg",
   "Roshan Manjaly": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/roshan-manjaly-1787061008642-1.jpg",
   "Barbara Stanelli": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/barbara-stanelli-thomas-1787061008631-0.jpg",
-  "David Arnoux": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/speaker-background-1783353933208.jpg",
+  "Jacob Zangel": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/jacob-zangel-1787729011515-0.png",
+  "Charlie Hills": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/charlie-hills-1787132834008-9.jpg",
   "Rory Keddie": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/rory-keddie-1787068437779-0.jpg",
   "Jaime De Mora": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/3-1782491833402.jpg",
   "David Serral": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/david-serral-1786195068441-17.jpg",
-  "Pol Fenollar": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/113-1782995907368.jpg",
   "Damien Acheson": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/damien-acheson-1788442358546-0.png",
   "Maanas Mediratta": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/125-1782996310340.jpg",
   "Dave Garcia": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/128-1782996403307.jpg",
   "Simon Bosch": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/simon-bosch--1--1787845542125-0.png",
+  "Pol Fenollar": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/113-1782995907368.jpg",
   "Danica Smith": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/danica-smith-1788001952361-4.jpg",
   "Joan Salvatella": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/110-1782995752379.jpg",
-  "Jon Thomas": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/1-1788855331175-0.jpg",
+  "Jon Thomas": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/jon-thomas-1789041637551-0.png",
   "Gonzalo Lopez Tarasido": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/gonzalo-lopez-attou-1788373170117-0.png",
   "Jordina Torrents Barrena": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/4-1782491852160.jpg",
+  "Alex Bisbe": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/alex-bisbe-1789051680820-0.jpg",
   "Howard Wright": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/howard-wright-1783331949566.jpg",
+  "Christian Rebernik": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/christian-rebernik-1786195068913-18.jpg",
+  "Raghav Matta": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/raghav-matta-1789578384297-1.jpg",
   "Sadek Drobi": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/sadek-drobi-1788355790643-0.jpg",
   "Darrell Etherington": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/46-1782900207076.jpg",
   "Carla Carvajal": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/carla-carvajal-1787132834041-10.jpg",
   "Seena Amidi": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/seena-amidi-1788356335766-0.jpg",
-  "Christian Rebernik": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/christian-rebernik-1786195068913-18.jpg",
+  "Borja Breña": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/borja-brena-1789675703114-0.png",
   "Alex Booker": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/alex-booker-1786195066205-9.jpg",
   "Steffen Fuchs": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/steffen-fuchs-1786195063563-3.jpg",
   "Javo Granda": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/82-1782987495582.jpg",
   "Antonio Morales": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/117-1782996030346.jpg",
   "Somdip Dey": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/somdip-dey2-1784735732954-0.jpg",
   "Roberta Scrofani": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/126-1782996341476.jpg",
-  "Tyler Foster": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/tyler-foster-1784823754912-0.jpg",
+  "Ferdi Alici": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/97-1782987987998.jpg",
   "Matteo Ruffini": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/matteo-ruffini-1786034212614-0.jpg",
   "Alex Shershebnev": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/109-1782995722205.jpg",
-  "Mahe Bayireddi": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/42-1784284349982-0.jpg",
   "Arno Strotgen": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/arno-strotgen-1788439675539-0.png",
   "Carl Strathearn": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/69-1782910838321.jpg",
   "Gabriel Mesquida Masana": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/-gabriel-mesquida-masana-1788782280786-0.png",
@@ -2107,7 +2476,6 @@
   "Rodrigo Aramayo": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/rodrigo-aramayo-1783358494473.jpg",
   "Kevin Kahn": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/45-1782900177368.jpg",
   "Jeff Gothelf": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/34-1782898157433.jpg",
-  "Antonio Fabregat": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/antonio-fabregat-1786032246143-0.jpg",
   "Jesús Barrasa": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/jesus-barrasa-1786032990531-0.jpg",
   "David Masó": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/david-maso-1784113605553-0.jpg",
   "Guillaume Saint-Cirgue": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/144-1783355738644.jpg",
@@ -2115,64 +2483,82 @@
   "Marvyn Halfon": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/maryvn-halfon-1788442516558-0.png",
   "Shayamal Vallabhjee": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/shayamal-villabahmebje-1783690901234-0.jpg",
   "Ghazaleh Samandari": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/ghazaleh-samandari-1786195068301-16.jpg",
-  "Rory O'Driscoll": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/rory-o-driscoll-1787132834875-12.jpg",
+  "Maxime Gaudin": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/max-guadin-1789390888184-0.png",
   "Sam Jacobs": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/24-1782897670391.jpg",
   "Sacha Morard": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/84-1782987566239.jpg",
+  "Rory O'Driscoll": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/rory-o-driscoll-1787132834875-12.jpg",
   "Miguel Arroja": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/miguel-arroja-1786195062065-1.jpg",
   "Terrell Sheridan": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/terrell-sheridan-1788886138147-0.png",
   "Daniel Traça": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/37-1782898266615.jpg",
-  "Bhavishya Ramchander": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/67-1782910772960.jpg",
-  "Maxim Khalilov": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/maxim-khalilov-1783697722104-0.jpg",
-  "Neel Arora": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/neel-arora-1787927487152-0.jpg",
+  "Oscar Hernández Porta": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/oscar-herna-ndez-porta-1789561418515-0.jpg",
+  "Eduard Truñó": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/eduard-trun-o--juanola-1789561418522-2.jpg",
+  "Manuel de Arcocha": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/manuel-de-arcocha-is-technology-director-1789561418521-1.jpg",
   "Nicolas Léonard": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/106-1782995635319.jpg",
+  "Neel Arora": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/neel-arora-1787927487152-0.jpg",
+  "Bhavishya Ramchander": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/67-1782910772960.jpg",
+  "Arnaud Sliwa-Biset": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/arnaud-sliwa--1--1789579315537-0.png",
   "Mariam Hakobyan": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/mariam-hakobyan-1786195071912-26.jpg",
   "Frédéric Barthelet": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/66-1782910742746.jpg",
-  "Dylan Bristot": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/dylan-bristot-1787925867392-0.jpg",
   "Magda Kufrej": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/63-1782910646449.jpg",
   "Anna Thomas": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/anna-thomas-1788171217176-0.png",
-  "Anna Via": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/anna-via-1784739857059-0.jpg",
   "Isabella Loaiza": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/isabella-loaiza-1788001950865-1.jpg",
+  "Larissa Dorothea Murmann": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/larissa-murmann-1788356004090-0.jpg",
+  "Dylan Bristot": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/dylan-bristot-1787925867392-0.jpg",
   "Sarah Anto": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/96-1782987962788.jpg",
   "Faith Ruto": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/53-1782900442171.jpg",
   "Leslie Ann Keeler": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/50-1782900346677.jpg",
-  "Stefanie Söhnchen": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/77-1782911107025.jpg",
+  "Danae Vara": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/danae-vara-1788357875330-0.png",
+  "Alberto Valero": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/alberto-valero-1787064261459-0.jpg",
   "David Villalón": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/30-1782897914917.jpg",
   "Manuel Romero": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/manuel-romero-1784542037483-0.jpg",
   "Ebony James": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/64-1782910685731.jpg",
+  "Francisco Amaya": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/francisco-maya-1789726237215-0.png",
+  "Israel Lopez Moriano": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/israel-lopez-1789726332240-0.png",
+  "Xavier Simó": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/103-1782995521490.jpg",
+  "Alejandro Mowszet": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/alejandro-mowszet-1783693661210-0.jpg",
+  "Olga Sargsyan": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/olga-1787234879781-0.jpg",
+  "Roberto Villani": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/roberto-villani-1788276796547-0.png",
   "Ryan McManus": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/ryan-mcmanus-1787749817193-0.png",
   "Maxime Barbier": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/157-1783359980821.jpg",
   "Katrina Logie": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/katrina-logie--1--1788265961689-0.png",
-  "Xavier Simó": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/103-1782995521490.jpg",
-  "Alejandro Mowszet": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/alejandro-mowszet-1783693661210-0.jpg",
-  "Alexandre Saiz": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/alex-saiz-1783696275325-0.jpg",
-  "Olga Sargsyan": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/olga-1787234879781-0.jpg",
   "Sophie Cornay": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/sophie-coirnay-1786019177388-0.jpg",
   "Mike Butcher": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/mike-butcher-1788878016649-0.jpg",
+  "Jesús Beatove": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/jesus-beatove-1789145976978-0.jpg",
+  "Mario Tristan Del Pino": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/mario-tristan-del-pino-1789145877902-0.jpg",
   "Dr. Martin Ignatovski": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/100-1782988070085.jpg",
   "Tim Beck": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/tim-beck-1784301965765-0.jpg",
   "Henrik Beckmann": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/henrik-beckmann-1788873014275-0.png",
   "Artavazd Mehrabyan": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/17-1782492138342.jpg",
   "Tetiana Klymchuk": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/tetiana-klymchuk-1788356480337-0.jpg",
-  "Carlos Varea": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/carlos-varea-filella-1788886842765-0.jpg",
+  "Carlos Varea Filella": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/carlos-varea-filella-1788886842765-0.jpg",
   "Martí Norberto": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/marti--norberto-1788886815445-0.jpg",
-  "José María Felguera Garrido": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/jose-m--felguera-garrido-1788886757680-0.jpg",
+  "Josep Maria Felguera Garrido": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/jose-m--felguera-garrido-1788886757680-0.jpg",
   "Oleg Kovpak": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/oleg-kovpak-1786195071906-25.jpg",
+  "Juan Buero": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/juan-buero-1789652066441-0.png",
   "Tycho Luijten": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/tycho-luijten-1787157213889-0.jpg",
+  "Andrea Louis": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/andrea-louis-1789583249154-1.jpg",
+  "Yves Ubelmann": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/yves-ubelmann-1789583270723-0.jpg",
+  "Dr. Obaid Amjad": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/obaid-amjad-1788356243352-0.jpg",
+  "Angelo Antinoro": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/albert-antinoro-1789493939892-0.jpg",
   "Martin LeBlanc": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/70-1782910867575.jpg",
   "Greg Kozakiewicz": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/20-1782491979963.jpg",
-  "Edouard Getaz": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/71-1782910897960.jpg",
-  "Eduardo Ordax": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/2-1782491805013.jpg",
+  "Deniz Kozakiewicz": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/-deniz-kozakiewicz-1789576426601-0.png",
+  "Roser Roca Toha": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/roser-roca-1789742815213-0.png",
   "Astel Allame": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/56-1782900532642.jpg",
+  "Jakub Sadowski": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/jakub-sadowski-1786195072856-28.jpg",
   "Luana Lo Piccolo": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/31-1782898014760.jpg",
   "Iñigo Antolín": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/124-1782996270966.jpg",
   "Andy Storch": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/andy-storch-1786195064698-5.jpg",
-  "Jakub Sadowski": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/jakub-sadowski-1786195072856-28.jpg",
   "Laurence Nguyen": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/135-1783352607586.jpg",
+  "Bruno Fondevila": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/bruno-fondevila-1789577437770-0.jpg",
+  "Manuel Álvarez": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/manuel-alvarez-1789578385744-3.jpg",
+  "Sami Ghozzi": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/74-1782910994064.jpg",
   "Ignasi Belda": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/ignasi-belda-1786195064772-6.jpg",
-  "Ferdi Alici": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/97-1782987987998.jpg",
+  "Don Kilburg": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/73-1782910968116.jpg",
   "Ariadna Maso": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/76-1782911073656.jpg",
   "Vlad Lupenko": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/vladimir-lupenko-1787159673326-0.jpg",
-  "Antoine Pivron": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/photo-1788256722036-0.png",
+  "Antoine Pivron": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/antoine-pivron--1--1788980763414-0.png",
+  "Alex Turpin": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/alex-turpin-1788980529791-0.png",
   "Constance Nevoret": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/constance-nevoret-1784796971086-0.jpg",
   "Nensi Hakobjanyan": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/52-1782900412502.jpg",
   "Nolwen Attou": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/nolwen-attou-1788364112714-0.jpg",
@@ -2181,32 +2567,36 @@
   "Michael van Lier": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/80-1782911200977.jpg",
   "Alejandro Martí": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/88-1782987702169.jpg",
   "Rocío Alcocer": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/rocio-alcocer-1784111191382-0.jpg",
-  "Cain Christoforou": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/cain-christoforou-1786195062063-0.jpg",
+  "Natalia Olson-Urtecho": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/natalia-olson-urtecho-1789217190672-0.png",
+  "Jean-Charles Prabonneau": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/jean-charles-prabonneau-1789377149637-0.png",
   "Kate Busby": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/129-1783324214287.jpg",
+  "Cristina Cantero": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/cristina-cantero-1789054750560-0.jpg",
+  "David Sanchez Serrano": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/david-sa-nchez-serrano-1789054404851-0.jpg",
+  "Lars Vonhof": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/lars-vanhof-1789557083936-0.png",
   "Mike Korba": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/130-1783324273135.jpg",
+  "Arvand Modarresi": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/arvand-modaressi-1789577497249-0.jpg",
+  "VIKTORIIA KNIAZEVA": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/121-1782996171638.jpg",
   "Justin Strharsky": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/47-1782900249134.jpg",
   "Jan Kavalírek": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/speaker-background-jan--1783927304901-0.jpg",
   "Pedro Romera": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/108-1782995697605.jpg",
-  "VIKTORIIA KNIAZEVA": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/121-1782996171638.jpg",
   "Anya Nova": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/90-1782987781294.jpg",
   "Reema Gill": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/105-1782995599874.jpg",
   "Bertrand K. Hassani": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/116-1782995998942.jpg",
   "Christian Gondek": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/21-1782897477775.jpg",
-  "Ilyass El Mansouri": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/iliyass-openai-1783679560021.jpg",
+  "Tyler Foster": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/tyler-foster-1784823754912-0.jpg",
   "Enrique Calvo": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/44-1782900149350.jpg",
-  "Laura Tissot": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/whatsapp-image-2026-07-24-at-10-54-18-1784883599182-0.jpeg",
+  "Laura Tissot": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/laura-tissot-1789384898267-0.png",
   "Christophe Blefari": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/98-1782988014688.jpg",
   "Laura Sibony": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/115-1782995970126.jpg",
-  "Don Kilburg": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/73-1782910968116.jpg",
   "Ana Peleteiro Ramallo": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/ana-peleteiro-1788449287658-0.png",
   "Caroline De Cock": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/65-1782910715833.jpg",
   "Jaime Zornoza": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/jaime-zornoza-1787132832686-5.jpg",
   "Scott Dodson": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/22-1782897519570.jpg",
-  "Wided Boutar": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/wided-boutar-final-1788517955388-0.png",
   "John Roche": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/john-roche-1784810279682-0.jpg",
-  "Pedro Cuenca": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/43-1782900114881.jpg",
-  "Denis Shiarra": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/denis-shiarra-1787158374734-0.jpg",
+  "Wided Boutar": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/wided-boutar-final-1788517955388-0.png",
+  "Denis Schirra": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/denis-shiarra-1787158374734-0.jpg",
   "David Lahoz Martín": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/127-1782996368349.jpg",
+  "Pedro Cuenca": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/43-1782900114881.jpg",
   "Bernard Kavanagh": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/bernard-kavanagh-1787132835100-13.jpg",
   "Laura Gil": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/laura-gil-1788356141399-0.jpg",
   "Daniel Espejo": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/54-1782900468680.jpg",
@@ -2219,8 +2609,9 @@
   "Alia Zafar": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/12-1782492030751.jpg",
   "Anna Lukasson-Herzig": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/87-1782987655390.jpg",
   "Vincent Jong": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/78-1782911135682.jpg",
-  "Dr. Rajesh Kumar K V": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/dr--rajesh-kumar-k-v-1786195072803-27.jpg",
   "Quentin Cozette": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/48-1782900285912.jpg",
+  "Xavier Valero": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/xavier-valero--1--1788957345471-0.png",
+  "Paula López Otero": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/natalia-olson-urtecho--1--1789376766783-0.png",
   "Roberta Schmid": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/roberta-schmid-1785117751960-0.jpg",
   "Bruno Barbagli": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/bruno-barbagli-1786030980674-0.jpg",
   "Dani Diestre Tomas": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/dani-diestre-tomas-1786030696382-0.jpg",
@@ -2235,30 +2626,34 @@
   "Pablo Bou": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/pablo-bou-1788173623712-2.jpg",
   "Cori Crider": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/cori-crider-1788173623711-1.jpg",
   "Miquel de la Mano": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/miquel-de-la-mano-1788173623703-0.jpg",
-  "Sami Ghozzi": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/74-1782910994064.jpg",
-  "Jan-Philipp Tebbe": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/img-20190912-154003-2-1788346891302-0.jpg",
+  "Artem Khvastunov": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/artem-khvastunov-1789052088892-0.jpg",
+  "Anna Via": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/anna-via-1784739857059-0.jpg",
+  "Jan-Philipp Tebbe": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/jean-philipp-tebbe-1789578980391-0.jpg",
   "Javier Cuadra": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/javier-cuadra-alconero-1788508971134-0.jpg",
-  "Oleg Chervonnyi": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/83-1782987533281.jpg",
   "Patricia Pastor": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/94-1782987891064.jpg",
   "Astghik Zakharyan": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/111-1782995784290.jpg",
+  "Jorge Blasco": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/68-1782910807534.jpg",
   "Ziad Matar": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/ziad-matar-1788446228953-0.png",
-  "Gerald Mullally": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/36-1782898222590.jpg",
-  "Milos Mastník": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/147-1783356787951.jpg",
   "Diego Perino": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/diego-perino-1786195069706-19.jpg",
+  "Raphaëlle Achach": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/raphae-lle-achach-1787931382238-0.png",
   "Marcus Castro": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/marcus-castro-1788001952596-5.jpg",
-  "Wolf Boone": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/16-1782492122036.jpg",
   "Xavier Papiol": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/32-1782898086308.jpg",
   "Rozina Sidhu": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/rozina-sidhu-1786195067132-12.jpg",
   "Stephany Oliveros": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/155-1783360169506.jpg",
   "Nathan Bonnet": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/75-1782911043050.jpg",
   "Abiola Laseinde": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/148-1783356895582.jpg",
   "Alex Tsankov": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/131-1783324300224.jpg",
+  "Marcos Valera": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/19-1782492074797.jpg",
   "Ricard Garriga": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/61-1782910582620.jpg",
   "Josep Maria Ribes Bonet": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/josep-maria--1--1788358115515-0.png",
-  "Marcos Valera": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/19-1782492074797.jpg",
+  "Cecilia Oxandabarat": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/cecilia-oxaandabarat-1789143063639-0.jpg",
+  "maria Velasco Laprea": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/maria-velasco-1789143576132-0.jpg",
+  "Enric Escalé": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/enric-escale--1789630774472-0.jpg",
   "Tanya Van Gastel": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/123-1782996240791.jpg",
   "Anna Bohonek": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/92-1782987831423.jpg",
   "Alan Záruba": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/alan-za-ruba-1784542418547-0.jpg",
-  "Emma Cobos": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/emma-cobos-1786195067895-15.jpg"
+  "Emma Cobos": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/emma-cobos-1786195067895-15.jpg",
+  "Miquel Rodríguez Planas": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/miquel-rodriguez-1789578384270-0.jpg",
+  "Salvador Illa i Roca": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/salvador-illa-roca-1789642390831-0.jpg"
  }
 }
