@@ -42,7 +42,19 @@ def main():
             "type": kind[-1].title() if kind else "",
         })
 
-    # 3. Speaker photos (avatar <span title="Name"><img src=...>).
+    # 3. Companies: only the /speakers cards carry them, 25 per page.
+    companies = {}
+    page_no = 1
+    while True:
+        cards = re.findall(r'text-cinnabar-600">([^<]+)</p>.*?</div><h3[^>]*>([^<]+)</h3>',
+                           fetch(f"{URL.rsplit('/', 1)[0]}/speakers?page={page_no}"), re.S)
+        if not cards:
+            break
+        for company, name in cards:
+            companies.setdefault(html.unescape(name).strip(), html.unescape(company).strip())
+        page_no += 1
+
+    # 4. Speaker photos (avatar <span title="Name"><img src=...>).
     photos = {}
     for m in re.finditer(r'title="([^"]+)"[^>]*>\s*<img src="([^"]+)"', page):
         photos.setdefault(html.unescape(m.group(1)), m.group(2))
@@ -70,8 +82,10 @@ def main():
     for t in missing[:10]:
         print("  no stage:", t)
     used = {n for s in sessions for n in s["speakers"]}
+    print(f"{len(used - set(companies))} speakers without company")
     json.dump({"source": URL, "sessions": sessions,
-               "photos": {n: u for n, u in photos.items() if n in used}}, open("sessions.json", "w"),
+               "photos": {n: u for n, u in photos.items() if n in used},
+               "companies": {n: c for n, c in companies.items() if n in used}}, open("sessions.json", "w"),
               ensure_ascii=False, indent=1)
 
 

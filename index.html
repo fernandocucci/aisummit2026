@@ -77,6 +77,7 @@ h2{font-size:24px;font-weight:800;letter-spacing:-.02em;margin:28px 0 12px}
 .avs{display:flex}
 .avs span{width:28px;height:28px;border-radius:50%;background:#2a2a2a;border:2px solid var(--card);margin-left:-8px;overflow:hidden;display:grid;place-items:center;font-size:10px;font-weight:700;color:var(--linen-70)}
 .avs span:first-child{margin-left:0}
+.who .co{color:var(--linen-55)}
 .avs img{width:100%;height:100%;object-fit:cover}
 .pick{position:absolute;top:12px;right:12px;width:18px;height:18px;margin:0;accent-color:var(--cinnabar);cursor:pointer}
 .clash{margin-top:10px;font-size:12.5px;color:var(--amber);background:rgba(242,177,52,.1);border:1px solid rgba(242,177,52,.25);border-radius:8px;padding:5px 9px}
@@ -141,7 +142,7 @@ h2{font-size:24px;font-weight:800;letter-spacing:-.02em;margin:28px 0 12px}
 const TZ = 'Europe/Madrid';
 const STAGE_COLOR = { 'Main Stage': 'var(--main)', 'Auditorium Stage': 'var(--auditorium)', 'Panel Stage': 'var(--panelstage)', 'Demo Stage': 'var(--demo)', 'Workshop Room A': 'var(--wa)', 'Workshop Room B': 'var(--wb)' };
 const state = { day: '', stage: '', track: '', type: '', q: '', mine: false, picks: new Set(), open: new Set() };
-let S = [], PHOTOS = {};
+let S = [], PHOTOS = {}, COMPANIES = {};
 
 const fmt = new Intl.DateTimeFormat('en-GB', { hour: '2-digit', minute: '2-digit', timeZone: TZ });
 const dayShort = new Intl.DateTimeFormat('en-GB', { weekday: 'short', day: 'numeric', month: 'short', timeZone: TZ });
@@ -189,7 +190,7 @@ function render() {
     && (!state.track || s.track === state.track)
     && (!state.type || s.type === state.type)
     && (!state.mine || state.picks.has(s.id))
-    && (!q || (s.title + ' ' + s.speakers.join(' ') + ' ' + s.description).toLowerCase().includes(q)));
+    && (!q || (s.title + ' ' + s.speakers.map(n => n + ' ' + (COMPANIES[n] || '')).join(' ') + ' ' + s.description).toLowerCase().includes(q)));
 
   const slots = new Map();
   shown.forEach(s => { const k = hhmm(s.start); (slots.get(k) || slots.set(k, []).get(k)).push(s); });
@@ -212,7 +213,8 @@ function card(s, picked) {
   const on = state.picks.has(s.id);
   const clash = on ? picked.filter(p => overlap(p, s)) : [];
   const avs = s.speakers.slice(0, 3).map(n => PHOTOS[n] ? `<span><img src="${PHOTOS[n]}" alt="" loading="lazy"></span>` : `<span>${initials(n)}</span>`).join('');
-  const names = s.speakers.slice(0, 2).join(', ') + (s.speakers.length > 2 ? ` +${s.speakers.length - 2} more` : '');
+  const names = s.speakers.slice(0, 2).map(n => esc(n) + (COMPANIES[n] ? ` <span class="co">${esc(COMPANIES[n])}</span>` : '')).join(', ')
+    + (s.speakers.length > 2 ? ` +${s.speakers.length - 2} more` : '');
   return `<article class="card${on ? ' on' : ''}${state.open.has(s.id) ? ' open' : ''}" data-id="${s.id}" style="--sc:${STAGE_COLOR[s.stage] || 'var(--linen-55)'}">
     <input type="checkbox" class="pick" aria-label="Pick ${esc(s.title)}" ${on ? 'checked' : ''}>
     <div class="meta">
@@ -223,7 +225,7 @@ function card(s, picked) {
     </div>
     <h3>${esc(s.title)}</h3>
     ${s.description ? `<p class="desc">${esc(s.description)}</p><button class="more" type="button">${state.open.has(s.id) ? 'Less' : 'More'}</button>` : ''}
-    ${s.speakers.length ? `<div class="who"><div class="avs">${avs}</div>${esc(names)}</div>` : ''}
+    ${s.speakers.length ? `<div class="who"><div class="avs">${avs}</div><div>${names}</div></div>` : ''}
     ${clash.length ? `<div class="clash">Overlaps with ${clash.map(c => esc(c.title.replace(/^[^-–—]+[-–—]\s*/, ''))).join('; ')}</div>` : ''}
   </article>`;
 }
@@ -263,7 +265,7 @@ document.getElementById('share').onclick = async () => {
 };
 
 fetch('sessions.json').then(r => r.json()).then(d => {
-  S = d.sessions; PHOTOS = d.photos || {};
+  S = d.sessions; PHOTOS = d.photos || {}; COMPANIES = d.companies || {};
   loadPicks();
   const days = [...new Set(S.map(s => dayOf(s.start)))].sort();
   state.day = days[0];
