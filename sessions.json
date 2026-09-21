@@ -1035,6 +1035,20 @@
    "url": "https://aisummitbarcelona.com/schedule#f88217cf-035f-44d6-bd6e-ea8644baf0d3"
   },
   {
+   "id": "51e1a479",
+   "title": "Demo 15 - Beyond the Pilot: How to Give an AI Employee a Real Job",
+   "description": "It is easy to build an AI that can hold an impressive conversation. It is much harder to give it responsibility for actual work. Using examples from real deployments across restaurants, dental practices and home services, Ryan McManus breaks down the anatomy of an AI employee: the job it owns, the information it needs, the systems it can access, the decisions it is allowed to make, and the moments when it should hand work back to a human.",
+   "start": "2026-09-22T15:00:00+00:00",
+   "end": "2026-09-22T15:25:00.000Z",
+   "stage": "",
+   "track": "AI For Today",
+   "type": "Demo",
+   "speakers": [
+    "Ryan McManus"
+   ],
+   "url": "https://aisummitbarcelona.com/schedule#51e1a479-e437-4761-af71-1d3e28e1cfa3"
+  },
+  {
    "id": "f3503966",
    "title": "Fireside 1 - From Dating Fatigue to AI Saturation: Why People Are Coming Back to Real Life",
    "description": "Dating apps removed rejection, not loneliness. AI removed friction, not the need to be known.\n\nMaxime Barbier built Timeleft on the opposite bet: put strangers around a dinner table in 200 cities worldwide, and make the awkward part the point. In this fireside he argues that friction is a feature, that restaurants have become the last piece of social infrastructure we have left, and that the harder an experience is to outsource to a model, the more it is worth doing yourself.\n\nBooking gives you a room. Skyscanner gives you a flight. Timeleft gives you a human.\n\nA deliberately contrarian counterweight to the rest of the programme, on loneliness, third places, and what we quietly lose to LLMs.",
@@ -1058,22 +1072,13 @@
    "stage": "Main Stage",
    "track": "AI For Tomorrow",
    "type": "Use Case",
-   "speakers": [],
-   "url": "https://aisummitbarcelona.com/schedule#8b4bf90d-e8e6-4970-bf02-0cce51adf360"
-  },
-  {
-   "id": "51e1a479",
-   "title": "Demo 15 - Beyond the Pilot: How to Give an AI Employee a Real Job",
-   "description": "It is easy to build an AI that can hold an impressive conversation. It is much harder to give it responsibility for actual work. Using examples from real deployments across restaurants, dental practices and home services, Ryan McManus breaks down the anatomy of an AI employee: the job it owns, the information it needs, the systems it can access, the decisions it is allowed to make, and the moments when it should hand work back to a human.",
-   "start": "2026-09-22T15:00:00+00:00",
-   "end": "2026-09-22T15:25:00.000Z",
-   "stage": "Main Stage",
-   "track": "AI For Today",
-   "type": "Demo",
    "speakers": [
-    "Ryan McManus"
+    "Rodny Coronel",
+    "Philipp Braun",
+    "Pau Rue",
+    "Héctor Broseta"
    ],
-   "url": "https://aisummitbarcelona.com/schedule#51e1a479-e437-4761-af71-1d3e28e1cfa3"
+   "url": "https://aisummitbarcelona.com/schedule#8b4bf90d-e8e6-4970-bf02-0cce51adf360"
   },
   {
    "id": "07123223",
@@ -1448,8 +1453,8 @@
   },
   {
    "id": "94a7c242",
-   "title": "Panel 12 - From Scan to Startup: AI Healthcare in the Real World",
-   "description": "AI already reads scans, catches cancers earlier and reshapes drug discovery — but it learned from biased data. Clinicians, founders and investors on what works today and what we must fix.",
+   "title": "Panel 12 - Can AI be better than doctors?",
+   "description": "AI already reads scans, catches cancers earlier and reshapes drug discovery,  but it learned from biased data. Clinicians, founders and investors on what works today and what we must fix.",
    "start": "2026-09-23T08:45:00+00:00",
    "end": "2026-09-23T09:25:00.000Z",
    "stage": "Panel Stage",
@@ -2497,7 +2502,7 @@
   "Jordina Torrents Barrena": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/4-1782491852160.jpg",
   "Alex Bisbe": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/alex-bisbe-1789051680820-0.jpg",
   "Howard Wright": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/howard-wright-1783331949566.jpg",
-  "Raghav Matta": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/raghav-matta-1789578384297-1.jpg",
+  "Raghav Matta": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/raghavmatta-1788967273771-0.jpg",
   "Sadek Drobi": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/sadek-drobi-1788355790643-0.jpg",
   "Christian Rebernik": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/christian-rebernik-1786195068913-18.jpg",
   "Darrell Etherington": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/46-1782900207076.jpg",
@@ -2563,6 +2568,7 @@
   "Alejandro Mowszet": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/alejandro-mowszet-1783693661210-0.jpg",
   "Olga Sargsyan": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/olga-1787234879781-0.jpg",
   "Maurice Schulmann": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/maurice-shulman-1789820535963-0.png",
+  "Rodny Coronel": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/1000123655-1790015012608-0.jpg",
   "Ryan McManus": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/ryan-mcmanus-1787749817193-0.png",
   "Maxime Barbier": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/157-1783359980821.jpg",
   "Katrina Logie": "https://nxlacknpavkzlvwkrsds.supabase.co/storage/v1/object/public/uploads/speakers/katrina-logie--1--1788265961689-0.png",
@@ -2753,7 +2759,6 @@
   "Roberta Schmid": "Newsguard Technologies",
   "Sophie Cornay": "Qonto",
   "Bruno Barbagli": "Amplitude",
-  "David Serral": "Port de Barcelona",
   "Scott Dodson": "Holded, a Visma company",
   "Christian Rebernik": "Tomorrow University",
   "Anselme Vignon": "Pigment",
@@ -2952,7 +2957,6 @@
   "Bruno Fondevila": "Mob On",
   "David Sanchez Serrano": "WPP",
   "Alex Bisbe": "VOICEB.ai",
-  "Raghav Matta": "Databricks",
   "Artem Khvastunov": "JetBrains",
   "Natalia Olson-Urtecho": "Plug & Play Repscan IDEADED",
   "Carlos Varea Filella": "Datision",
